@@ -1,0 +1,18 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+INSERT DATA {
+    GRAPH <http://mu.semte.ch/application> {
+        <http://public-api/catalogs/7536cbdc-ff1f-11ea-adc1-0242ac120002> a dcat:Catalog ;
+            mu:uuid "7536cbdc-ff1f-11ea-adc1-0242ac120002" ;
+            dct:title "Mijn eerste Catalog" ;
+            dct:dataset  <http://public-api/datasets/c73ac8c0-ff1f-11ea-adc1-0242ac120002> ;
+            dct:dataset  <http://public-api/datasets/c73acce4-ff1f-11ea-adc1-0242ac120002> .
+
+        <http://public-api/catalogs/7536ce5c-ff1f-11ea-adc1-0242ac120002> a dcat:Catalog ;
+            mu:uuid "7536ce5c-ff1f-11ea-adc1-0242ac120002" ;
+            dct:title "Mijn tweede Catalog" ;
+            dct:dataset  <http://public-api/datasets/222f65c8-ff21-11ea-adc1-0242ac120002> .
+    }
+}
