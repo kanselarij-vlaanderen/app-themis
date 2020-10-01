@@ -1,0 +1,26 @@
+(define-resource catalog ()
+   :class (s-prefix "dcat:Catalog")
+   :properties `((:title :string ,(s-prefix "dct:title")))
+   :has-many `((dataset :via ,(s-prefix "dcat:dataset")
+                        :as "datasets"))
+   :resource-base (s-url "http://public-api/catalogs/")
+   :on-path "catalogs")
+
+
+(define-resource dataset ()
+   :class (s-prefix "dcat:Dataset")
+   :properties `((:title :string ,(s-prefix "dct:title"))
+                 (:description :string ,(s-prefix "dct:description")))
+   :has-one `((catalog :via ,(s-prefix "dcat:dataset")
+                       :inverse t
+                       :as "catalog"))
+   :resource-base (s-url "http://public-api/datasets/")
+   :on-path "datasets")   
+
+(define-resource distribution ()
+   :class (s-prefix "dcat:Distribution")
+   :properties `((:title :string ,(s-prefix "dct:title"))
+                 (:description :string ,(s-prefix "dct:description"))
+                 (:access-url :url ,(s-prefix "dcat:accessURL")))
+   :resource-base (s-url "http://public-api/distributions")
+   :on-path "distributions")

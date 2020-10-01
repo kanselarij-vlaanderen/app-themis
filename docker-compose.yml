@@ -3,62 +3,45 @@ version: '3.4'
 services:
   identifier:
     image: semtech/mu-identifier:1.9.0
-    links:
-      - dispatcher:dispatcher
-    ports:
-      - "80:80"
     environment:
-      LOG_ALLOWED_GROUPS: "true"
-      LOG_SESSION_ID: "true"
       DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
   dispatcher:
     image: semtech/mu-dispatcher:2.0.0
-    links:
-      - resource:resource
     volumes:
       - ./config/dispatcher:/config
+  database:
+    image: semtech/mu-authorization:0.6.0-beta.5
+    environment:
+      MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
+      DATABASE_COMPATIBILITY: "Virtuoso"
+      DATABASE_OVERLOAD_RECOVERY: "on"
+    volumes:
+      - ./config/authorization:/config
+  deltanotifier:
+    image: semtech/mu-delta-notifier:0.1.0
+    volumes:
+      - ./config/delta:/config
   virtuoso:
     image: tenforce/virtuoso:1.3.2-virtuoso7.2.2
     environment:
       SPARQL_UPDATE: "true"
-      DEFAULT_GRAPH: "http://mu.semte.ch/application"
+      DEFAULT_GRAPH: "http://mu.semte.ch/graphs/public"
     volumes:
-      - ./data/virtuoso:/data
+      - ./data/db:/data
       - ./config/virtuoso/virtuoso.ini:/data/virtuoso.ini
-  resource:
-    image: semtech/mu-cl-resources:1.19.0
-    volumes:
-      - ./config/resources:/config
-    environment:
-      CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
   migrations:
     image: semtech/mu-migrations-service:0.5.1
     links:
       - virtuoso:database
     volumes:
       - ./config/migrations:/data/migrations 
+  resource:
+    image: semtech/mu-cl-resources:1.19.0
+    volumes:
+      - ./config/resources:/config
+    environment:
+      CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
   cache:
     image: semtech/mu-cache:2.0.1
     links:
-      - resource:backend  
-    environment:
-      LOG_CACHE_KEYS: "true"
-      LOG_CLEAR_KEYS: "true"
-  database:
-    image: semtech/mu-authorization:0.6.0-beta.5
-    environment:
-      MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
-      LOG_OUTGOING_SPARQL_QUERIES: "true"
-      INSPECT_OUTGOING_SPARQL_QUERIES: "true"
-      LOG_INCOMING_SPARQL_QUERIES: "true"
-      INSPECT_INCOMING_SPARQL_QUERIES: "false"
-      LOG_ACCESS_RIGHTS: "true"
-      INSPECT_ACCESS_RIGHTS_PROCESSING: "true"
-      LOG_DELTA_MESSAGES: "true"
-      LOG_DELTA_CLIENT_COMMUNICATION: "true"
-      LOG_TEMPLATE_MATCHER_PERFORMANCE: "false"
-      DATABASE_COMPATIBILITY: "Virtuoso"
-      DATABASE_OVERLOAD_RECOVERY: "on"
-      LOG_DATABASE_OVERLOAD_TICK: "off"
-    volumes:
-      - ./config/authorization:/config
+      - resource:backend

@@ -1,7 +1,0 @@
-(define-resource distribution ()
-   :class (s-prefix "dcat:Distribution")
-   :properties `((:title :string ,(s-prefix "dct:title"))
-                 (:description :string ,(s-prefix "dct:description"))
-                 (:access-url :url ,(s-prefix "dcat:accessURL")))
-   :resource-base (s-url "http://public-api/distributions")
-   :on-path "distributions")

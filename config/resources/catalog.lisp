@@ -1,7 +1,0 @@
-(define-resource catalog ()
-   :class (s-prefix "dcat:Catalog")
-   :properties `((:title :string ,(s-prefix "dct:title")))
-   :has-many `((dataset :via ,(s-prefix "dcat:dataset")
-                        :as "datasets"))
-   :resource-base (s-url "http://public-api/catalogs/")
-   :on-path "catalogs")

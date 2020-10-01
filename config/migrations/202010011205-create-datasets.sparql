@@ -3,7 +3,7 @@ PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 PREFIX dct: <http://purl.org/dc/terms/>
 
 INSERT DATA {
-    GRAPH <http://mu.semte.ch/application> {
+    GRAPH <http://mu.semte.ch/graphs/public> {
         <http://public-api/datasets/c73ac8c0-ff1f-11ea-adc1-0242ac120002> a dcat:Dataset ;
             mu:uuid "c73ac8c0-ff1f-11ea-adc1-0242ac120002" ;
             dct:title "Mijn eerste Dataset" ;

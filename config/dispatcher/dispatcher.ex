@@ -3,15 +3,15 @@ defmodule Dispatcher do
 
   define_accept_types []
 
-  match "/catalogs/*path", _ do
+  get "/catalogs/*path", _ do
     forward conn, path, "http://cache/catalogs"
   end
 
-  match "/datasets/*path", _ do
+  get "/datasets/*path", _ do
     forward conn, path, "http://cache/datasets"
   end
 
-  match "/distributions/*path", _ do
+  get "/distributions/*path", _ do
     forward conn, path, "http://cache/distributions"
   end
 

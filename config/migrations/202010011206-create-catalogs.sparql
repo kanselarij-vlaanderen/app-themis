@@ -3,7 +3,7 @@ PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 PREFIX dct: <http://purl.org/dc/terms/>
 
 INSERT DATA {
-    GRAPH <http://mu.semte.ch/application> {
+    GRAPH <http://mu.semte.ch/graphs/public> {
         <http://public-api/catalogs/7536cbdc-ff1f-11ea-adc1-0242ac120002> a dcat:Catalog ;
             mu:uuid "7536cbdc-ff1f-11ea-adc1-0242ac120002" ;
             dct:title "Mijn eerste Catalog" ;
