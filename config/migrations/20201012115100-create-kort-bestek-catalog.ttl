@@ -1,0 +1,12 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://public-api/catalogs/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> a dcat:Catalog ;
+    mu:uuid "1e4733c1-7701-4f99-b3db-f5d348a7bc4b" ;
+    dct:title "Besluitvorming cataloog"
+    dct:description "Cataloog met data over de besluitvorming en vergaderingen van de Vlaamse Regering" ;
+    dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dct:publisher <http://pbulic-api/agents/3dda9732-00f5-4177-abb7-25b48a18c308> .
+    
