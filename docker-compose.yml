@@ -17,7 +17,7 @@ services:
       DATABASE_OVERLOAD_RECOVERY: "on"
     volumes:
       - ./config/authorization:/config
-  deltanotifier:
+  delta-notifier:
     image: semtech/mu-delta-notifier:0.1.0
     volumes:
       - ./config/delta:/config
@@ -30,13 +30,13 @@ services:
       - ./data/db:/data
       - ./config/virtuoso/virtuoso.ini:/data/virtuoso.ini
   migrations:
-    image: semtech/mu-migrations-service:0.5.1
+    image: semtech/mu-migrations-service:0.7.0
     links:
       - virtuoso:database
     volumes:
       - ./config/migrations:/data/migrations
   resource:
-    image: semtech/mu-cl-resources:1.19.0
+    image: semtech/mu-cl-resources:1.20.0
     volumes:
       - ./config/resources:/config
     environment:
