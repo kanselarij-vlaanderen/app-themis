@@ -34,7 +34,7 @@ services:
     links:
       - virtuoso:database
     volumes:
-      - ./config/migrations:/data/migrations 
+      - ./config/migrations:/data/migrations
   resource:
     image: semtech/mu-cl-resources:1.19.0
     volumes:

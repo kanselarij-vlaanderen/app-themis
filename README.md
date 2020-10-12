@@ -1,7 +1,5 @@
 # Public-api
 
-
-
 ## Running the application
 ```
 docker-compose up
