@@ -1,7 +1,47 @@
 defmodule Dispatcher do
   use Matcher
 
-  define_accept_types []
+  define_accept_types [
+    json: [ "application/json", "application/vnd.api+json" ],
+    html: [ "text/html", "application/xhtml+html" ],
+    sparql: [ "application/sparql-results+json" ],
+    any: [ "*/*" ]
+  ]
+
+  define_layers [ :static, :sparql, :resources, :api_services, :frontend_fallback, :not_found ]
+
+  options "/*_path", _ do
+    conn
+    |> Plug.Conn.put_resp_header( "access-control-allow-headers", "content-type,accept" )
+    |> Plug.Conn.put_resp_header( "access-control-allow-methods", "*" )
+    |> send_resp( 200, "{ \"message\": \"ok\" }" )
+  end
+
+  ###############
+  # STATIC
+  ###############
+  get "/assets/*path", %{ layer: :static } do
+    forward conn, path, "http://frontend/assets/"
+  end
+
+  get "/index.html", %{ layer: :static } do
+    forward conn, [], "http://frontend/index.html"
+  end
+
+  get "/favicon.ico", %{ layer: :static } do
+    send_resp( conn, 404, "" )
+  end
+
+  ###############
+  # SPARQL
+  ###############
+  get "/sparql", %{ layer: :sparql, accept: %{ html: true } } do
+    forward conn, [], "http://frontend/sparql"
+  end
+
+  match "/sparql", %{ layer: :sparql, accept: %{ sparql: true } } do
+    forward conn, [], "http://database:8890/sparql"
+  end
 
   ###############
   # RESOURCES
@@ -20,25 +60,22 @@ defmodule Dispatcher do
   end
 
   ###############
-  # SPARQL
-  ###############
-  match "/sparql", %{ layer: :sparql, accept: %{ html: true } } do
-    forward conn, [], "http://frontend/sparql"
-  end
-
-  match "/sparql", %{ layer: :sparql, accept: %{ sparql: true } } do
-    forward conn, [], "http://database:8890/sparql"
-  end
-
-  ###############
   # API SERVICES
   ###############
   get "/resource-labels/*path" do
-    Proxy.forward conn, path, "http://resource-labels/"
+    forward conn, path, "http://resource-labels/"
   end
 
   get "/uri-info/*path" do
-    Proxy.forward conn, path, "http://uri-info/"
+    forward conn, path, "http://uri-info/"
+  end
+
+  #################
+  # FRONTEND PAGES
+  #################
+  get "/*path", %{ layer: :frontend_fallback, accept: %{ html: true } } do
+    # We forward path for fastboot
+    forward conn, path, "http://frontend/"
   end
 
   #################
