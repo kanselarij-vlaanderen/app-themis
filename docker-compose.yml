@@ -51,3 +51,8 @@ services:
     image: redpencil/mu-uri-info-service
   resource-labels:
     image: lblod/resource-label-service:0.0.3
+  publication-consumer:
+    image: kanselarij/valvas-publication-consumer:1.0.3
+    volumes:
+      - ./data/downloaded-publications:/tmp
+      - ./data/files:/share
