@@ -1,4 +1,4 @@
-# Public-api
+# Themis
 
 ## Running the application
 ```
