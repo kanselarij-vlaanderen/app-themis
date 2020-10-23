@@ -1,0 +1,7 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/id/concept/bestuurseenheid-classificatie/ba6abed5-a5b7-482b-9c19-18d51a4a6e6f> a skos:Concept ;
+    mu:uuid "ba6abed5-a5b7-482b-9c19-18d51a4a6e6f" ;
+    skos:prefLabel "Gewest" .
+

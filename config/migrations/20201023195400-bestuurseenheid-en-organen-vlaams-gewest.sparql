@@ -1,0 +1,36 @@
+PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> a besluit:Bestuurseenheid ;
+    mu:uuid "e7a239de-c48c-441c-8293-ec365eedce93" ;
+    skos:prefLabel "Vlaams Gewest" ;
+    org:classification <http://themis.vlaanderen.be/id/concept/bestuurseenheid-classificatie/ba6abed5-a5b7-482b-9c19-18d51a4a6e6f> .
+
+    <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> a besluit:Bestuursorgaan ;
+    mu:uuid "7f2c82aa-75ac-40f8-a6c3-9fe539163025" ;
+    skos:prefLabel "Vlaamse Regering" ;
+    org:classification <http://themis.vlaanderen.be/id/concept/bestuursorgaan-classificatie/9682bad6-9c85-4eeb-9ac1-bba21666469a> ;
+    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> .
+
+    <http://themis.vlaanderen.be/id/bestuursorgaan/17caac00-34a2-4b84-b400-30823555c15e> a besluit:Bestuursorgaan ;
+    mu:uuid "17caac00-34a2-4b84-b400-30823555c15e" ;
+    skos:prefLabel "Vlaams Parlement" ;
+    org:classification <http://themis.vlaanderen.be/id/concept/bestuursorgaan-classificatie/14b3f492-7106-46c7-9704-f547beff18ca> ;
+    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> .
+  }
+}
+
+;
+
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/same-as> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> owl:sameAs <http://kanselarij.vo.data.gift/id/bestuursorganen/eb3d4ea5-91ef-424b-bd64-bc1ba8db0bdd> .
+    <http://themis.vlaanderen.be/id/bestuursorgaan/17caac00-34a2-4b84-b400-30823555c15e> owl:sameAs <http://kanselarij.vo.data.gift/id/bestuursorganen/9bad22a8-4478-48a9-be4b-296f9bb1e523> .
+  }
+}
+
