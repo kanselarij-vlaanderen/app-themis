@@ -1,0 +1,16 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/id/concept-scheme/55c9120c-6a3d-49c4-80c8-ed01e9b92a9b> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+    <http://mu.semte.ch/vocabularies/core/uuid> "55c9120c-6a3d-49c4-80c8-ed01e9b92a9b" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Agendapunt types" .
+
+<http://themis.vlaanderen.be/id/concept/agendapunt-type/dd47a8f8-3ad2-4d5a-8318-66fc02fe80fd> a skos:Concept ;
+    mu:uuid "dd47a8f8-3ad2-4d5a-8318-66fc02fe80fd" ;
+    skos:prefLabel "Nota" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/55c9120c-6a3d-49c4-80c8-ed01e9b92a9b> .
+
+<http://themis.vlaanderen.be/id/concept/agendapunt-type/8f8adcf0-58ef-4edc-9e36-0c9095fd76b0> a skos:Concept ;
+    mu:uuid "8f8adcf0-58ef-4edc-9e36-0c9095fd76b0" ;
+    skos:prefLabel "Mededeling" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/55c9120c-6a3d-49c4-80c8-ed01e9b92a9b> .
