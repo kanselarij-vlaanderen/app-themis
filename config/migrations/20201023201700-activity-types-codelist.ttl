@@ -1,0 +1,12 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/id/concept-scheme/eabe9bb8-d4e1-409e-9132-2d09e5a89bef> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+    <http://mu.semte.ch/vocabularies/core/uuid> "eabe9bb8-d4e1-409e-9132-2d09e5a89bef" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Activity types" .
+
+<http://themis.vlaanderen.be/id/concept/activity-type/fb1916be-0a42-4a52-a69d-92764eba4955> a skos:Concept ;
+    mu:uuid "fb1916be-0a42-4a52-a69d-92764eba4955" ;
+    skos:prefLabel "Publieke vrijgave" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/eabe9bb8-d4e1-409e-9132-2d09e5a89bef> .
+
