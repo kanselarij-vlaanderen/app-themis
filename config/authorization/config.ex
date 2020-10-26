@@ -19,11 +19,15 @@ defmodule Acl.UserGroups.Config do
         access: %AlwaysAccessible{},
         graphs: [ %GraphSpec{
           graph: "http://mu.semte.ch/graphs/public",
-          constraint: %ResourceFormatConstraint{
-            resource_prefix: "http://www.w3.org/ns/dcat#"
-          } } ]
+          constraint: %ResourceConstraint{
+            resource_types: [
+              "http://www.w3.org/ns/dcat#Catalog",
+              "http://www.w3.org/ns/dcat#Dataset",
+              "http://www.w3.org/ns/dcat#Distribution",
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+            ] } } ]
       },
-      
+
 
       # // CLEANUP
       #
