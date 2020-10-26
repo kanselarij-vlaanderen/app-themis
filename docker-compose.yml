@@ -47,6 +47,10 @@ services:
     image: semtech/mu-cache:2.0.1
     links:
       - resource:backend
+  file:
+    image: semtech/mu-file-service:3.1.0
+    volumes:
+      - ./data/files:/share
   uri-info:
     image: redpencil/mu-uri-info-service
   resource-labels:

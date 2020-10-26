@@ -47,27 +47,31 @@ defmodule Dispatcher do
   # RESOURCES
   ###############
 
-  get "/catalogs/*path", _ do
-    forward conn, path, "http://cache/catalogs"
+  get "/catalogs/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/catalogs/"
   end
 
-  get "/datasets/*path", _ do
-    forward conn, path, "http://cache/datasets"
+  get "/datasets/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/datasets/"
   end
 
-  get "/distributions/*path", _ do
-    forward conn, path, "http://cache/distributions"
+  get "/distributions/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/distributions/"
   end
 
   ###############
   # API SERVICES
   ###############
-  get "/resource-labels/*path" do
+  get "/resource-labels/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://resource-labels/"
   end
 
-  get "/uri-info/*path" do
+  get "/uri-info/*path", %{ layer: :api_services, accept: %{ json: true } } do
     forward conn, path, "http://uri-info/"
+  end
+
+  get "/files/*path", %{ layer: :api_services, accept: %{ any: true } } do
+    forward conn, path, "http://file/files/"
   end
 
   #################
