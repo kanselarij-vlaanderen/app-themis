@@ -70,7 +70,7 @@
             "relationships": {
                 "distributions": {
                     "target": "distributions",
-                    "predicate": "dcat:Distribution",
+                    "predicate": "dcat:distribution",
                     "cardinality": "many"
                 }
             },
