@@ -37,6 +37,7 @@
                     "cardinality": "many"
                 }
             },
+            "features": ["include-uri"],
             "new-resource-base": "http://themis.vlaanderen.be/id/catalog/"
         },
         "datasets": {
@@ -87,6 +88,7 @@
                     "inverse": true
                 }
             },
+            "features": ["include-uri"],
             "new-resource-base": "http://themis.vlaanderen.be/id/dataset/"
         },
         "distributions": {
@@ -133,6 +135,7 @@
                     "inverse": true
                 },
             },
+            "features": ["include-uri"],
             "new-resource-base": "http://themis.vlaanderen.be/id/distribution/"
         }
     }
