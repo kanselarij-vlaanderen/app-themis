@@ -20,7 +20,7 @@
     mu:uuid "d0401e5a-c9af-49b2-9513-d4519ba6ed31" ;
     dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
     dct:modified "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
-    dcat:downloadURL <http://themis.vlaanderen.be/files/5ac0cbad-afae-4151-8f66-e5511f633d21/download> ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/5ac0cbad-afae-4151-8f66-e5511f633d21/download> ;
     dct:format "text/turtle" ;
     dcat:byteSize "1384"^^xsd:integer .
 
