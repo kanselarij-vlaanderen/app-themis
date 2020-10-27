@@ -64,6 +64,12 @@
                 }
             },
             "relationships": {
+                "catalog": {
+                    "target": "catalogs",
+                    "predicate": "dcat:dataset",
+                    "cardinality": "one",
+                    "inverse": true
+                },
                 "distributions": {
                     "target": "distributions",
                     "predicate": "dcat:distribution",
@@ -73,6 +79,12 @@
                     "target": "datasets",
                     "predicate": "prov:wasRevisionOf",
                     "cardinality": "one"
+                },
+                "next-version": {
+                    "target": "datasets",
+                    "predicate": "prov:wasRevisionOf",
+                    "cardinality": "one",
+                    "inverse": true
                 }
             },
             "new-resource-base": "http://themis.vlaanderen.be/id/dataset/"
@@ -112,6 +124,14 @@
                     "type": "number",
                     "predicate": "dcat:byteSize"
                 }
+            },
+            "relationships": {
+                "dataset": {
+                    "target": "datasets",
+                    "predicate": "dcat:distribution",
+                    "cardinality": "one",
+                    "inverse": true
+                },
             },
             "new-resource-base": "http://themis.vlaanderen.be/id/distribution/"
         }
