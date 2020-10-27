@@ -2,7 +2,8 @@
     "version": "0.1",
     "prefixes": {
         "dcat": "http://www.w3.org/ns/dcat#",
-        "dct": "http://purl.org/dc/terms/"
+        "dct": "http://purl.org/dc/terms/",
+        "foaf": "http://xmlns.com/foaf/0.1/"
     },
     "resources": {
         "catalogs": {
@@ -11,6 +12,22 @@
                 "title": {
                     "type": "string",
                     "predicate": "dct:title"
+                },
+                "description": {
+                    "type": "string",
+                    "predicate": "dct:description"
+                },
+                "publisher": {
+                    "type": "url",
+                    "predicate": "dct:publisher"
+                },
+                "release-date": {
+                    "type": "datetime",
+                    "predicate": "dct:issued"
+                },
+                "modified": {
+                    "type": "datetime",
+                    "predicate": "dct:modified"
                 }
             },
             "relationships": {
@@ -20,7 +37,7 @@
                     "cardinality": "many"
                 }
             },
-            "new-resource-base": "http://public-api/catalogs/catalogs/"
+            "new-resource-base": "http://themis.vlaanderen.be/id/catalog"
         },
         "datasets": {
             "class": "dcat:Dataset",
@@ -32,17 +49,32 @@
                 "description": {
                     "type": "string",
                     "predicate": "dct:description"
+                },
+                "release-date": {
+                    "type": "datetime",
+                    "predicate": "dct:issued"
+                },
+                "modified": {
+                    "type": "datetime",
+                    "predicate": "dct:modified"
+                },
+                "type": {
+                    "type": "url",
+                    "predicate": "dct:type"
+                },
+                "previous-version": {
+                    "type": "url",
+                    "predicate": "dcat:Dataset"
                 }
             },
             "relationships": {
-                "catalog": {
-                    "target": "catalogs",
-                    "predicate": "dcat:dataset",
-                    "inverse": true,
-                    "cardinality": "one"
+                "distributions": {
+                    "target": "distributions",
+                    "predicate": "dcat:Distribution",
+                    "cardinality": "many"
                 }
             },
-            "new-resource-base": "http://public-api/datasets/"
+            "new-resource-base": "http://themis.vlaanderen.be/id/dataset"
         },
         "distributions": {
             "class": "dcat:Distribution",
@@ -51,12 +83,36 @@
                     "type": "string",
                     "predicate": "dct:title"
                 },
-                "access-url": {
+                "description": {
+                    "type": "string",
+                    "predicate": "dct:description"
+                },
+                "release-date": {
+                    "type": "datetime",
+                    "predicate": "dct:issued"
+                },
+                "modified": {
+                    "type": "datetime",
+                    "predicate": "dct:modified"
+                },
+                "type": {
                     "type": "url",
-                    "predicate": "dcat:accessURL"
+                    "predicate": "dct:type"
+                },
+                "download-url": {
+                    "type": "url",
+                    "predicate": "dcat:downloadURL"
+                },
+                "format": {
+                    "type": "string",
+                    "predicate": "dct:format"
+                },
+                "byte-size": {
+                    "type": "number",
+                    "predicate": "dcat:byteSize"
                 }
             },
-            "new-resource-base": "http://public-api/distributions/"
+            "new-resource-base": "http://themis.vlaanderen.be/id/distribution/"
         }
     }
 }
