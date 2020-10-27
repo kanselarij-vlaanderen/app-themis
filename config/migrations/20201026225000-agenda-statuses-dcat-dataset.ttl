@@ -1,0 +1,43 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/cbc1a91d-3a7c-4685-a951-4ea4e6ffa234> .
+
+<http://themis.vlaanderen.be/id/dataset/cbc1a91d-3a7c-4685-a951-4ea4e6ffa234> a dcat:Dataset ;
+    mu:uuid "cbc1a91d-3a7c-4685-a951-4ea4e6ffa234" ;
+    dct:title "Agenda statuses codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1>  ;
+    dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/ba982dd9-0b45-4a3c-9b5e-504fd6673191> .
+
+<http://themis.vlaanderen.be/id/distribution/ba982dd9-0b45-4a3c-9b5e-504fd6673191> a dcat:Distribution ;
+    mu:uuid "ba982dd9-0b45-4a3c-9b5e-504fd6673191" ;
+    dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:downloadURL <http://themis.vlaanderen.be/files/9257c43b-2e56-4361-a515-136959e790d0/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "1618"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/9257c43b-2e56-4361-a515-136959e790d0> a nfo:FileDataObject ;
+    mu:uuid "9257c43b-2e56-4361-a515-136959e790d0" ;
+    nfo:fileName "agenda-statuses-codelist.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "1618"^^xsd:integer ;
+    dct:created "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://0a3ed917-b43d-4998-90c4-c3cc9c60e666.ttl> a nfo:FileDataObject ;
+    mu:uuid "0a3ed917-b43d-4998-90c4-c3cc9c60e666" ;
+    nfo:fileName "0a3ed917-b43d-4998-90c4-c3cc9c60e666.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "1618"^^xsd:integer ;
+    dct:created "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/9257c43b-2e56-4361-a515-136959e790d0> .
+
