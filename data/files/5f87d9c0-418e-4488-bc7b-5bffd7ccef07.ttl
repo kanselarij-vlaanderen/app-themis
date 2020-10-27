@@ -1,0 +1,21 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+    <http://mu.semte.ch/vocabularies/core/uuid> "8030c0c4-aff1-4548-92d9-3299ebc43832" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vergaderactiviteit types" .
+
+<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/2387564a-0897-4a62-9b9a-d1755eece7af> a skos:Concept ;
+    mu:uuid "2387564a-0897-4a62-9b9a-d1755eece7af" ;
+    skos:prefLabel "Elektronische procedure" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> .
+
+<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/62a0a3c3-44ed-4f35-8b46-1d50616ad42c> a skos:Concept ;
+    mu:uuid "62a0a3c3-44ed-4f35-8b46-1d50616ad42c" ;
+    skos:prefLabel "Bijzondere ministerraad" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> .
+
+<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/ef51c9d5-8b45-4501-9dcd-3e00ccff524f> a skos:Concept ;
+    mu:uuid "ef51c9d5-8b45-4501-9dcd-3e00ccff524f" ;
+    skos:prefLabel "Ministerraad" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> .
