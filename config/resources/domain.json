@@ -3,7 +3,7 @@
     "prefixes": {
         "dcat": "http://www.w3.org/ns/dcat#",
         "dct": "http://purl.org/dc/terms/",
-        "foaf": "http://xmlns.com/foaf/0.1/"
+        "prov": "http://www.w3.org/ns/prov#"
     },
     "resources": {
         "catalogs": {
@@ -61,10 +61,6 @@
                 "type": {
                     "type": "url",
                     "predicate": "dct:type"
-                },
-                "previous-version": {
-                    "type": "url",
-                    "predicate": "dcat:Dataset"
                 }
             },
             "relationships": {
@@ -72,6 +68,11 @@
                     "target": "distributions",
                     "predicate": "dcat:distribution",
                     "cardinality": "many"
+                },
+                "previous-version": {
+                    "target": "datasets",
+                    "predicate": "prov:wasRevisionOf",
+                    "cardinality": "one"
                 }
             },
             "new-resource-base": "http://themis.vlaanderen.be/id/dataset/"
