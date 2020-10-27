@@ -37,7 +37,7 @@
                     "cardinality": "many"
                 }
             },
-            "new-resource-base": "http://themis.vlaanderen.be/id/catalog"
+            "new-resource-base": "http://themis.vlaanderen.be/id/catalog/"
         },
         "datasets": {
             "class": "dcat:Dataset",
@@ -74,7 +74,7 @@
                     "cardinality": "many"
                 }
             },
-            "new-resource-base": "http://themis.vlaanderen.be/id/dataset"
+            "new-resource-base": "http://themis.vlaanderen.be/id/dataset/"
         },
         "distributions": {
             "class": "dcat:Distribution",
