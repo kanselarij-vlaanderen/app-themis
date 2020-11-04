@@ -1,0 +1,42 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/44fdffec-9a1a-432e-ac11-0377f8513ca1> .
+
+<http://themis.vlaanderen.be/id/dataset/44fdffec-9a1a-432e-ac11-0377f8513ca1> a dcat:Dataset ;
+    mu:uuid "44fdffec-9a1a-432e-ac11-0377f8513ca1" ;
+    dct:title "Thema's  codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1>  ;
+    dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/a7562f05-89e6-443d-affd-dd4e55e267c0> .
+
+<http://themis.vlaanderen.be/id/distribution/a7562f05-89e6-443d-affd-dd4e55e267c0> a dcat:Distribution ;
+    mu:uuid "a7562f05-89e6-443d-affd-dd4e55e267c0" ;
+    dct:issued "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/52677145-1dba-44e2-9990-e9cab3c7c156/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "21542"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/52677145-1dba-44e2-9990-e9cab3c7c156> a nfo:FileDataObject ;
+    mu:uuid "52677145-1dba-44e2-9990-e9cab3c7c156" ;
+    nfo:fileName "themas-codelist.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "21542"^^xsd:integer ;
+    dct:created "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://22d74026-a64c-458c-aabb-9ae1ed887a5d.ttl> a nfo:FileDataObject ;
+    mu:uuid "22d74026-a64c-458c-aabb-9ae1ed887a5d" ;
+    nfo:fileName "22d74026-a64c-458c-aabb-9ae1ed887a5d" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "21542"^^xsd:integer ;
+    dct:created "2020-10-01T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/52677145-1dba-44e2-9990-e9cab3c7c156> .
