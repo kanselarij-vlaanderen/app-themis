@@ -48,7 +48,7 @@ services:
     links:
       - resource:backend
   file:
-    image: semtech/mu-file-service:3.1.0
+    image: semtech/mu-file-service:3.1.2
     volumes:
       - ./data/files:/share
   uri-info:
