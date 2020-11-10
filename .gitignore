@@ -11,6 +11,8 @@
 /data/exports/*
 /data/imports/*
 /data/sitemap/*
+/data/files/*
+/data/downloaded-publications/*
 !/data/db/virtuoso.ini
 !/data/db/toLoad
 !/data/db/toLoad/*
