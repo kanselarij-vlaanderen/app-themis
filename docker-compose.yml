@@ -57,10 +57,14 @@ services:
     image: lblod/resource-label-service:0.0.3
   publication-consumer:
     image: kanselarij/valvas-publication-consumer:themis
+    environment:
+      BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
   dcat-dataset-publication:
     image: kanselarij/dcat-dataset-publication-service
+    environment:
+      UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
       - ./data/files:/share
