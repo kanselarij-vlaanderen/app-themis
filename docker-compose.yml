@@ -61,5 +61,6 @@ services:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
   dcat-dataset-publication:
+    image: kanselarij/dcat-dataset-publication-service
     volumes:
-      - ./data/files:/share 
+      - ./data/files:/share
