@@ -52,7 +52,7 @@ services:
     volumes:
       - ./data/files:/share
   uri-info:
-    image: redpencil/mu-uri-info-service
+    image: redpencil/mu-uri-info-service:0.1.0
   resource-labels:
     image: lblod/resource-label-service:0.0.3
   publication-consumer:
