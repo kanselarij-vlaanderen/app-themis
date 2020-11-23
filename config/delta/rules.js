@@ -1,10 +1,10 @@
 export default [
   {
     match: {
-      subject: {}
+      // match everything
     },
     callback: {
-      url: "http://resourcebackend/.mu/delta",
+      url: "http://resource/.mu/delta",
       method: "POST"
     },
     options: {
