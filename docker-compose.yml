@@ -67,4 +67,7 @@ services:
     environment:
       UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
-      - ./data/files:/share
+      - ./data/files:/share 
+  themis-same-as:
+    volumes:
+      - ./data/files:/share 
