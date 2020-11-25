@@ -62,6 +62,10 @@
                 "type": {
                     "type": "url",
                     "predicate": "dct:type"
+                },
+                "subject": {
+                    "type": "uri",
+                    "predicate": "dct:subject"
                 }
             },
             "relationships": {
@@ -125,6 +129,10 @@
                 "byte-size": {
                     "type": "number",
                     "predicate": "dcat:byteSize"
+                },
+                "subject": {
+                    "type": "uri",
+                    "predicate": "dct:subject"
                 }
             },
             "relationships": {

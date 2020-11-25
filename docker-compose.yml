@@ -10,7 +10,7 @@ services:
     volumes:
       - ./config/dispatcher:/config
   frontend:
-    image: kanselarij/frontend-themis:0.3.2
+    image: kanselarij/frontend-themis:0.3.3
   database:
     image: semtech/mu-authorization:0.6.0-beta.5
     environment:
