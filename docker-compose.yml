@@ -56,7 +56,7 @@ services:
   resource-labels:
     image: lblod/resource-label-service:0.0.3
   publication-consumer:
-    image: kanselarij/valvas-publication-consumer:themis
+    image: kanselarij/themis-publication-consumer:2.0.0
     environment:
       BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
