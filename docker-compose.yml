@@ -63,7 +63,7 @@ services:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
   dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service
+    image: kanselarij/dcat-dataset-publication-service:0.1.0
     environment:
       UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
