@@ -62,13 +62,13 @@ services:
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
-  dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service:0.1.1
-    environment:
-      UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
+  themis-same-as:
+    image: kanselarij/themis-same-as-service:0.1.1
     volumes:
       - ./data/files:/share
-  themis-same-as:
-    image: kanselarij/themis-same-as-service:0.1.0
+  dcat-dataset-publication:
+    image: kanselarij/dcat-dataset-publication-service:0.1.2
+    environment:
+      UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
       - ./data/files:/share
