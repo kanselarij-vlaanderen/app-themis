@@ -25,7 +25,7 @@ services:
     restart: always
     logging: *default-logging
   database:
-    image: semtech/mu-authorization:0.6.0-beta.5
+    image: semtech/mu-authorization:0.6.0-beta.6
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
       DATABASE_COMPATIBILITY: "Virtuoso"
@@ -88,8 +88,6 @@ services:
     logging: *default-logging
   publication-consumer:
     image: kanselarij/themis-publication-consumer:2.0.0
-    environment:
-      BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
@@ -101,8 +99,6 @@ services:
     logging: *default-logging
   dcat-dataset-publication:
     image: kanselarij/dcat-dataset-publication-service:0.2.0
-    environment:
-      UPDATE_BATCH_SIZE: 1 # workaround for mu-authorization parsing error
     volumes:
       - ./data/files:/share
     restart: always
