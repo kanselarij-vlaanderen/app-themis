@@ -97,8 +97,6 @@ services:
     logging: *default-logging
   themis-same-as:
     image: kanselarij/themis-same-as-service:0.2.0
-    volumes:
-      - ./data/files:/share
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
