@@ -19,3 +19,15 @@
     mu:uuid "ef51c9d5-8b45-4501-9dcd-3e00ccff524f" ;
     skos:prefLabel "Ministerraad" ;
     skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> .
+
+<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/30d6a064-8cca-4485-8b37-7ab2357d931d> a skos:Concept ;
+    mu:uuid "30d6a064-8cca-4485-8b37-7ab2357d931d" ;
+    skos:prefLabel "Annex" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> .
+
+<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/9b4701f8-a136-4009-94c6-d64fdc96b9a2> a skos:Concept ;
+    mu:uuid "9b4701f8-a136-4009-94c6-d64fdc96b9a2" ;
+    skos:prefLabel "Ministerraad - Plan Vlaamse Veerkracht" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/8030c0c4-aff1-4548-92d9-3299ebc43832> ;
+    skos:broader <http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/30d6a064-8cca-4485-8b37-7ab2357d931d> .
+
