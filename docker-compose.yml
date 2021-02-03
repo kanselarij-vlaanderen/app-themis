@@ -1,7 +1,6 @@
-version: '3.4'
+version: "3.4"
 
-x-logging:
-  &default-logging
+x-logging: &default-logging
   driver: "json-file"
   options:
     max-size: "10m"
@@ -11,7 +10,7 @@ services:
   identifier:
     image: semtech/mu-identifier:1.9.1
     environment:
-      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: "[{\"variables\":[],\"name\":\"public\"}]"
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: '[{"variables":[],"name":"public"}]'
     restart: always
     logging: *default-logging
   dispatcher:
@@ -21,7 +20,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: kanselarij/frontend-themis:0.3.4
+    image: kanselarij/frontend-themis:0.3.5
     restart: always
     logging: *default-logging
   database:
@@ -79,7 +78,7 @@ services:
     restart: always
     logging: *default-logging
   uri-info:
-    image: redpencil/mu-uri-info-service:0.1.0
+    image: redpencil/mu-uri-info-service:0.2.0
     restart: always
     logging: *default-logging
   resource-labels:
