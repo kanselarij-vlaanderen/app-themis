@@ -81,8 +81,16 @@ services:
     image: redpencil/mu-uri-info-service:0.2.0
     restart: always
     logging: *default-logging
+  resource-labels-cache:
+    image: semtech/mu-cache:2.0.1
+    links:
+      - resource-labels:backend
+    restart: always
+    logging: *default-logging
   resource-labels:
-    image: lblod/resource-label-service:0.0.3
+    image: lblod/resource-label-service:0.2.0
+    environment:
+      DEFAULT_LANGUAGE: "nil"
     restart: always
     logging: *default-logging
   publication-consumer:
