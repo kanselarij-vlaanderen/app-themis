@@ -1,0 +1,199 @@
+{
+    "version": "0.1",
+    "prefixes": {
+        "person": "http://www.w3.org/ns/person#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "persoon": "https://data.vlaanderen.be/ns/persoon#",
+        "mandaat": "http://data.vlaanderen.be/ns/mandaat#",
+        "org": "http://www.w3.org/ns/org#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "besluit": "http://data.vlaanderen.be/ns/besluit#",
+        "generiek": "http://data.vlaanderen.be/ns/generiek#"
+    },
+    "resources": {
+        "persons": {
+            "class": "person:Person",
+            "attributes": {
+                "familyName": {
+                    "type": "string",
+                    "predicate": "foaf:familyName"
+                },
+                "firstName": {
+                    "type": "string",
+                    "predicate": "persoon:gebruikteVoornaam"
+                }
+            },
+            "relationships": {
+                "mandatees": {
+                    "target": "mandatees",
+                    "predicate": "mandaat:isBestuurlijkeAliasVan",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/person/"
+        },
+        "mandatees": {
+            "class": "mandaat:Mandataris",
+            "attributes": {
+                "priority": {
+                    "type": "number",
+                    "predicate": "mandaat:rangorde"
+                },
+                "startDate": {
+                    "type": "datetime",
+                    "predicate": "mandaat:start"
+                },
+                "endDate": {
+                    "type": "datetime",
+                    "predicate": "mandaat:einde"
+                }
+            },
+            "relationships": {
+                "mandate": {
+                    "target": "mandates",
+                    "predicate": "org:holds",
+                    "cardinality": "one"
+                },
+                "person": {
+                    "target": "persons",
+                    "predicate": "mandaat:isBestuurlijkeAliasVan",
+                    "cardinality": "one"
+                },
+                "government-bodies": {
+                    "target": "government-bodies",
+                    "predicate": "prov:hadMember",
+                    "cardinality": "one",
+                    "inverse": true
+                },
+                "government-fields": {
+                    "target": "government-fields",
+                    "predicate": "mandaat:beleidsdomein",
+                    "cardinality": "one"
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/mandataris/"
+        },
+        "mandates": {
+            "class": "mandaat:Mandaat",
+            "relationships": {
+                "government-functions": {
+                    "target": "government-functions",
+                    "predicate": "org:role",
+                    "cardinality": "one"
+                },
+                "government-bodies": {
+                    "target": "government-bodies",
+                    "predicate": "org:hasPost",
+                    "cardinality": "one",
+                    "inverse": true
+                },
+                "mandatees": {
+                    "target": "mandatees",
+                    "predicate": "org:holds",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/mandaat/"
+        },
+        "government-functions": {
+            "class": "org:Role",
+            "attributes": {
+                "label": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/bestuursfunctie/"
+        },
+        "government-bodies": {
+            "class": "besluit:Bestuursorgaan",
+            "attributes": {
+                "name": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "is-timespecialization-of": {
+                    "target": "government-bodies",
+                    "predicate": "generiek:isTijdspecialisatieVan",
+                    "cardinality": "one"
+                },
+                "creation": {
+                    "target": "versions",
+                    "predicate": "prov:qualifiedGeneration",
+                    "cardinality": "one"
+                },
+                "classification": {
+                    "target": "concepts",
+                    "predicate": "org:classification",
+                    "cardinality": "one"
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/bestuursorgaan/"
+        },
+        "government-units": {
+            "class": "besluit:Bestuurseenheid",
+            "attributes": {
+                "name": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "classification": {
+                    "target": "concepts",
+                    "predicate": "org:classification",
+                    "cardinality": "one"
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/bestuurseenheid/"
+        },
+        "concepts": {
+            "class": "skos:Concept",
+            "attributes": {
+                "label": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis-vlaanderen.be/id/concept/bestuurseenheid-classificatie/"
+        },
+        "versions": {
+            "class": "prov:Generation",
+            "attributes": {
+                "time": {
+                    "type": "datetime",
+                    "predicate": "prov:atTime"
+                }
+            },
+            "features": [
+                "include-uri"
+            ]
+        }
+    }
+}

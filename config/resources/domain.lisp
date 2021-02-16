@@ -11,3 +11,4 @@
 (setf sparql:*experimental-no-application-graph-for-sudo-select-queries* t)
 
 (read-domain-file "dcat.json")
+(read-domain-file "besluitvorming.json")

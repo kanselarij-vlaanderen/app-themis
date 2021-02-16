@@ -141,7 +141,7 @@
                     "predicate": "dcat:distribution",
                     "cardinality": "one",
                     "inverse": true
-                },
+                }
             },
             "features": ["include-uri"],
             "new-resource-base": "http://themis.vlaanderen.be/id/distribution/"

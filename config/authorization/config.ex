@@ -12,7 +12,6 @@ defmodule Acl.UserGroups.Config do
 
   def user_groups do
     [
-      # // PUBLIC TODO for now public is the same as privileged and privileged is therefore not created
       %GroupSpec{
         name: "public",
         useage: [:read],
@@ -24,6 +23,12 @@ defmodule Acl.UserGroups.Config do
               "http://www.w3.org/ns/dcat#Catalog",
               "http://www.w3.org/ns/dcat#Dataset",
               "http://www.w3.org/ns/dcat#Distribution",
+              "http://www.w3.org/ns/person#Person",
+              "http://data.vlaanderen.be/ns/mandaat#Mandataris",
+              "http://data.vlaanderen.be/ns/mandaat#Mandaat",
+              "http://www.w3.org/ns/org#Role",
+              "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
+              "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
               "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
             ] } } ]
       },
