@@ -59,6 +59,30 @@ defmodule Dispatcher do
     forward conn, path, "http://cache/distributions/"
   end
 
+  get "/persons/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/persons/"
+  end
+
+  get "/mandatees/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/mandatees/"
+  end
+
+  get "/mandates/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/mandates/"
+  end
+
+  get "/government-functions/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/government-functions/"
+  end
+
+  get "/government-bodies/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/government-bodies/"
+  end
+
+  get "/government-units/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/government-units/"
+  end
+
   ###############
   # API SERVICES
   ###############
