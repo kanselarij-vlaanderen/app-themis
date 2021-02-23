@@ -1,0 +1,29 @@
+DELETE {
+  GRAPH ?g {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> ?p ?o
+  }
+} INSERT {
+  GRAPH ?g {
+    <http://themis.vlaanderen.be/id/bestuurseenheid/e7a239de-c48c-441c-8293-ec365eedce93> ?p ?o
+  }
+} WHERE {
+  GRAPH ?g {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> ?p ?o
+  }
+}
+
+;
+
+DELETE {
+  GRAPH ?g {
+    ?s ?p <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93>
+  }
+} INSERT {
+  GRAPH ?g {
+    ?s ?p <http://themis.vlaanderen.be/id/bestuurseenheid/e7a239de-c48c-441c-8293-ec365eedce93>
+  }
+} WHERE {
+  GRAPH ?g {
+    ?s ?p <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93>
+  }
+}
