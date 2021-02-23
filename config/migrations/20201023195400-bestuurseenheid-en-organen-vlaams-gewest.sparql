@@ -6,7 +6,7 @@ PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 
 INSERT DATA {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> a besluit:Bestuurseenheid ;
+    <http://themis.vlaanderen.be/id/bestuurseenheid/e7a239de-c48c-441c-8293-ec365eedce93> a besluit:Bestuurseenheid ;
     mu:uuid "e7a239de-c48c-441c-8293-ec365eedce93" ;
     skos:prefLabel "Vlaams Gewest" ;
     org:classification <http://themis.vlaanderen.be/id/concept/bestuurseenheid-classificatie/ba6abed5-a5b7-482b-9c19-18d51a4a6e6f> .
@@ -15,13 +15,13 @@ INSERT DATA {
     mu:uuid "7f2c82aa-75ac-40f8-a6c3-9fe539163025" ;
     skos:prefLabel "Vlaamse Regering" ;
     org:classification <http://themis.vlaanderen.be/id/concept/bestuursorgaan-classificatie/9682bad6-9c85-4eeb-9ac1-bba21666469a> ;
-    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> .
+    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuurseenheid/e7a239de-c48c-441c-8293-ec365eedce93> .
 
     <http://themis.vlaanderen.be/id/bestuursorgaan/17caac00-34a2-4b84-b400-30823555c15e> a besluit:Bestuursorgaan ;
     mu:uuid "17caac00-34a2-4b84-b400-30823555c15e" ;
     skos:prefLabel "Vlaams Parlement" ;
     org:classification <http://themis.vlaanderen.be/id/concept/bestuursorgaan-classificatie/14b3f492-7106-46c7-9704-f547beff18ca> ;
-    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuursorgaan/e7a239de-c48c-441c-8293-ec365eedce93> .
+    besluit:bestuurt <http://themis.vlaanderen.be/id/bestuurseenheid/e7a239de-c48c-441c-8293-ec365eedce93> .
   }
 }
 
