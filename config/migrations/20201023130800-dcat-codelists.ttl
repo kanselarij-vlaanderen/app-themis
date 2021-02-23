@@ -15,8 +15,8 @@
 
 <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     <http://mu.semte.ch/vocabularies/core/uuid> "43c644d3-2171-4892-8dd7-3fd5eec15d09" ;
-    <http://www.w3.org/2004/02/skos/core#prefLabel> "Ministers" ;
-    <http://www.w3.org/2004/02/skos/core#definition> "Minister mandatarissen met hun bijhorende mandaten, bevoegdheden en bestuursorganen" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Samenstelling Vlaamse Regering" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Samenstelling van de Vlaamse Regering uit heden en verleden. Dit omvat bestuursorganen, legislaturen, mandaten, mandatarissen en personen." ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <http://themis.vlaanderen.be/id/concept-scheme/e93481b2-342d-468b-8def-2d629232d3a5> .
 
 <http://themis.vlaanderen.be/id/concept/dataset-type/5d8b757f-76f4-4aaa-a2dc-4bc6c9876560> a <http://www.w3.org/2004/02/skos/core#Concept> ;
