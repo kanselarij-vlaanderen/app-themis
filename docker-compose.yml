@@ -10,7 +10,7 @@ services:
   identifier:
     image: semtech/mu-identifier:1.9.1
     environment:
-      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: '[{"variables":[],"name":"public"}]'
+      DEFAULT_MU_AUTH_ALLOWED_GROUPS_HEADER: '[{"variables":[],"name":"public"},{"variables":[],"name":"clean"}]'
     restart: always
     logging: *default-logging
   dispatcher:
