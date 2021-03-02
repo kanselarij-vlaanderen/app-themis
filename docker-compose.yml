@@ -78,7 +78,7 @@ services:
     restart: always
     logging: *default-logging
   uri-info:
-    image: redpencil/mu-uri-info-service:0.2.0
+    image: redpencil/mu-uri-info-service:0.2.1
     restart: always
     logging: *default-logging
   resource-labels-cache:
