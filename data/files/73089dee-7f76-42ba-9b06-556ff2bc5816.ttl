@@ -4373,7 +4373,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0502>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a03ec>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a04f1>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0601>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 1;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4381,7 +4381,7 @@
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
 <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060e> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0601>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 1;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4394,7 +4394,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a04b8>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0610>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0584>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f2>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 2;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4402,7 +4402,7 @@
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
 <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0611> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f2>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 2;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4413,7 +4413,7 @@
   <http://data.vlaanderen.be/ns/mandaat#beleidsdomein> <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a0456>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a05f7>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a040d>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f5>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 3;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4421,7 +4421,7 @@
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
 <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0613> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f5>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 3;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4432,7 +4432,7 @@
   <http://data.vlaanderen.be/ns/mandaat#beleidsdomein> <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a0428>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a0400>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a03fd>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0549>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 4;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4444,7 +4444,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a053f>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a05fd>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0548>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a053d>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 5;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4456,7 +4456,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0503>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a04f1>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0600>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 6;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4468,7 +4468,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0606>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0607>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a05c8>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05c6>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 7;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4479,7 +4479,7 @@
   <http://data.vlaanderen.be/ns/mandaat#beleidsdomein> <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a060a>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0537>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a053c>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0608>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 8;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4490,7 +4490,7 @@
   <http://data.vlaanderen.be/ns/mandaat#beleidsdomein> <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a03f9>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a0453>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a042d>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0619>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 9;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4502,7 +4502,7 @@
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a040b>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907ce6670526694a046a>,
     <http://themis.vlaanderen.be/id/beleidsdomein/5fed907de6670526694a0603>;
-  <http://data.vlaanderen.be/ns/mandaat#einde> "2009-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2007-10-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 10;
   <http://data.vlaanderen.be/ns/mandaat#start> "2007-06-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -4518,7 +4518,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0601>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 1;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a061d";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4526,7 +4526,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0601>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 1;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a061f";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e7> .
 
@@ -4537,7 +4537,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0549>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 2;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0620";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4545,7 +4545,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0549>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 2;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0621";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e8> .
 
@@ -4556,7 +4556,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f5>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 3;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0622";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4564,7 +4564,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05f5>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 3;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0623";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e8> .
 
@@ -4576,7 +4576,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a053d>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 4;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0624";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4588,7 +4588,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 5;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0625";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4600,7 +4600,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05c6>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 6;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0626";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4611,7 +4611,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0608>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 7;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0627";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4622,7 +4622,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0619>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 8;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0628";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4634,7 +4634,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 9;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0629";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -4647,7 +4647,7 @@
   <http://data.vlaanderen.be/ns/mandaat#einde> "2008-09-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05c3>;
   <http://data.vlaanderen.be/ns/mandaat#rangorde> 10;
-  <http://data.vlaanderen.be/ns/mandaat#start> "2009-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2007-10-10T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a062a";
   <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a05e9> .
 
@@ -7611,3 +7611,33 @@
 <http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> a <http://data.vlaanderen.be/ns/mandaat#Mandaat>;
   <http://mu.semte.ch/vocabularies/core/uuid> "5fed907de6670526694a0531";
   <http://www.w3.org/ns/org#role> <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05ab> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/65b20fa7-30ea-4d1d-ba3c-8caeca0f4394> .
+<http://themis.vlaanderen.be/id/opheffing/65b20fa7-30ea-4d1d-ba3c-8caeca0f4394> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "65b20fa7-30ea-4d1d-ba3c-8caeca0f4394";
+  <http://www.w3.org/ns/prov#atTime> "2003-06-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05eb> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/dc8685f9-ec92-41ed-9ac5-f4526df96d38> .
+<http://themis.vlaanderen.be/id/opheffing/dc8685f9-ec92-41ed-9ac5-f4526df96d38> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "dc8685f9-ec92-41ed-9ac5-f4526df96d38";
+  <http://www.w3.org/ns/prov#atTime> "2007-06-27T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a044d> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/213ac49c-d7af-4444-ad18-a75f9196d3c5> .
+<http://themis.vlaanderen.be/id/opheffing/213ac49c-d7af-4444-ad18-a75f9196d3c5> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "213ac49c-d7af-4444-ad18-a75f9196d3c5";
+  <http://www.w3.org/ns/prov#atTime> "1988-10-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a0533> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/0a630d03-e849-4ea6-98e1-e041f9098174> .
+<http://themis.vlaanderen.be/id/opheffing/0a630d03-e849-4ea6-98e1-e041f9098174> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "0a630d03-e849-4ea6-98e1-e041f9098174";
+  <http://www.w3.org/ns/prov#atTime> "2003-06-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05b7> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/a6e42d82-73af-4472-be9c-2295cc2c91d9> .
+<http://themis.vlaanderen.be/id/opheffing/a6e42d82-73af-4472-be9c-2295cc2c91d9> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "a6e42d82-73af-4472-be9c-2295cc2c91d9";
+  <http://www.w3.org/ns/prov#atTime> "2004-07-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a068a> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/3e2de57a-ad83-4462-8a3f-efb5071af8f9> .
+<http://themis.vlaanderen.be/id/opheffing/3e2de57a-ad83-4462-8a3f-efb5071af8f9> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "3e2de57a-ad83-4462-8a3f-efb5071af8f9";
+  <http://www.w3.org/ns/prov#atTime> "2019-07-02T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

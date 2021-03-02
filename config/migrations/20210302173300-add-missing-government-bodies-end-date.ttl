@@ -1,0 +1,29 @@
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05ab> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/65b20fa7-30ea-4d1d-ba3c-8caeca0f4394> .
+<http://themis.vlaanderen.be/id/opheffing/65b20fa7-30ea-4d1d-ba3c-8caeca0f4394> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "65b20fa7-30ea-4d1d-ba3c-8caeca0f4394";
+  <http://www.w3.org/ns/prov#atTime> "2003-06-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05eb> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/dc8685f9-ec92-41ed-9ac5-f4526df96d38> .
+<http://themis.vlaanderen.be/id/opheffing/dc8685f9-ec92-41ed-9ac5-f4526df96d38> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "dc8685f9-ec92-41ed-9ac5-f4526df96d38";
+  <http://www.w3.org/ns/prov#atTime> "2007-06-27T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a044d> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/213ac49c-d7af-4444-ad18-a75f9196d3c5> .
+<http://themis.vlaanderen.be/id/opheffing/213ac49c-d7af-4444-ad18-a75f9196d3c5> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "213ac49c-d7af-4444-ad18-a75f9196d3c5";
+  <http://www.w3.org/ns/prov#atTime> "1988-10-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a0533> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/0a630d03-e849-4ea6-98e1-e041f9098174> .
+<http://themis.vlaanderen.be/id/opheffing/0a630d03-e849-4ea6-98e1-e041f9098174> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "0a630d03-e849-4ea6-98e1-e041f9098174";
+  <http://www.w3.org/ns/prov#atTime> "2003-06-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a05b7> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/a6e42d82-73af-4472-be9c-2295cc2c91d9> .
+<http://themis.vlaanderen.be/id/opheffing/a6e42d82-73af-4472-be9c-2295cc2c91d9> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "a6e42d82-73af-4472-be9c-2295cc2c91d9";
+  <http://www.w3.org/ns/prov#atTime> "2004-07-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a068a> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://themis.vlaanderen.be/id/opheffing/3e2de57a-ad83-4462-8a3f-efb5071af8f9> .
+<http://themis.vlaanderen.be/id/opheffing/3e2de57a-ad83-4462-8a3f-efb5071af8f9> a <http://www.w3.org/ns/prov#Invalidation>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "3e2de57a-ad83-4462-8a3f-efb5071af8f9";
+  <http://www.w3.org/ns/prov#atTime> "2019-07-02T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
