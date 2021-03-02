@@ -20,19 +20,30 @@ defmodule Acl.UserGroups.Config do
           graph: "http://mu.semte.ch/graphs/public",
           constraint: %ResourceConstraint{
             resource_types: [
+              "http://xmlns.com/foaf/0.1/Agent",
               "http://www.w3.org/ns/dcat#Catalog",
               "http://www.w3.org/ns/dcat#Dataset",
               "http://www.w3.org/ns/dcat#Distribution",
+              "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+              "http://www.w3.org/2004/02/skos/core#Concept",
               "http://www.w3.org/ns/person#Person",
               "http://data.vlaanderen.be/ns/mandaat#Mandataris",
               "http://data.vlaanderen.be/ns/mandaat#Mandaat",
               "http://www.w3.org/ns/org#Role",
               "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
               "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
-              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
+              "https://data.vlaanderen.be/ns/dossier#Serie",
+              "https://data.vlaanderen.be/ns/dossier#Stuk",
+              "http://data.vlaanderen.be/ns/besluit#Agendapunt",
+              "https://data.vlaanderen.be/ns/besluitvorming#Agenda",
+              "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
+              "http://www.w3.org/ns/prov#Activity",
+              "http://www.w3.org/ns/prov#Generation",
+              "http://www.w3.org/ns/prov#Invalidation",
+              "http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing"
             ] } } ]
       },
-
 
       # // CLEANUP
       #
