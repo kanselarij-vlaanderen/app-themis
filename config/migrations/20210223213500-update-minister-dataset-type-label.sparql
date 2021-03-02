@@ -1,16 +1,20 @@
 DELETE {
-  GRAPH ?g {
+  GRAPH <http://mu.semte.ch/graphs/public> {
     <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09>  skos:prefLabel ?label ;
     skos:definition ?definition .
-  }
-} INSERT {
-  GRAPH ?g {
-    <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09>  skos:prefLabel  "Samenstelling Vlaamse Regering" ;
-    skos:definition "Samenstelling van de Vlaamse Regering uit heden en verleden. Dit omvat bestuursorganen, legislaturen, mandaten, mandatarissen en personen." .
   }
 } WHERE {
-  GRAPH ?g {
+  GRAPH <http://mu.semte.ch/graphs/public> {
     <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09>  skos:prefLabel ?label ;
     skos:definition ?definition .
+  }
+}
+
+;
+
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09>  skos:prefLabel  "Samenstelling Vlaamse Regering" ;
+    skos:definition "Samenstelling van de Vlaamse Regering uit heden en verleden. Dit omvat bestuursorganen, legislaturen, mandaten, mandatarissen en personen." .
   }
 }
