@@ -10,5 +10,7 @@
 (defparameter *cache-model-properties* t)
 (setf sparql:*experimental-no-application-graph-for-sudo-select-queries* t)
 
+(defparameter *max-group-sorted-properties* t)
+
 (read-domain-file "dcat.json")
 (read-domain-file "besluitvorming.json")

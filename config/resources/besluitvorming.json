@@ -9,17 +9,17 @@
         "prov": "http://www.w3.org/ns/prov#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "besluit": "http://data.vlaanderen.be/ns/besluit#",
-        "generiek": "http://data.vlaanderen.be/ns/generiek#"
+        "generiek": "https://data.vlaanderen.be/ns/generiek#"
     },
     "resources": {
         "persons": {
             "class": "person:Person",
             "attributes": {
-                "familyName": {
+                "family-name": {
                     "type": "string",
                     "predicate": "foaf:familyName"
                 },
-                "firstName": {
+                "first-name": {
                     "type": "string",
                     "predicate": "persoon:gebruikteVoornaam"
                 }
@@ -44,11 +44,11 @@
                     "type": "number",
                     "predicate": "mandaat:rangorde"
                 },
-                "startDate": {
+                "start-date": {
                     "type": "datetime",
                     "predicate": "mandaat:start"
                 },
-                "endDate": {
+                "end-date": {
                     "type": "datetime",
                     "predicate": "mandaat:einde"
                 }
@@ -64,7 +64,7 @@
                     "predicate": "mandaat:isBestuurlijkeAliasVan",
                     "cardinality": "one"
                 },
-                "government-bodies": {
+                "government-body": {
                     "target": "government-bodies",
                     "predicate": "prov:hadMember",
                     "cardinality": "one",
@@ -73,7 +73,7 @@
                 "government-fields": {
                     "target": "government-fields",
                     "predicate": "mandaat:beleidsdomein",
-                    "cardinality": "one"
+                    "cardinality": "many"
                 }
             },
             "features": [
@@ -84,12 +84,12 @@
         "mandates": {
             "class": "mandaat:Mandaat",
             "relationships": {
-                "government-functions": {
+                "government-function": {
                     "target": "government-functions",
                     "predicate": "org:role",
                     "cardinality": "one"
                 },
-                "government-bodies": {
+                "government-body": {
                     "target": "government-bodies",
                     "predicate": "org:hasPost",
                     "cardinality": "one",
@@ -134,14 +134,40 @@
                     "predicate": "generiek:isTijdspecialisatieVan",
                     "cardinality": "one"
                 },
-                "creation": {
+                "government-bodies": {
+                    "target": "government-bodies",
+                    "predicate": "generiek:isTijdspecialisatieVan",
+                    "cardinality": "many",
+                    "inverse": true
+                },
+                "start-date": {
                     "target": "versions",
                     "predicate": "prov:qualifiedGeneration",
                     "cardinality": "one"
                 },
+                "end-date": {
+                    "target": "versions",
+                    "predicate": "prov:qualifiedInvalidation",
+                    "cardinality": "one"
+                },
+                "mandates": {
+                    "target": "mandates",
+                    "predicate": "org:hasPost",
+                    "cardinality": "many"
+                },
+                "mandatees": {
+                    "target": "mandatees",
+                    "predicate": "prov:hadMember",
+                    "cardinality": "many"
+                },
                 "classification": {
                     "target": "concepts",
                     "predicate": "org:classification",
+                    "cardinality": "one"
+                },
+                "government-unit": {
+                    "target": "government-units",
+                    "predicate": "besluit:bestuurt",
                     "cardinality": "one"
                 }
             },
@@ -159,6 +185,12 @@
                 }
             },
             "relationships": {
+                "government-bodies": {
+                    "target": "government-bodies",
+                    "predicate": "besluit:bestuurt",
+                    "cardinality": "many",
+                    "inverse": true
+                },
                 "classification": {
                     "target": "concepts",
                     "predicate": "org:classification",
@@ -181,7 +213,28 @@
             "features": [
                 "include-uri"
             ],
-            "new-resource-base": "http://themis-vlaanderen.be/id/concept/bestuurseenheid-classificatie/"
+            "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+        },
+        "government-fields": {
+            "class": "skos:Concept",
+            "attributes": {
+                "label": {
+                    "type": "string",
+                    "predicate": "skos:prefLabel"
+                }
+            },
+            "relationships": {
+                "mandatees": {
+                    "target": "mandatees",
+                    "predicate": "mandaat:beleidsdomein",
+                    "cardinality": "many",
+                    "inverse": true
+                }
+            },
+            "features": [
+                "include-uri"
+            ],
+            "new-resource-base": "http://themis.vlaanderen.be/id/beleidsdomein/"
         },
         "versions": {
             "class": "prov:Generation",
@@ -191,9 +244,24 @@
                     "predicate": "prov:atTime"
                 }
             },
+            "relationships": {
+                "government-body-start": {
+                    "target": "government-bodies",
+                    "predicate": "prov:qualifiedGeneration",
+                    "cardinality": "one",
+                    "inverse": true
+                },
+                "government-body-end": {
+                    "target": "government-bodies",
+                    "predicate": "prov:qualifiedInvalidation",
+                    "cardinality": "one",
+                    "inverse": true
+                }
+            },
             "features": [
                 "include-uri"
-            ]
+            ],
+            "new-resource-base": "http://themis-vlaanderen.be/id/version"
         }
     }
 }
