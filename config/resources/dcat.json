@@ -37,7 +37,9 @@
                     "cardinality": "many"
                 }
             },
-            "features": ["include-uri"],
+            "features": [
+                "include-uri"
+            ],
             "new-resource-base": "http://themis.vlaanderen.be/id/catalog/"
         },
         "datasets": {
@@ -64,7 +66,7 @@
                     "predicate": "dct:type"
                 },
                 "subject": {
-                    "type": "uri",
+                    "type": "url",
                     "predicate": "dct:subject"
                 }
             },
@@ -92,7 +94,9 @@
                     "inverse": true
                 }
             },
-            "features": ["include-uri"],
+            "features": [
+                "include-uri"
+            ],
             "new-resource-base": "http://themis.vlaanderen.be/id/dataset/"
         },
         "distributions": {
@@ -131,7 +135,7 @@
                     "predicate": "dcat:byteSize"
                 },
                 "subject": {
-                    "type": "uri",
+                    "type": "url",
                     "predicate": "dct:subject"
                 }
             },
@@ -143,7 +147,9 @@
                     "inverse": true
                 }
             },
-            "features": ["include-uri"],
+            "features": [
+                "include-uri"
+            ],
             "new-resource-base": "http://themis.vlaanderen.be/id/distribution/"
         }
     }

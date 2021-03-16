@@ -1,0 +1,46 @@
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+
+DELETE {
+   GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:start ?start .
+   }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:start ?start .
+    VALUES ?mandatee
+    {
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066a>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066c>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066e>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066f>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0671>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0672>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0670>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066b>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066d>
+    }
+  }
+}
+;
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:start "2010-07-06T00:00:00.000Z"^^xsd:dateTime .
+   }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    VALUES ?mandatee
+    {
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066a>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066c>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066e>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066f>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0671>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0672>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0670>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066b>
+      <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066d>
+    }
+  }
+}

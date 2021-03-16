@@ -51,6 +51,10 @@
                 "end-date": {
                     "type": "datetime",
                     "predicate": "mandaat:einde"
+                },
+                "title": {
+                    "type": "string",
+                    "predicate": "dct:title"
                 }
             },
             "relationships": {
@@ -69,11 +73,6 @@
                     "predicate": "prov:hadMember",
                     "cardinality": "one",
                     "inverse": true
-                },
-                "government-fields": {
-                    "target": "government-fields",
-                    "predicate": "mandaat:beleidsdomein",
-                    "cardinality": "many"
                 }
             },
             "features": [
@@ -208,6 +207,17 @@
                 "label": {
                     "type": "string",
                     "predicate": "skos:prefLabel"
+                },
+                "definition": {
+                    "type": "string",
+                    "predicate": "skos:definition"
+                }
+            },
+            "relationships": {
+                "in-scheme": {
+                    "target": "concept-schemes",
+                    "predicate": "skos:inScheme",
+                    "cardinality": "many"
                 }
             },
             "features": [
@@ -215,8 +225,8 @@
             ],
             "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
         },
-        "government-fields": {
-            "class": "skos:Concept",
+        "concept-schemes": {
+            "class": "skos:ConceptScheme",
             "attributes": {
                 "label": {
                     "type": "string",
@@ -224,9 +234,9 @@
                 }
             },
             "relationships": {
-                "mandatees": {
-                    "target": "mandatees",
-                    "predicate": "mandaat:beleidsdomein",
+                "concepts": {
+                    "target": "concepts",
+                    "predicate": "skos:inScheme",
                     "cardinality": "many",
                     "inverse": true
                 }
@@ -234,7 +244,7 @@
             "features": [
                 "include-uri"
             ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/beleidsdomein/"
+            "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
         },
         "versions": {
             "class": "prov:Generation",

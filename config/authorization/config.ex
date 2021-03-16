@@ -32,16 +32,7 @@ defmodule Acl.UserGroups.Config do
               "http://www.w3.org/ns/org#Role",
               "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
               "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
-              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
-              "https://data.vlaanderen.be/ns/dossier#Serie",
-              "https://data.vlaanderen.be/ns/dossier#Stuk",
-              "http://data.vlaanderen.be/ns/besluit#Agendapunt",
-              "https://data.vlaanderen.be/ns/besluitvorming#Agenda",
-              "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
-              "http://www.w3.org/ns/prov#Activity",
-              "http://www.w3.org/ns/prov#Generation",
-              "http://www.w3.org/ns/prov#Invalidation",
-              "http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing"
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
             ] } } ]
       },
 

@@ -1,0 +1,8 @@
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+
+DELETE WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?sub mandaat:beleidsdomein ?beleidsdomein .
+    ?beleidsdomein ?p ?o
+  }
+}

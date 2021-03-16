@@ -1,0 +1,19 @@
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?sub mandaat:rangorde ?rangorde .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?sub a mandaat:Mandataris ;
+      mandaat:rangorde ?rangorde ;
+      org:holds/org:role ?role .
+    VALUES ?role {
+      <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df>
+      <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de>
+    }
+  }
+}

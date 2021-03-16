@@ -1,0 +1,422 @@
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03eb> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie en Werkgelegenheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03f0> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03f4> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Ondergeschikte Besturen en Gesubsidieerde Werken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03f8> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezin en Welzijnszorg" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03ff> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Ruimtelijke Ordening, Landinrichting en Natuurbehoud" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0404> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0407> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a040a> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Waterbeleid en Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a040e> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie en Werkgelegenheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0410> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0412> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0414> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezin en Welzijnszorg" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0415> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0416> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Ruimtelijke Ordening, Landinrichting en Natuurbehoud" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0417> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0418> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0419> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Waterbeleid en Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0424> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie en Werkgelegenheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0427> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a042a> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezin en Welzijnszorg" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a042b> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a042c> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Volksgezondheid en Leefmilieu" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a042f> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs en Opleiding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0434> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0437> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0438> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie en Werkgelegenheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043a> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043c> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezin en Welzijnszorg" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043d> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Volksgezondheid en Leefmilieu" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043e> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs en Opleiding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0440> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0441> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0443> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a044e> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0450> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0452> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Welzijn, Gezin en Volksgezondheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0454> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Tewerkstelling, Vorming en Openbaar Ambt" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0458> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Gezin en Welzijnszorg" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a045a> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Landinrichting en KMO-beleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a045d> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0460> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0462> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0465> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie, Middenklasse en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a046c> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Ruimtelijke Ordening en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a046d> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a046e> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a046f> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Natuurbehoud en Landinrichting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0470> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0471> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Volksgezondheid en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0473> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0475> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Openbaar Ambt" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0477> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Openbare Werken en Verkeer" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047a> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie, Middenklasse en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047e> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Ruimtelijke Ordening en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047f> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0480> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0481> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Natuurbehoud en Landinrichting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0482> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0483> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Volksgezondheid en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0484> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0485> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Openbaar Ambt" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0486> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Openbare Werken en Verkeer" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0487> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie, Middenklasse en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a048b> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a048c> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a048d> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Natuurbehoud en Plattelandsvernieuwing" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a048f> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0490> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Volksgezondheid en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0491> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0492> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Binnenlandse Aangelegenheden en Openbaar Ambt" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0493> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Minister van Openbare Werken en Communicatie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie, KMO-beleid en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a3> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu, Huisvesting en Wetenschapsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a6> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Openbare Werken, Vervoer en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a8> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a9> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ac> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Tewerkstelling en Volksgezondheid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ae> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting, Binnenlandse Aangelegenheden, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04af> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b2> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Leefmilieu en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b4> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b5> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b6> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b7> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Verkeer, Buitenlandse Handel en Staatshervorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Sociale Zaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04bc> <http://purl.org/dc/terms/title> "Gemeenschapsminister van Financiën en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04be> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c0> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c2> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c3> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c4> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c5> <http://purl.org/dc/terms/title> "Vlaams minister van Verkeer, Buitenlandse Handel en Staatshervorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c6> <http://purl.org/dc/terms/title> "Vlaams minister van Tewerkstelling en Sociale Aangelegendheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c8> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04c9> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04cb> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04cd> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ce> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04cf> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04d0> <http://purl.org/dc/terms/title> "Vlaams minister van Verkeer, Buitenlandse Handel en Staatshervorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04d1> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04d2> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04d4> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04d6> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04d7> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04d8> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04d9> <http://purl.org/dc/terms/title> "Vlaams minister van Verkeer, Buitenlandse Handel en Staatshervorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04da> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04dc> <http://purl.org/dc/terms/title> "Vlaams minister van Tewerkstelling en Sociale Aangelegendheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04dd> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Wetenschapsbeleid, Energie en Externe Betrekkingen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04df> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Ruimtelijke Ordening en Binnenlandse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04e0> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04e1> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04e2> <http://purl.org/dc/terms/title> "Vlaams minister van Vervoer, Buitenlandse Handel en Staatshervorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04e3> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Gezondheidsinstellingen, Welzijn en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04e4> <http://purl.org/dc/terms/title> "Vlaamse minister van Tewerkstelling, Sociale Aangelegenheden, Leefmilieu en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en technologie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f6> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f8> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f9> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04fa> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Stedelijk Beleid en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04fd> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Vervoer en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04ff> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Gezin en Welzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0501> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Landbouw en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> <http://purl.org/dc/terms/title> "Vlaams minister van Brusselse Aangelegenheden en Gelijke-Kansenbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en technologie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0509> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a050b> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a050c> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a050d> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Stedelijk Beleid en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a050e> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Vervoer en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a050f> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Gezin en Welzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0510> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Landbouw en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> <http://purl.org/dc/terms/title> "Vlaams minister van Brusselse Aangelegenheden en Gelijke-Kansenbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en technologie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0515> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0517> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0518> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0519> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Stedelijk Beleid en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051a> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Vervoer en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051b> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Gezin en Welzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051c> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Landbouw en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> <http://purl.org/dc/terms/title> "Vlaams minister van Brusselse Aangelegenheden en Gelijke-Kansenbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en technologie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0521> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Vervoer en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0523> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Tewerkstelling" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0524> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Gezondheidsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0525> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Stedelijk Beleid en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0526> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0527> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Gezin en Welzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0528> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, KMO, Landbouw en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> <http://purl.org/dc/terms/title> "Vlaams minister van Brusselse Aangelegenheden en Gelijke-Kansenbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0534> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Buitenlands Beleid en Europese Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0536> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a053a> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a053e> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Stedelijk Beleid, Huisvesting en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0541> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0543> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0546> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0547> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Ambtenarenzaken en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054a> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ruimtelijke Ordening en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054b> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Buitenlands Beleid en Europese Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054f> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0550> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0552> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0553> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0554> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0555> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Ambtenarenzaken en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054d> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0556> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ruimtelijke Ordening en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0557> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Buitenlands Beleid en Europese Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0559> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055b> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055d> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055e> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055f> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0560> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ruimtelijke Ordening en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0561> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Buitenlands Beleid en Europese Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0563> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0565> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0567> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0568> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0569> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056a> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ruimtelijke Ordening en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Huistevesting en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Buitenlands Beleid en Europese Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0570> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0572> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0573> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0574> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0575> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0576> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ruimtelijke Ordening en Media" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Huistevesting en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a057a> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a057d> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a057f> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid, Gelijke Kansen en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0580> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0581> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0582> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0583> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Innovatie, Media en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0586> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0588> <http://purl.org/dc/terms/title> "Vlaams minister van Sport en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a058b> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a058d> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a058e> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a058f> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0590> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Innovatie, Media en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0592> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> <http://purl.org/dc/terms/title> "Vlaams minister van Sport en Brusselse Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0598> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a059b> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a059d> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a059e> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a1> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a2> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a3> <http://purl.org/dc/terms/title> "Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a5> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a7> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05a9> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05ac> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05ae> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05af> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b0> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b1> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b2> <http://purl.org/dc/terms/title> "Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b3> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b4> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05b5> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05bb> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05bd> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05be> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05bf> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05c0> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05c1> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05c2> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05c4> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid en E-government" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05c7> <http://purl.org/dc/terms/title> "Vlaams minister van Wonen, Media en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05cb> <http://purl.org/dc/terms/title> "Vlaams minister van Werkgelegenheid en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05cd> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05ce> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05cf> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05d0> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05d1> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05d2> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid en E-government" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05d3> <http://purl.org/dc/terms/title> "Vlaams minister van Wonen, Media en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05d5> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05da> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05db> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Ruimtelijke Ordening, Wetenschappen en Technologische Innovatie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05dc> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05dd> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05de> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05df> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid en E-government" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05e0> <http://purl.org/dc/terms/title> "Vlaams minister van Wonen, Media en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05e1> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Landbouw en Ontwikkelingssamenwerking" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05ed> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Landbouw, Zeevisserij en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Landbouw, Zeevisserij en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f6> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fa> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fc> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05ff> <http://purl.org/dc/terms/title> "Vlaams minister van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0602> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0604> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0609> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Landbouw en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060f> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0612> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0615> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0616> <http://purl.org/dc/terms/title> "Vlaams minister van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0617> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0618> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a061a> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a061c> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a061d> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0620> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0622> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0624> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0625> <http://purl.org/dc/terms/title> "Vlaams minister van Bestuurszaken, Buitenlands Beleid, Media en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0626> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0627> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0628> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0629> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062a> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062b> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattelandsbeleid " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062f> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0631> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0632> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0633> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0634> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0635> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0636> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0637> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattelandsbeleid " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a063b> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a063d> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a063e> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a063f> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0640> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0641> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0642> <http://purl.org/dc/terms/title> "Vlaams minister van Institutionele Hervormingen, Bestuurszaken, Buitenlands Beleid, Media, Toerisme, Havens, Landbouw, Zeevisserij en Plattelandsbeleid " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting en Ruimtelijke Ordening" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0645> <http://purl.org/dc/terms/title> " Vlaams minister van Werk, Onderwijs en Vorming" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0647> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Jeugd, Sport en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0648> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Stedenbeleid, Wonen en Inburgering" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0649> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Sociale Economie en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a064a> <http://purl.org/dc/terms/title> "Vlaams minister van Openbare Werken, Energie, Leefmilieu en Natuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a064b> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a064e> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0659> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Landbouw en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066a> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Landbouw en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a065c> <http://purl.org/dc/terms/title> "Vlaams minister van Innovatie, Overheidsinvesteringen, Media en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066c> <http://purl.org/dc/terms/title> "Vlaams minister van Innovatie, Overheidsinvesteringen, Media en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066e> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a066f> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit en Openbare Werken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0661> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0662> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit en Openbare Werken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0670> <http://purl.org/dc/terms/title> "Vlaams minister van Energie, Wonen, Steden en Sociale Economie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0664> <http://purl.org/dc/terms/title> "Vlaams minister van Energie, Wonen, Steden en Sociale Economie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0671> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Natuur en Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0672> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs, Jeugd, Gelijke Kansen en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0667> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Natuur en Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0669> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs, Jeugd, Gelijke Kansen en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0673> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Buitenlands Beleid, Landbouw en Plattelandsbeleid" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0675> <http://purl.org/dc/terms/title> "Vlaams minister van Innovatie, Overheidsinvesteringen, Media en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0677> <http://purl.org/dc/terms/title> "Vlaams minister van Bestuurszaken, Binnenlands Bestuur, Inburgering, Toerisme en Vlaamse Rand" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a067a> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a067b> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit en Openbare Werken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a067c> <http://purl.org/dc/terms/title> "Vlaams minister van Energie, Wonen, Steden en Sociale Economie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a067d> <http://purl.org/dc/terms/title> "Vlaams minister van Leefmilieu, Natuur en Cultuur" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a067e> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs, Jeugd, Gelijke Kansen en Brussel" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0680> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Werk, Ruimtelijke Ordening en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a068b> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a068e> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0691> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0694> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0698> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069a> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069b> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069c> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a1> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a3> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a5> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a7> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a8> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06a9> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06aa> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ac> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ae> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b1> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b3> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b5> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b6> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b7> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b8> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ba> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06bc> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c0> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c2> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c3> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c4> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c5> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c6> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06c8> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06cc> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ce> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06cf> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d0> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d1> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d3> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d4> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d6> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06da> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06dc> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06dd> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06de> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06df> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën en Energie" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e1> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e4> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e6> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> <http://purl.org/dc/terms/title> "Vlaams minister van Cultuur, Media, Jeugd en Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ec> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ed> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ee> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën, Energie, " .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f0> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f1> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f3> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f5> <http://purl.org/dc/terms/title> "Vlaams minister van Begroting, Financiën, Energie, Cultuur, Media en Jeugd" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f9> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06fa> <http://purl.org/dc/terms/title> "Vlaams minister van Werk, Economie, Innovatie en Sport" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06fb> <http://purl.org/dc/terms/title> "Vlaams minister van Brusselse aangelegenheden" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06fc> <http://purl.org/dc/terms/title> "Vlaams minister van Omgeving, Natuur en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0708> <http://purl.org/dc/terms/title> "Vlaams minister van Buitenlandse Zaken, Cultuur, ICT en Facilitair Management" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a070d> <http://purl.org/dc/terms/title> "Vlaams minister van Economie, Innovatie, Werk, Sociale economie en Landbouw" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0710> <http://purl.org/dc/terms/title> "Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0712> <http://purl.org/dc/terms/title> "Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0715> <http://purl.org/dc/terms/title> "Vlaams minister van Justitie en Handhaving, Omgeving, Energie en Toerisme" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0719> <http://purl.org/dc/terms/title> "Vlaams minister van Welzijn, Volksgezondheid, Gezin en Armoedebestrijding" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a071b> <http://purl.org/dc/terms/title> "Vlaams minister van Financiën en Begroting, Wonen en Onroerend Erfgoed" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a071c> <http://purl.org/dc/terms/title> "Vlaams minister van Mobiliteit en Openbare Werken" .
+<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a071e> <http://purl.org/dc/terms/title> "Vlaams minister van Brussel, Jeugd en Media" .

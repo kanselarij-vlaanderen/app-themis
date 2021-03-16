@@ -1,0 +1,24 @@
+<http://themis.vlaanderen.be/id/mandataris/bd63fe69-25df-4b36-a4f0-c7b87157a89b> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2010-07-06T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe>;
+  <http://data.vlaanderen.be/ns/mandaat#rangorde> 3;
+  <http://purl.org/dc/terms/title> "Vlaams minister van Bestuurszaken, Binnenlands Bestuur, Inburgering, Toerisme en Vlaamse Rand";
+  <http://data.vlaanderen.be/ns/mandaat#start> "2009-07-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "bd63fe69-25df-4b36-a4f0-c7b87157a89b";
+  <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0656> .
+
+  <http://themis.vlaanderen.be/id/mandataris/10a45f51-a511-4caa-8273-d1eb2c1ee27c> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2010-07-06T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe>;
+  <http://data.vlaanderen.be/ns/mandaat#start> "2009-07-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "10a45f51-a511-4caa-8273-d1eb2c1ee27c";
+  <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0655> .
+
+ <http://themis.vlaanderen.be/id/mandataris/32ca24e2-e216-43e0-b0af-e377137c0775> a <http://data.vlaanderen.be/ns/mandaat#Mandataris>;
+  <http://data.vlaanderen.be/ns/mandaat#einde> "2010-07-06T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://data.vlaanderen.be/ns/mandaat#isBestuurlijkeAliasVan> <http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a067f>;
+  <http://data.vlaanderen.be/ns/mandaat#rangorde> 7;
+  <http://purl.org/dc/terms/title> "Vlaams minister van Financiën, Begroting, Werk, Ruimtelijke Ordening en Sport";
+  <http://data.vlaanderen.be/ns/mandaat#start> "2009-07-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://mu.semte.ch/vocabularies/core/uuid> "32ca24e2-e216-43e0-b0af-e377137c0775";
+  <http://www.w3.org/ns/org#holds> <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0656> .

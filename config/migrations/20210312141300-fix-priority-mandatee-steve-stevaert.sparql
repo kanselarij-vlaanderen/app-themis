@@ -1,0 +1,13 @@
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+
+DELETE WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054d> mandaat:rangorde ?rangorde
+  }
+}
+;
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a054d> mandaat:rangorde "2"^^xsd:integer
+  }
+}

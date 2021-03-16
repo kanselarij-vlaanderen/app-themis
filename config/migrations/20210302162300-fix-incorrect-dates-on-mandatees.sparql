@@ -12,17 +12,17 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 DELETE {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2009-10-09T00:00:00Z'^^xsd:dateTime
 }
 }
 INSERT {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2007-10-09T00:00:00Z'^^xsd:dateTime
 }
 }
   WHERE {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2009-10-09T00:00:00Z'^^xsd:dateTime
 }
 }
@@ -44,17 +44,17 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 DELETE {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2009-10-10T00:00:00Z'^^xsd:dateTime
 }
 }
 INSERT {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2007-10-10T00:00:00Z'^^xsd:dateTime
 }
 }
   WHERE {
-GRAPH ?g {
+GRAPH <http://mu.semte.ch/graphs/public> {
   ?s ?p '2009-10-10T00:00:00Z'^^xsd:dateTime
 }
 }
