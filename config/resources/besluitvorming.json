@@ -1,286 +1,290 @@
 {
-    "version": "0.1",
-    "prefixes": {
-        "person": "http://www.w3.org/ns/person#",
-        "foaf": "http://xmlns.com/foaf/0.1/",
-        "persoon": "https://data.vlaanderen.be/ns/persoon#",
-        "mandaat": "http://data.vlaanderen.be/ns/mandaat#",
-        "org": "http://www.w3.org/ns/org#",
-        "prov": "http://www.w3.org/ns/prov#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "besluit": "http://data.vlaanderen.be/ns/besluit#",
-        "generiek": "https://data.vlaanderen.be/ns/generiek#"
+  "version": "0.1",
+  "prefixes": {
+    "person": "http://www.w3.org/ns/person#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "persoon": "https://data.vlaanderen.be/ns/persoon#",
+    "mandaat": "http://data.vlaanderen.be/ns/mandaat#",
+    "org": "http://www.w3.org/ns/org#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "besluit": "http://data.vlaanderen.be/ns/besluit#",
+    "generiek": "https://data.vlaanderen.be/ns/generiek#"
+  },
+  "resources": {
+    "persons": {
+      "class": "person:Person",
+      "attributes": {
+        "family-name": {
+          "type": "string",
+          "predicate": "foaf:familyName"
+        },
+        "first-name": {
+          "type": "string",
+          "predicate": "persoon:gebruikteVoornaam"
+        }
+      },
+      "relationships": {
+        "mandatees": {
+          "target": "mandatees",
+          "predicate": "mandaat:isBestuurlijkeAliasVan",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/person/"
     },
-    "resources": {
-        "persons": {
-            "class": "person:Person",
-            "attributes": {
-                "family-name": {
-                    "type": "string",
-                    "predicate": "foaf:familyName"
-                },
-                "first-name": {
-                    "type": "string",
-                    "predicate": "persoon:gebruikteVoornaam"
-                }
-            },
-            "relationships": {
-                "mandatees": {
-                    "target": "mandatees",
-                    "predicate": "mandaat:isBestuurlijkeAliasVan",
-                    "cardinality": "many",
-                    "inverse": true
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/person/"
+    "mandatees": {
+      "class": "mandaat:Mandataris",
+      "attributes": {
+        "priority": {
+          "type": "number",
+          "predicate": "mandaat:rangorde"
+        },
+        "start-date": {
+          "type": "datetime",
+          "predicate": "mandaat:start"
+        },
+        "end-date": {
+          "type": "datetime",
+          "predicate": "mandaat:einde"
+        },
+        "title": {
+          "type": "string",
+          "predicate": "dct:title"
+        }
+      },
+      "relationships": {
+        "mandate": {
+          "target": "mandates",
+          "predicate": "org:holds",
+          "cardinality": "one"
+        },
+        "person": {
+          "target": "persons",
+          "predicate": "mandaat:isBestuurlijkeAliasVan",
+          "cardinality": "one"
+        },
+        "government-body": {
+          "target": "government-bodies",
+          "predicate": "prov:hadMember",
+          "cardinality": "one",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/mandataris/"
+    },
+    "mandates": {
+      "class": "mandaat:Mandaat",
+      "relationships": {
+        "government-function": {
+          "target": "government-functions",
+          "predicate": "org:role",
+          "cardinality": "one"
+        },
+        "government-body": {
+          "target": "government-bodies",
+          "predicate": "org:hasPost",
+          "cardinality": "one",
+          "inverse": true
         },
         "mandatees": {
-            "class": "mandaat:Mandataris",
-            "attributes": {
-                "priority": {
-                    "type": "number",
-                    "predicate": "mandaat:rangorde"
-                },
-                "start-date": {
-                    "type": "datetime",
-                    "predicate": "mandaat:start"
-                },
-                "end-date": {
-                    "type": "datetime",
-                    "predicate": "mandaat:einde"
-                },
-                "title": {
-                    "type": "string",
-                    "predicate": "dct:title"
-                }
-            },
-            "relationships": {
-                "mandate": {
-                    "target": "mandates",
-                    "predicate": "org:holds",
-                    "cardinality": "one"
-                },
-                "person": {
-                    "target": "persons",
-                    "predicate": "mandaat:isBestuurlijkeAliasVan",
-                    "cardinality": "one"
-                },
-                "government-body": {
-                    "target": "government-bodies",
-                    "predicate": "prov:hadMember",
-                    "cardinality": "one",
-                    "inverse": true
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/mandataris/"
-        },
-        "mandates": {
-            "class": "mandaat:Mandaat",
-            "relationships": {
-                "government-function": {
-                    "target": "government-functions",
-                    "predicate": "org:role",
-                    "cardinality": "one"
-                },
-                "government-body": {
-                    "target": "government-bodies",
-                    "predicate": "org:hasPost",
-                    "cardinality": "one",
-                    "inverse": true
-                },
-                "mandatees": {
-                    "target": "mandatees",
-                    "predicate": "org:holds",
-                    "cardinality": "many",
-                    "inverse": true
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/mandaat/"
-        },
-        "government-functions": {
-            "class": "org:Role",
-            "attributes": {
-                "label": {
-                    "type": "string",
-                    "predicate": "skos:prefLabel"
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/bestuursfunctie/"
+          "target": "mandatees",
+          "predicate": "org:holds",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/mandaat/"
+    },
+    "government-functions": {
+      "class": "org:Role",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuursfunctie/"
+    },
+    "government-bodies": {
+      "class": "besluit:Bestuursorgaan",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "is-timespecialization-of": {
+          "target": "government-bodies",
+          "predicate": "generiek:isTijdspecialisatieVan",
+          "cardinality": "one"
         },
         "government-bodies": {
-            "class": "besluit:Bestuursorgaan",
-            "attributes": {
-                "name": {
-                    "type": "string",
-                    "predicate": "skos:prefLabel"
-                }
-            },
-            "relationships": {
-                "is-timespecialization-of": {
-                    "target": "government-bodies",
-                    "predicate": "generiek:isTijdspecialisatieVan",
-                    "cardinality": "one"
-                },
-                "government-bodies": {
-                    "target": "government-bodies",
-                    "predicate": "generiek:isTijdspecialisatieVan",
-                    "cardinality": "many",
-                    "inverse": true
-                },
-                "start-date": {
-                    "target": "versions",
-                    "predicate": "prov:qualifiedGeneration",
-                    "cardinality": "one"
-                },
-                "end-date": {
-                    "target": "versions",
-                    "predicate": "prov:qualifiedInvalidation",
-                    "cardinality": "one"
-                },
-                "mandates": {
-                    "target": "mandates",
-                    "predicate": "org:hasPost",
-                    "cardinality": "many"
-                },
-                "mandatees": {
-                    "target": "mandatees",
-                    "predicate": "prov:hadMember",
-                    "cardinality": "many"
-                },
-                "classification": {
-                    "target": "concepts",
-                    "predicate": "org:classification",
-                    "cardinality": "one"
-                },
-                "government-unit": {
-                    "target": "government-units",
-                    "predicate": "besluit:bestuurt",
-                    "cardinality": "one"
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/bestuursorgaan/"
+          "target": "government-bodies",
+          "predicate": "generiek:isTijdspecialisatieVan",
+          "cardinality": "many",
+          "inverse": true
         },
-        "government-units": {
-            "class": "besluit:Bestuurseenheid",
-            "attributes": {
-                "name": {
-                    "type": "string",
-                    "predicate": "skos:prefLabel"
-                }
-            },
-            "relationships": {
-                "government-bodies": {
-                    "target": "government-bodies",
-                    "predicate": "besluit:bestuurt",
-                    "cardinality": "many",
-                    "inverse": true
-                },
-                "classification": {
-                    "target": "concepts",
-                    "predicate": "org:classification",
-                    "cardinality": "one"
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis.vlaanderen.be/id/bestuurseenheid/"
+        "start-date": {
+          "target": "versions",
+          "predicate": "prov:qualifiedGeneration",
+          "cardinality": "one"
         },
-        "concepts": {
-            "class": "skos:Concept",
-            "attributes": {
-                "label": {
-                    "type": "string",
-                    "predicate": "skos:prefLabel"
-                },
-                "definition": {
-                    "type": "string",
-                    "predicate": "skos:definition"
-                }
-            },
-            "relationships": {
-                "in-scheme": {
-                    "target": "concept-schemes",
-                    "predicate": "skos:inScheme",
-                    "cardinality": "many"
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+        "end-date": {
+          "target": "versions",
+          "predicate": "prov:qualifiedInvalidation",
+          "cardinality": "one"
         },
-        "concept-schemes": {
-            "class": "skos:ConceptScheme",
-            "attributes": {
-                "label": {
-                    "type": "string",
-                    "predicate": "skos:prefLabel"
-                }
-            },
-            "relationships": {
-                "concepts": {
-                    "target": "concepts",
-                    "predicate": "skos:inScheme",
-                    "cardinality": "many",
-                    "inverse": true
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
+        "mandates": {
+          "target": "mandates",
+          "predicate": "org:hasPost",
+          "cardinality": "many"
         },
-        "versions": {
-            "class": "prov:Generation",
-            "attributes": {
-                "time": {
-                    "type": "datetime",
-                    "predicate": "prov:atTime"
-                }
-            },
-            "relationships": {
-                "government-body-start": {
-                    "target": "government-bodies",
-                    "predicate": "prov:qualifiedGeneration",
-                    "cardinality": "one",
-                    "inverse": true
-                },
-                "government-body-end": {
-                    "target": "government-bodies",
-                    "predicate": "prov:qualifiedInvalidation",
-                    "cardinality": "one",
-                    "inverse": true
-                }
-            },
-            "features": [
-                "include-uri"
-            ],
-            "new-resource-base": "http://themis-vlaanderen.be/id/version"
+        "mandatees": {
+          "target": "mandatees",
+          "predicate": "prov:hadMember",
+          "cardinality": "many"
         },
-        "meetings": {
-            "class": "besluit:Vergaderactiviteit",
-            "attributes": {
-                "planned-start": {
-                    "type": "datetime",
-                    "predicate": "besluit:geplandeStart"
-                }
-            }
+        "classification": {
+          "target": "concepts",
+          "predicate": "org:classification",
+          "cardinality": "one"
+        },
+        "government-unit": {
+          "target": "government-units",
+          "predicate": "besluit:bestuurt",
+          "cardinality": "one"
         }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuursorgaan/"
+    },
+    "government-units": {
+      "class": "besluit:Bestuurseenheid",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "government-bodies": {
+          "target": "government-bodies",
+          "predicate": "besluit:bestuurt",
+          "cardinality": "many",
+          "inverse": true
+        },
+        "classification": {
+          "target": "concepts",
+          "predicate": "org:classification",
+          "cardinality": "one"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/bestuurseenheid/"
+    },
+    "concepts": {
+      "class": "skos:Concept",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
+        "definition": {
+          "type": "string",
+          "predicate": "skos:definition"
+        }
+      },
+      "relationships": {
+        "in-scheme": {
+          "target": "concept-schemes",
+          "predicate": "skos:inScheme",
+          "cardinality": "many"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+    },
+    "concept-schemes": {
+      "class": "skos:ConceptScheme",
+      "attributes": {
+        "label": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        }
+      },
+      "relationships": {
+        "concepts": {
+          "target": "concepts",
+          "predicate": "skos:inScheme",
+          "cardinality": "many",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
+    },
+    "versions": {
+      "class": "prov:Generation",
+      "attributes": {
+        "time": {
+          "type": "datetime",
+          "predicate": "prov:atTime"
+        }
+      },
+      "relationships": {
+        "government-body-start": {
+          "target": "government-bodies",
+          "predicate": "prov:qualifiedGeneration",
+          "cardinality": "one",
+          "inverse": true
+        },
+        "government-body-end": {
+          "target": "government-bodies",
+          "predicate": "prov:qualifiedInvalidation",
+          "cardinality": "one",
+          "inverse": true
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/version"
+    },
+    "meetings": {
+      "class": "besluit:Vergaderactiviteit",
+      "attributes": {
+        "planned-start": {
+          "type": "datetime",
+          "predicate": "besluit:geplandeStart"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis-vlaanderen.be/id/meeting"
     }
+  }
 }
