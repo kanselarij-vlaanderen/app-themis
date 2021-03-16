@@ -272,6 +272,15 @@
                 "include-uri"
             ],
             "new-resource-base": "http://themis-vlaanderen.be/id/version"
+        },
+        "meetings": {
+            "class": "besluit:Vergaderactiviteit",
+            "attributes": {
+                "planned-start": {
+                    "type": "datetime",
+                    "predicate": "besluit:geplandeStart"
+                }
+            }
         }
     }
 }
