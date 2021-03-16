@@ -1,0 +1,5 @@
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1> <http://www.w3.org/2004/02/skos/core#definition> "Gecontroleerde lijsten van concepten gegroepeerd in concept schemes (vb. type documenten, thema's, ...)" .
+  }
+}
