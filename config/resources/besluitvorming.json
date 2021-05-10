@@ -230,7 +230,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/concept/"
     },
     "concept-schemes": {
       "class": "skos:ConceptScheme",
@@ -251,7 +251,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/concept-scheme/"
     },
     "versions": {
       "class": "prov:Generation",
@@ -278,7 +278,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/version"
+      "new-resource-base": "http://themis.vlaanderen.be/id/version"
     },
     "meetings": {
       "class": "besluit:Vergaderactiviteit",
@@ -291,7 +291,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/meeting"
+      "new-resource-base": "http://themis.vlaanderen.be/id/meeting"
     },
     "news-items": {
       "class": "dossier:Stuk",
@@ -315,7 +315,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/news-item"
+      "new-resource-base": "http://themis.vlaanderen.be/id/news-item"
     }
   }
 }
