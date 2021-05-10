@@ -91,6 +91,10 @@ defmodule Dispatcher do
     forward conn, path, "http://cache/meetings/"
   end
 
+  get "/news-items/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/news-items/"
+  end
+
   ###############
   # API SERVICES
   ###############

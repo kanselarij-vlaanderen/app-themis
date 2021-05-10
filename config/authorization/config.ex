@@ -33,7 +33,8 @@ defmodule Acl.UserGroups.Config do
               "http://data.vlaanderen.be/ns/besluit#Bestuursorgaan",
               "http://data.vlaanderen.be/ns/besluit#Bestuurseenheid",
               "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
-              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject"
+              "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
+              "https://data.vlaanderen.be/ns/dossier#Stuk"
             ] } } ]
       },
 

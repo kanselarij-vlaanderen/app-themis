@@ -9,7 +9,8 @@
     "prov": "http://www.w3.org/ns/prov#",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "besluit": "http://data.vlaanderen.be/ns/besluit#",
-    "generiek": "https://data.vlaanderen.be/ns/generiek#"
+    "generiek": "https://data.vlaanderen.be/ns/generiek#",
+    "dossier": "https://data.vlaanderen.be/ns/dossier#"
   },
   "resources": {
     "persons": {
@@ -72,6 +73,12 @@
           "target": "government-bodies",
           "predicate": "prov:hadMember",
           "cardinality": "one",
+          "inverse": true
+        },
+        "news-items": {
+          "target": "news-items",
+          "predicate": "prov:qualifiedAssociation",
+          "cardinality": "many",
           "inverse": true
         }
       },
@@ -223,7 +230,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/concept/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/concept/"
     },
     "concept-schemes": {
       "class": "skos:ConceptScheme",
@@ -244,7 +251,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/concept-scheme/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/concept-scheme/"
     },
     "versions": {
       "class": "prov:Generation",
@@ -271,7 +278,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/version"
+      "new-resource-base": "http://themis.vlaanderen.be/id/version"
     },
     "meetings": {
       "class": "besluit:Vergaderactiviteit",
@@ -284,7 +291,31 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis-vlaanderen.be/id/meeting"
+      "new-resource-base": "http://themis.vlaanderen.be/id/meeting"
+    },
+    "news-items": {
+      "class": "dossier:Stuk",
+      "attributes": {
+        "short-title": {
+          "type": "string",
+          "predicate": "dct:title"
+        },
+        "date": {
+          "type": "datetime",
+          "predicate": "dct:issued"
+        }
+      },
+      "relationships": {
+        "mandatees": {
+          "target": "mandatees",
+          "predicate": "prov:qualifiedAssociation",
+          "cardinality": "many"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/news-item"
     }
   }
 }
