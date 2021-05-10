@@ -278,7 +278,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis.vlaanderen.be/id/version"
+      "new-resource-base": "http://themis.vlaanderen.be/id/versie/"
     },
     "meetings": {
       "class": "besluit:Vergaderactiviteit",
@@ -291,7 +291,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis.vlaanderen.be/id/meeting"
+      "new-resource-base": "http://themis.vlaanderen.be/id/vergaderactiviteit/"
     },
     "news-items": {
       "class": "dossier:Stuk",
@@ -315,7 +315,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis.vlaanderen.be/id/news-item"
+      "new-resource-base": "http://themis.vlaanderen.be/id/nieuwsbericht/"
     }
   }
 }
