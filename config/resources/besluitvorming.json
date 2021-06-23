@@ -166,15 +166,15 @@
           "predicate": "prov:hadMember",
           "cardinality": "many"
         },
-        "classification": {
+        "classifications": {
           "target": "concepts",
           "predicate": "org:classification",
-          "cardinality": "one"
+          "cardinality": "many"
         },
-        "government-unit": {
+        "government-units": {
           "target": "government-units",
           "predicate": "besluit:bestuurt",
-          "cardinality": "one"
+          "cardinality": "many"
         }
       },
       "features": [
