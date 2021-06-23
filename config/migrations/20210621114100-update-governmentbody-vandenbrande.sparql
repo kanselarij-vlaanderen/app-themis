@@ -1,0 +1,262 @@
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX generiek: <https://data.vlaanderen.be/ns/generiek#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX  besluit: <http://data.vlaanderen.be/ns/besluit#>
+
+# rename VDBII to VDBIV
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> <http://www.w3.org/2004/02/skos/core#prefLabel> ?o
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> <http://www.w3.org/2004/02/skos/core#prefLabel> 'Van den Brande IV'
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> <http://www.w3.org/2004/02/skos/core#prefLabel> ?o
+  }
+}
+
+# update end time VDBI
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e8> prov:atTime ?o
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e8>
+    prov:atTime "1992-01-29T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e8> prov:atTime ?o
+  }
+}
+
+
+# link mandatees of VDBI and VDBII to new 'Vlaamse Gemeenschap' mandates
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049d>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/60d0dc2ab1838d01fca7db6a>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris a mandaat:Mandataris ;
+      org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049d> ;
+      mandaat:start ?start .
+    VALUES ?start
+    {
+      "1992-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+      "1992-01-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+    }
+  }
+}
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049b>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/60d0dc2ab1838d01fca7db68>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris a mandaat:Mandataris ;
+      org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049b> ;
+      mandaat:start ?start .
+    VALUES ?start
+    {
+      "1992-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+      "1992-01-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+    }
+  }
+}
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049c>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris org:holds <http://themis.vlaanderen.be/id/mandaat/60d0dc2ab1838d01fca7db69>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandataris a mandaat:Mandataris ;
+      org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ce6670526694a049c> ;
+      mandaat:start ?start  .
+     VALUES ?start
+    {
+      "1992-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+      "1992-01-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+    }
+  }
+}
+
+# update mandates of everything before VDBI to new 'Vlaamse Gemeenschap' mandates
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db67>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate a mandaat:Mandaat ;
+      org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0> .
+    ?bestuursorgaan a besluit:Bestuursorgaan ;
+      org:hasPost ?mandate ;
+      generiek:isTijdspecialisatieVan <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> ;
+      prov:qualifiedGeneration ?creatie .
+    ?creatie prov:atTime ?start .
+    FILTER ( ?start < xsd:dateTime("1992-01-21T00:00:00Z"))
+  }
+}
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db66>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate a mandaat:Mandaat ;
+      org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df> .
+    ?bestuursorgaan a besluit:Bestuursorgaan ;
+      org:hasPost ?mandate ;
+      generiek:isTijdspecialisatieVan <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> ;
+      prov:qualifiedGeneration ?creatie .
+    ?creatie prov:atTime ?start .
+    FILTER ( ?start < xsd:dateTime("1992-01-21T00:00:00Z"))
+  }
+}
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de>
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate org:role <http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db65>
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandate a mandaat:Mandaat ;
+      org:role <http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de> .
+    ?bestuursorgaan a besluit:Bestuursorgaan ;
+      org:hasPost ?mandate ;
+      generiek:isTijdspecialisatieVan <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> ;
+      prov:qualifiedGeneration ?creatie .
+    ?creatie prov:atTime ?start .
+    FILTER ( ?start < xsd:dateTime("1992-01-21T00:00:00Z"))
+  }
+}
+
+# link mandatees VDBII from VDBI to VDBII
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> prov:hadMember ?mandataris
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d> prov:hadMember ?mandataris
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> prov:hadMember ?mandataris .
+    ?mandataris  mandaat:start ?start  .
+    FILTER ( ?start >= xsd:dateTime("1992-01-30T00:00:00Z"))
+    FILTER ( ?start <= xsd:dateTime("1992-10-19T00:00:00Z"))
+  }
+}
+
+# link mandatees VDBIII from VDBI to VDBIII
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> prov:hadMember ?mandataris
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70> prov:hadMember ?mandataris
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> prov:hadMember ?mandataris .
+    ?mandataris  mandaat:start ?start  .
+    FILTER ( ?start >= xsd:dateTime("1992-10-20T00:00:00Z"))
+    FILTER ( ?start <= xsd:dateTime("1995-06-19T00:00:00Z"))
+  }
+}
+
+
+
+
+
+# replace label for Bestuursorgaan level 2 'Regering' with 'Executieve'
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?bestuursorgaan skos:prefLabel ?label
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?bestuursorgaan skos:prefLabel ?newLabel
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?bestuursorgaan a besluit:Bestuursorgaan ;
+      skos:prefLabel ?label;
+      generiek:isTijdspecialisatieVan <http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025> ;
+      prov:qualifiedGeneration ?creatie .
+    ?creatie prov:atTime ?start .
+    FILTER ( ?start < xsd:dateTime("1992-01-31T00:00:00Z"))
+    BIND(REPLACE(?label, "Regering", "Executieve") AS ?newLabel)
+  }
+}
+
+
+
+
+
+
+
+
+
