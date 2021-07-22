@@ -7691,3 +7691,7 @@ ns33:bd63fe69-25df-4b36-a4f0-c7b87157a89b	rdf:type	ns22:Mandataris ;
 <http://themis.vlaanderen.be/id/mandaat/60d0dc2ab1838d01fca7db6a>	rdf:type	ns22:Mandaat ;
 	ns3:uuid	"60d0dc2ab1838d01fca7db6a" ;
 	ns16:role	<http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db67> .
+
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0658> <http://www.w3.org/ns/prov#hadMember> <http://themis.vlaanderen.be/id/mandataris/10a45f51-a511-4caa-8273-d1eb2c1ee27c> .
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0658> <http://www.w3.org/ns/prov#hadMember> <http://themis.vlaanderen.be/id/mandataris/bd63fe69-25df-4b36-a4f0-c7b87157a89b> .
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0658> <http://www.w3.org/ns/prov#hadMember> <http://themis.vlaanderen.be/id/mandataris/32ca24e2-e216-43e0-b0af-e377137c0775> .
