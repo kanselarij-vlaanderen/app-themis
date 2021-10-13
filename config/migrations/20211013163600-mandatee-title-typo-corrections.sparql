@@ -1,0 +1,768 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+
+##Geens 1
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> dct:title "Gemeenschapsminister van Financiën" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> dct:title ?title .
+  }
+}
+;
+
+
+##Geens 2
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> dct:title "Gemeenschapsminister van Onderwijs en Vorming" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> dct:title "Gemeenschapsminister van Onderwijs en Vorming" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> dct:title ?title .
+  }
+}
+;
+
+##Geens 4
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> dct:title ?title .
+  }
+}
+;
+
+
+##Van den Brande 1 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> dct:title "Gemeenschapsminister van Economie, KMO, Energie en Externe Betrekkingen" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> dct:title ?title .
+  }
+}
+;
+
+
+##Van den Brande I.2 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> dct:title "Gemeenschapsminister van Tewerkstelling en Sociale Aangelegenheden" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> dct:title ?title .
+  }
+}
+;
+
+##Van den Brande II.1 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> dct:title ?title .
+  }
+}
+;
+
+
+##Van den Brande II.2 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> dct:title ?title .
+  }
+}
+;
+
+##Van den Brande II.2b 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> dct:title ?title .
+  }
+}
+;
+
+
+
+##Van den Brande II.3 
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> dct:title ?title .
+  }
+}
+;
+
+
+##Dewael I.3
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> dct:title "Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> dct:title ?title .
+  }
+}
+;
+
+##Dewael I.4
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> dct:title "Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Huisvesting en Ambtenarenzaken" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> dct:title ?title .
+  }
+}
+;
+
+
+##Dewael I.6 (van 1/8/2001 tot 2/7/2002)
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Ambtenarenzaken en Buitenlands Beleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> dct:title "Vlaams minister van Financiën en Begroting, Innovatie, Media en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> dct:title "Minister" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> dct:title ?title .
+  }
+}
+;
+
+##Dewael I.7
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> dct:title ?title .
+  }
+}
+;
+
+##Dewael I.9
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> dct:title ?title .
+  }
+}
+;
+
+## Leterme 22/07/2004
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> dct:title "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> dct:title ?title .
+  }
+}
+;
+## Peeters I  28/06/2007
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title "Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title ?title .
+  }
+}
+;
+
+## Peeters I.2  10/10/2007
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title "Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title ?title .
+  }
+}
+;
+
+
+
+## Peeters I.3  en verder voor Van Mechelen
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> dct:title ?title .
+  }
+}
+;
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> dct:title ?title .
+  }
+}
+;
+## Bourgeois  en verder voor Gatz
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> dct:title ?title .
+  }
+}
+;
+
+## Homans (naast ook de voorgaande voor Gatz)
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> dct:title "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> dct:title ?title .
+  }
+}
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> dct:title "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> dct:title ?title .
+  }
+}
+;
