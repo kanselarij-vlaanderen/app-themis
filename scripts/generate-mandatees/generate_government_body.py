@@ -12,23 +12,26 @@ from mu_sparql_helpers.helpers import generate_uuid
 GRAPH = "http://mu.semte.ch/graphs/public"
 INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
 
+################################################################################
+### Regeringsamenstelling afsluiten
+################################################################################
 
-CLOSE_GOV_BODY_IN_TIME_QUESTIONS = [
+END_REGERINGSSAMENSTELLING_QUESTIONS = [
     {
         'type': 'input',
         'name': 'gov_body_uri',
-        'message': "What's the gov body in time uri?",
+        'message': "Wat is de URI van de af te sluiten regeringssamenstelling?",
     },
     {
         'type': 'input',
         'name': 'end_date',
-        'message': "What's the government body end date?",
+        'message': "Wat is de einddatum?",
         'validate': DateValidator,
         'filter': datetime.date.fromisoformat
     },
 ]
 
-def generate_close_gov_body_in_time(gov_body_uri, end_date):
+def generate_end_regeringssamenstelling_query(gov_body_uri, end_date):
     end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)
     invalidation_uuid = generate_uuid()
     invalidation_uri = INVALIDATION_BASE_URI + invalidation_uuid
@@ -84,9 +87,9 @@ WHERE {
         end_datetime=sparql_escape_datetime(end_datetime)
     )
 
-def ask_about_close_gov_body_in_time():
-    answers = prompt(CLOSE_GOV_BODY_IN_TIME_QUESTIONS)
-    query = generate_close_gov_body_in_time(
+def ask_about_end_regeringssamenstelling():
+    answers = prompt(END_REGERINGSSAMENSTELLING_QUESTIONS)
+    query = generate_end_regeringssamenstelling_query(
         answers["gov_body_uri"],
         answers["end_date"])
     return query
