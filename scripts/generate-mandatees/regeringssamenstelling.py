@@ -10,7 +10,9 @@ from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
 
 GRAPH = "http://mu.semte.ch/graphs/public"
+REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
 INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
+GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
 
 ################################################################################
 ### Regeringsamenstelling afsluiten
@@ -92,4 +94,87 @@ def ask_about_end_regeringssamenstelling():
     query = generate_end_regeringssamenstelling_query(
         answers["gov_body_uri"],
         answers["end_date"])
+    return query
+
+################################################################################
+### Regeringsamenstelling starten
+################################################################################
+
+START_REGERINGSSAMENSTELLING_QUESTIONS = [
+    {
+        'type': 'input',
+        'name': 'legislatuur_uri',
+        'message': "Wat is de URI van de gerelateerde legislatuur?",
+    },
+    {
+        'type': 'input',
+        'name': 'label',
+        'message': "Wat is de naam van deze regeringssamenstelling? (bv. 'Peeters II')",
+    },
+    {
+        'type': 'input',
+        'name': 'start_date',
+        'message': "Wat is de startdatum?",
+        'validate': DateValidator,
+        'filter': datetime.date.fromisoformat
+    },
+]
+
+def generate_start_regeringssamenstelling_query(legislatuur_uri, label, start_date):
+    start_datetime = datetime.datetime(start_date.year,
+        start_date.month,
+        start_date.day,
+        tzinfo=datetime.timezone.utc)
+
+    samenstelling_uuid = generate_uuid()
+    samenstelling_uri = REGERINGSSAMENSTELLING_BASE_URI + samenstelling_uuid
+
+    generation_uuid = generate_uuid()
+    generation_uri = GENERATION_BASE_URI + generation_uuid
+
+    query_template = Template("""
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX generiek: <https://data.vlaanderen.be/ns/generiek#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+INSERT {
+    GRAPH $graph {
+        $samenstelling a besluit:Bestuursorgaan ;
+            mu:uuid $samenstelling_uuid ;
+            skos:prefLabel $label ;
+            generiek:isTijdspecialisatieVan $legislatuur ;
+            prov:qualifiedGeneration $generation .
+        $generation a prov:Generation ;
+            mu:uuid $generation_uuid ;
+            prov:atTime $start_datetime .
+    }
+}
+WHERE {
+    GRAPH $graph {
+        $legislatuur a besluit:Bestuursorgaan .
+    }
+}
+
+""")
+    return query_template.substitute(
+        graph=sparql_escape_uri(GRAPH),
+        samenstelling=sparql_escape_uri(samenstelling_uri),
+        samenstelling_uuid=sparql_escape_string(samenstelling_uuid),
+        label=sparql_escape_string(label),
+        legislatuur=sparql_escape_uri(legislatuur_uri),
+        generation=sparql_escape_uri(generation_uri),
+        generation_uuid=sparql_escape_string(generation_uuid),
+        start_datetime=sparql_escape_datetime(start_datetime)
+    )
+
+def ask_about_start_regeringssamenstelling():
+    answers = prompt(START_REGERINGSSAMENSTELLING_QUESTIONS)
+    query = generate_start_regeringssamenstelling_query(
+        answers["legislatuur_uri"],
+        answers["label"],
+        answers["start_date"])
     return query
