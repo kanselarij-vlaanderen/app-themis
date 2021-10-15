@@ -8,7 +8,7 @@ from validation import DateValidator, NumberValidator
 import datetime
 from generate_mandatees import ask_about_mandatee
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, ask_about_start_regeringssamenstelling
-from legislatuur import ask_about_end_legislatuur
+from legislatuur import ask_about_end_legislatuur, ask_about_start_legislatuur
 
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
@@ -61,10 +61,20 @@ elif flow_type == "Een legislatuur afsluiten":
 elif flow_type == "Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten":
     query_string = ask_about_start_regeringssamenstelling()
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    filename = MIGRATIONS_FOLDER + "{}-start-legislatuur.sparql".format(timestamp)
+    filename = MIGRATIONS_FOLDER + "{}-start-samenstelling.sparql".format(timestamp)
     with open(filename, "w") as f:
         f.write(query_string)
     print("Het starten van een regeringssamenstelling houdt normaal gezien ook het aanmaken van nieuwe mandataris-entiteiten in." + \
     " Start zo nodig het script opnieuw om mandatarissen aan te maken.")
+elif flow_type == "Een nieuwe legislatuur starten":
+    query_string = ask_about_start_legislatuur()
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    filename = MIGRATIONS_FOLDER + "{}-start-legislatuur.sparql".format(timestamp)
+    with open(filename, "w") as f:
+        f.write(query_string)
+    print("Een migratie voor het aanmaken van een nieuwe legislatuur werd gegenereerd. " + \
+    "Ook de mandaten voor een nieuwe legislatuur werden toegevoegd.")
+    print("Het starten van een legislatuur houdt normaal gezien ook het aanmaken van een nieuwe regeringssamenstelling in." + \
+    " Start zo nodig het script opnieuw om een regeringssamenstelling aan te maken.")
 else:
     pass
