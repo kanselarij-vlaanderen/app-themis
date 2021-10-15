@@ -7,7 +7,8 @@ from prompt_toolkit.validation import Validator, ValidationError
 from validation import DateValidator, NumberValidator
 import datetime
 from generate_mandatees import ask_about_mandatee
-from generate_government_body import ask_about_end_regeringssamenstelling, ask_about_end_legislatuur
+from regeringssamenstelling import ask_about_end_regeringssamenstelling
+from legislatuur import ask_about_end_legislatuur
 
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
