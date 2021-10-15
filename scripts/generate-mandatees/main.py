@@ -16,41 +16,40 @@ THEMIS_GOV_DATASET_MODEL_DOC = "https://themis-test.vlaanderen.be/docs/catalogs"
 THEMIS_GOV_DATASET_MODEL_DOC_SRC = "https://github.com/kanselarij-vlaanderen/frontend-themis/blob/8b288d6af5f67f2ade1ed69f4eeb630d40929105/app/templates/docs/catalogs.hbs#L255"
 
 
+END_SAMENSTELLING = 'Een regeringssamenstelling afsluiten'
+END_LEGISLATUUR = 'Een legislatuur afsluiten'
+START_SAMENSTELLING = 'Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten'
+START_LEGISLATUUR = 'Een nieuwe legislatuur starten'
+GEN_MANDATEES = 'Mandatarissen voor een regeringssamenstelling aanmaken'
+
 questions = [
     {
         'type': 'list',
         'name': 'flowType',
         'message': 'Wat wil u doen?',
         'choices': [
-            {
-                'name': 'Een regeringssamenstelling afsluiten',
-            },
-            {
-                'name': 'Een legislatuur afsluiten',
-            },
-            {
-                'name': 'Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten',
-            },
-            {
-                'name': 'Een nieuwe legislatuur starten',
-            }
+            END_SAMENSTELLING,
+            END_LEGISLATUUR,
+            START_SAMENSTELLING,
+            START_LEGISLATUUR,
+            GEN_MANDATEES
         ]
     }
 ]
 
 print("\n\nWelkom. Om onderstaande vragen goed te kunnen interpreteren," + \
-    " \ is het belangrijk om de terminologie omtrent regeringen en mandaten te begrijpen." + \
-    " \nRaadpleeg bij twijfel {} (sources op {})\n".format(THEMIS_GOV_DATASET_MODEL_DOC, THEMIS_GOV_DATASET_MODEL_DOC_SRC))
+    "is het belangrijk om de terminologie omtrent regeringen en mandaten te begrijpen. \n" + \
+    "Raadpleeg bij twijfel {} (sources op {})\n".format(THEMIS_GOV_DATASET_MODEL_DOC, THEMIS_GOV_DATASET_MODEL_DOC_SRC))
 answers = prompt(questions)
 flow_type = answers["flowType"]
 
-if flow_type == "Een regeringssamenstelling afsluiten":
+if flow_type == END_SAMENSTELLING:
     query_string = ask_about_end_regeringssamenstelling()
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename = MIGRATIONS_FOLDER + "{}-end_regeringssamenstelling.sparql".format(timestamp)
     with open(filename, "w") as f:
         f.write(query_string)
-elif flow_type == "Een legislatuur afsluiten":
+elif flow_type == END_LEGISLATUUR:
     query_string = ask_about_end_legislatuur()
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename = MIGRATIONS_FOLDER + "{}-end-legislatuur.sparql".format(timestamp)
@@ -58,7 +57,7 @@ elif flow_type == "Een legislatuur afsluiten":
         f.write(query_string)
     print("Het beëindigen van een legislatuur houdt normaal gezien ook het beëindigen van de laatste regeringssamenstelling in." + \
     " Start zo nodig het script opnieuw om ook de laatste regeringssamenstelling af te sluiten.")
-elif flow_type == "Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten":
+elif flow_type == START_SAMENSTELLING:
     query_string = ask_about_start_regeringssamenstelling()
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename = MIGRATIONS_FOLDER + "{}-start-samenstelling.sparql".format(timestamp)
@@ -66,7 +65,7 @@ elif flow_type == "Een nieuwe regeringssamenstelling (binnen een lopende legisla
         f.write(query_string)
     print("Het starten van een regeringssamenstelling houdt normaal gezien ook het aanmaken van nieuwe mandataris-entiteiten in." + \
     " Start zo nodig het script opnieuw om mandatarissen aan te maken.")
-elif flow_type == "Een nieuwe legislatuur starten":
+elif START_LEGISLATUUR:
     query_string = ask_about_start_legislatuur()
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename = MIGRATIONS_FOLDER + "{}-start-legislatuur.sparql".format(timestamp)
