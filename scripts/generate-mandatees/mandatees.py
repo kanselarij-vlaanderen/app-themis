@@ -7,6 +7,16 @@ from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
 from namespaces import *
 
+MP = "https://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
+VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
+MINISTER = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0"
+
+BESTUURSFUNCTIES = [
+    MP,
+    VICE_MP,
+    MINISTER
+]
+
 MANDATEE_QUESTIONS = [
     {
         'type': 'input',
@@ -48,7 +58,7 @@ MANDATEE_QUESTIONS = [
 
 
 
-def generate_mandatee(title, person, start_date, end_date, rank, mandate):
+def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeringssamenstelling):
     g = Graph()
     uuid = generate_uuid()
     m = g.resource("{}id/mandatee/{}".format(THEMIS_BASE, uuid))
@@ -63,6 +73,7 @@ def generate_mandatee(title, person, start_date, end_date, rank, mandate):
     m.set(MANDAAT.rangorde, Literal(rank))
     m.set(ORG.holds, URIRef(mandate))
     m.set(MANDAAT.isBestuurlijkeAliasVan, URIRef(person))
+    g.add((URIRef(regeringssamenstelling), PROV.hadMember, m.identifier))
     return g
 
 

@@ -8,6 +8,7 @@ from validation import DateValidator, NumberValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
+from mandatees import MP, VICE_MP, MINISTER, BESTUURSFUNCTIES
 
 GRAPH = "http://mu.semte.ch/graphs/public"
 
@@ -18,15 +19,7 @@ GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
 
 VLAAMSE_REGERING = "http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025"
 
-MP = "https://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
-VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
-MINISTER = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0"
 
-BESTUURSFUNCTIES = [
-    MP,
-    VICE_MP,
-    MINISTER
-]
 
 ################################################################################
 ### Legislatuur afsluiten
