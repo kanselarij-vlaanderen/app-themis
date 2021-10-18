@@ -1,0 +1,28 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> ?rsp ?rso .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> .
+    ?mandatee mandaat:rangorde ?rank .
+
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:rangorde ?newRank .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> ?rsp ?rso .
+   <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> mandaat:rangorde ?rikaRank .
+   ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0459> .
+   ?gov prov:hadMember ?mandatee .
+   ?mandatee mandaat:rangorde ?rank .
+   FILTER(?rank > ?rikaRank)
+   BIND((?rank - 1) AS ?newRank)
+  }
+}
