@@ -9,7 +9,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> dct:title "Gemeenschapsminister van Financiën" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a03fc> dct:title """Gemeenschapsminister van Financiën""" .
   }
 }
 WHERE {
@@ -29,7 +29,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> dct:title "Gemeenschapsminister van Onderwijs en Vorming" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0431> dct:title """Gemeenschapsminister van Onderwijs en Vorming""" .
   }
 }
 WHERE {
@@ -46,7 +46,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> dct:title "Gemeenschapsminister van Onderwijs en Vorming" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a043f> dct:title """Gemeenschapsminister van Onderwijs en Vorming""" .
   }
 }
 WHERE {
@@ -65,7 +65,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0468> dct:title """Gemeenschapsminister van Economie, Middenstand en Energie""" .
   }
 }
 WHERE {
@@ -82,7 +82,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a047c> dct:title """Gemeenschapsminister van Economie, Middenstand en Energie""" .
   }
 }
 WHERE {
@@ -99,7 +99,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> dct:title "Gemeenschapsminister van Economie, Middenstand en Energie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a0489> dct:title """Gemeenschapsminister van Economie, Middenstand en Energie""" .
   }
 }
 WHERE {
@@ -119,7 +119,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> dct:title "Gemeenschapsminister van Economie, KMO, Energie en Externe Betrekkingen" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> dct:title """Gemeenschapsminister van Economie, KMO, Energie en Externe Betrekkingen""" .
   }
 }
 WHERE {
@@ -139,7 +139,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> dct:title "Gemeenschapsminister van Tewerkstelling en Sociale Aangelegenheden" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> dct:title """Gemeenschapsminister van Tewerkstelling en Sociale Aangelegenheden""" .
   }
 }
 WHERE {
@@ -158,7 +158,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0505> dct:title """Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid""" .
   }
 }
 WHERE {
@@ -175,7 +175,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a04f0> dct:title """Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie""" .
   }
 }
 WHERE {
@@ -195,7 +195,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0512> dct:title """Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid""" .
   }
 }
 WHERE {
@@ -212,7 +212,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0507> dct:title """Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie""" .
   }
 }
 WHERE {
@@ -231,7 +231,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051d> dct:title """Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid""" .
   }
 }
 WHERE {
@@ -248,7 +248,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0513> dct:title """Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie""" .
   }
 }
 WHERE {
@@ -269,7 +269,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> dct:title "Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0529> dct:title """Vlaams minister van Brusselse Aangelegenheden en Gelijkekansenbeleid""" .
   }
 }
 WHERE {
@@ -286,7 +286,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> dct:title "Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a051e> dct:title """Vlaams minister van Buitenlands Beleid, Europese Aangelegenheden, Wetenschap en Technologie""" .
   }
 }
 WHERE {
@@ -306,7 +306,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> dct:title "Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> dct:title """Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking""" .
   }
 }
 WHERE {
@@ -325,7 +325,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> dct:title "Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0566> dct:title """Vlaams minister van Cultuur, Jeugd, Brusselse Aangelegenheden en Ontwikkelingssamenwerking""" .
   }
 }
 WHERE {
@@ -342,7 +342,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Huisvesting en Ambtenarenzaken" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056c> dct:title """Vlaams minister van Binnenlandse Aangelegenheden, Huisvesting en Ambtenarenzaken""" .
   }
 }
 WHERE {
@@ -362,7 +362,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Ambtenarenzaken en Buitenlands Beleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0578> dct:title """Vlaams minister van Binnenlandse Aangelegenheden, Ambtenarenzaken en Buitenlands Beleid""" .
   }
 }
 WHERE {
@@ -379,7 +379,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> dct:title "Vlaams minister van Financiën en Begroting, Innovatie, Media en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0577> dct:title """Vlaams minister van Financiën en Begroting, Innovatie, Media en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -396,7 +396,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> dct:title "Minister" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> dct:title """Minister""" .
   }
 }
 WHERE {
@@ -415,7 +415,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0585> dct:title """Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken""" .
   }
 }
 WHERE {
@@ -434,7 +434,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> dct:title "Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0591> dct:title """Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken""" .
   }
 }
 WHERE {
@@ -451,7 +451,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> dct:title "Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> dct:title """Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden""" .
   }
 }
 WHERE {
@@ -470,7 +470,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> dct:title "Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05f3> dct:title """Vlaams minister van Economie, Ondernemen, Wetenschap, Innovatie en Buitenlandse Handel""" .
   }
 }
 WHERE {
@@ -487,7 +487,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a05fb> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -506,7 +506,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -523,7 +523,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title "Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title """Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid""" .
   }
 }
 WHERE {
@@ -543,7 +543,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0614> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -560,7 +560,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title "Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a060d> dct:title """Vlaams minister van Institutionele Hervormingen, Havens, Landbouw, Zeevisserij en Plattelandsbeleid""" .
   }
 }
 WHERE {
@@ -582,7 +582,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a062d> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -600,7 +600,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0639> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -617,7 +617,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> dct:title "Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0644> dct:title """Vlaams minister van Financiën en Begroting en Ruimtelijke Ordening""" .
   }
 }
 WHERE {
@@ -635,7 +635,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a069f> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -652,7 +652,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ab> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -669,7 +669,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06b9> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -686,7 +686,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06be> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -703,7 +703,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ca> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -720,7 +720,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -737,7 +737,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> dct:title "Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e8> dct:title """Vlaams minister van Cultuur, Media, Jeugd en Brussel""" .
   }
 }
 WHERE {
@@ -757,7 +757,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> dct:title "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06ea> dct:title """Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn""" .
   }
 }
 WHERE {
@@ -774,7 +774,7 @@ DELETE {
 }
 INSERT {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> dct:title "Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn" .
+    <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06f7> dct:title """Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Buitenlands Beleid, Onroerend Erfgoed en Dierenwelzijn""" .
   }
 }
 WHERE {
