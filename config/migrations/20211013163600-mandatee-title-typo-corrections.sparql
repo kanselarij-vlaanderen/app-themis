@@ -444,6 +444,23 @@ WHERE {
 }
 ;
 
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> dct:title ?title .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> dct:title "Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0595> dct:title ?title .
+  }
+}
+;
+
 ## Leterme 22/07/2004
 
 DELETE {
