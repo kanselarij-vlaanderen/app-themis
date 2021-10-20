@@ -1,23 +1,21 @@
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
-PREFIX dossier: <https://data.vlaanderen.be/ns/dossier#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 CONSTRUCT {
- ?s ?p ?o
+    ?s ?p ?o .
 }
 WHERE {
- ?s a ?type ;
-    ?p ?o .
-values ?type { <http://www.w3.org/ns/prov#Generation>
-  <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>
-  <http://data.vlaanderen.be/ns/mandaat#Mandataris>
-  <http://www.w3.org/2004/02/skos/core#Concept>
-  <http://www.w3.org/2004/02/skos/core#ConceptScheme>
-  <http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing>
-  <http://www.w3.org/ns/org#Role>
-  <http://www.w3.org/ns/prov#Invalidation>
-  <http://data.vlaanderen.be/ns/mandaat#Mandaat>
-  <http://www.w3.org/ns/person#Person> }
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?s a ?type ;
+            ?p ?o .
+        VALUES ?type {
+            <http://www.w3.org/ns/prov#Generation>
+            <http://www.w3.org/ns/prov#Invalidation>
+            <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>
+            <http://www.w3.org/ns/person#Person>
+            <http://data.vlaanderen.be/ns/mandaat#Mandataris>
+            <http://data.vlaanderen.be/ns/mandaat#Mandaat>
+            <http://www.w3.org/ns/org#Role>
+            <http://www.w3.org/2004/02/skos/core#Concept>
+            <http://www.w3.org/2004/02/skos/core#ConceptScheme>
+            <http://data.vlaanderen.be/ns/mandaat#RechtstreekseVerkiezing>
+        }
+    }
 }
