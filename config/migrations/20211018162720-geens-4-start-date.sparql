@@ -5,8 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 DELETE {
   GRAPH <http://mu.semte.ch/graphs/public> {
-    ?mandatee mandaat:start ?end_datetime .
-    ?generation prov:atTime ?end_datetime .
+    ?mandatee mandaat:start ?start_datetime .
+    ?generation prov:atTime ?start_datetime .
   }
 }
 INSERT {
