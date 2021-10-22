@@ -1,0 +1,34 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?regering skos:prefLabel ?label .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> skos:prefLabel "Regering Van den Brande I" .
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d> skos:prefLabel "Regering Van den Brande II (VE)" .
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70> skos:prefLabel "Regering Van den Brande II (VR)" .
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> skos:prefLabel "Regering Van den Brande III" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?regering skos:prefLabel ?label .
+    VALUES ?regering {
+      <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f>
+      <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d>
+      <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70>
+      <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef>
+    }
+  }
+}
+
+
+
+
+
+
+
+
