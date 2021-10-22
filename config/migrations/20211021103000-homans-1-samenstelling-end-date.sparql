@@ -1,0 +1,20 @@
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?invalidation prov:atTime ?end_datetime .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?invalidation prov:atTime "2019-10-01T00:00:00Z"^^xsd:dateTime .
+
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a06e3> prov:qualifiedInvalidation ?invalidation .
+    ?invalidation prov:atTime ?end_datetime .
+  }
+}
