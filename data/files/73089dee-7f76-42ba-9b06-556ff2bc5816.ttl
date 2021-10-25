@@ -5450,7 +5450,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06d3" ;
 	ns23:title	"Vlaams minister van Begroting, Financi\u00EBn en Energie" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d4>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe> ;
 	ns22:rangorde	1 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5458,7 +5458,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06d4" ;
 	ns23:title	"Vlaams minister van Buitenlands Beleid en Onroerend Erfgoed" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d5>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05fe> ;
 	ns22:rangorde	1 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5466,7 +5466,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06d5" ;
 	ns23:title	"Minister-president van de Vlaamse Regering" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d6>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> ;
 	ns22:rangorde	2 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5474,14 +5474,14 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06d6" ;
 	ns23:title	"Vlaams minister van Onderwijs" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d7>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> ;
 	ns22:rangorde	2 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
 	ns1:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0687> ;
 	ns4:uuid	"5fed907ee6670526694a06d7" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d8>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a069e> ;
 	ns22:rangorde	3 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5489,14 +5489,14 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06d8" ;
 	ns23:title	"Vlaams minister van Cultuur, Media, Jeugd en Brussel" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06d9>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a069e> ;
 	ns22:rangorde	3 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
 	ns1:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0687> ;
 	ns4:uuid	"5fed907ee6670526694a06d9" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06da>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0693> ;
 	ns22:rangorde	4 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5504,14 +5504,14 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06da" ;
 	ns23:title	"Vlaams minister van Binnenlands Bestuur, Inburgering, Wonen, Gelijke Kansen en armoedebestrijding" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06db>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0693> ;
 	ns22:rangorde	4 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
 	ns1:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0687> ;
 	ns4:uuid	"5fed907ee6670526694a06db" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06dc>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> ;
 	ns22:rangorde	5 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5519,7 +5519,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06dc" ;
 	ns23:title	"Vlaams minister van Mobiliteit, Openbare Werken, Vlaamse Rand, Toerisme en Dierenwelzijn" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06dd>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0660> ;
 	ns22:rangorde	6 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5527,7 +5527,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06dd" ;
 	ns23:title	"Vlaams minister van Welzijn, Volksgezondheid en Gezin" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06de>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a067f> ;
 	ns22:rangorde	7 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5535,7 +5535,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06de" ;
 	ns23:title	"Vlaams minister van Werk, Economie, Innovatie en Sport" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06df>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06d2> ;
 	ns22:rangorde	8 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -5543,7 +5543,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns4:uuid	"5fed907ee6670526694a06df" ;
 	ns23:title	"Vlaams minister van Begroting, Financi\u00EBn en Energie" .
 <http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a06e1>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06e0> ;
 	ns22:rangorde	9 ;
 	ns22:start	"2019-02-06T00:00:00Z"^^xsd:dateTime ;
@@ -6251,7 +6251,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns8:atTime	"2003-06-04T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"0a630d03-e849-4ea6-98e1-e041f9098174" .
 <http://themis.vlaanderen.be/id/opheffing/3e2de57a-ad83-4462-8a3f-efb5071af8f9>	rdf:type	ns8:Invalidation ;
-	ns8:atTime	"2019-07-02T00:00:00Z"^^xsd:dateTime ;
+	ns8:atTime	"2019-07-01T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"3e2de57a-ad83-4462-8a3f-efb5071af8f9" .
 <http://themis.vlaanderen.be/id/opheffing/213ac49c-d7af-4444-ad18-a75f9196d3c5>	rdf:type	ns8:Invalidation ;
 	ns8:atTime	"1988-10-22T00:00:00Z"^^xsd:dateTime ;
