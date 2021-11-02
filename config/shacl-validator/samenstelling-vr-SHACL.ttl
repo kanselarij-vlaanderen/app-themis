@@ -109,7 +109,37 @@
 		sh:class <http://data.vlaanderen.be/ns/mandaat#Mandaat> ;
 		# sh:minCount 1 ; # We don't set this on all levels
 	] ;
-	sh:closed false .
+	sh:property [
+		sh:name "qualifiedGeneration" ;
+		sh:description "qualifiedGeneration" ;
+		sh:path <http://www.w3.org/ns/prov#qualifiedGeneration> ;
+		sh:class <http://www.w3.org/ns/prov#Generation> ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+		sh:property [
+		sh:name "qualifiedInvalidation" ;
+		sh:description "qualifiedGeneration" ;
+		sh:path <http://www.w3.org/ns/prov#qualifiedInvalidation> ;
+		sh:class <http://www.w3.org/ns/prov#Invalidation> ;
+		# sh:minCount 1 ; # Not filled in for currently active
+		sh:maxCount 1 ;
+	] ;
+	sh:sparql [
+			a sh:SPARQLConstraint ;
+			sh:message "Generation date is before invalidation date." ;
+			sh:select """
+			SELECT $this (?orgaanStartDate AS ?value) 
+			{
+			    $this
+			        <http://www.w3.org/ns/prov#qualifiedGeneration> ?generation ;
+			        <http://www.w3.org/ns/prov#qualifiedInvalidation> ?invalidation .
+			    ?generation <http://www.w3.org/ns/prov#atTime> ?orgaanStartDate .
+			    ?invalidation <http://www.w3.org/ns/prov#atTime> ?orgaanEndDate .
+			    FILTER(!(?orgaanStartDate <= ?orgaanEndDate))
+			}""" ;
+	];
+  sh:closed false .
 
 <https://data.vlaanderen.be/shacl/mandatendatabank#MandaatShape>
 	a sh:NodeShape ;
