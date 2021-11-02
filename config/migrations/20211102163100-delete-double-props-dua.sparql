@@ -1,0 +1,34 @@
+PREFIX rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX org:	<http://www.w3.org/ns/org#>
+PREFIX mu:	<http://mu.semte.ch/vocabularies/core/>
+
+# These data have been inserted "on top of" an existing record due to a copy-paste mistake.
+DELETE DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/9daab663-7277-4080-85cb-d768feb5242b>
+      mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+      mandaat:rangorde	6 ;
+      mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime .
+  }
+}
+;
+
+# insert an entirely new entity with unique identifiers this time round
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/mandataris/95cfe981-9d27-4f00-8e50-28519f068e23>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0545> ;
+    	mandaat:rangorde	6 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"95cfe981-9d27-4f00-8e50-28519f068e23" ;
+    	dct:title	"Vlaams minister van Leefmilieu en Landbouw" .
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a0533> prov:hadMember <http://themis.vlaanderen.be/id/mandataris/95cfe981-9d27-4f00-8e50-28519f068e23> .
+  }
+}
