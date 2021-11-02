@@ -89,8 +89,7 @@
 	] ;
 	sh:closed false .
 
-# <https://data.vlaanderen.be/shacl/mandatendatabank#BestuursorgaanShape>
-# exists too, since these are generated from a script. Having both with the same targetClass doesn't work for SHACL though 
+	# Named "Legislatuur" and "Regeringssamenstelling" in Themis
 <https://data.vlaanderen.be/shacl/mandatendatabank#Bestuursorgaan(inbestuursperiode)Shape>
 	a sh:NodeShape ;
 	# sh:targetClass <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> ; # Specifying both sh:targetClass and sh:targetSubjectsOf doesn't work with eu-validator
@@ -163,9 +162,11 @@
 	] ;
 	sh:closed false .
 
+# Named "Bestuursorgaan" in Themis
 <https://data.vlaanderen.be/shacl/mandatendatabank#BestuursorgaanShape>
 	a sh:NodeShape ;
-	sh:targetClass <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> ;
+	# sh:targetClass <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> ;
+	sh:targetSubjectsOf <http://data.vlaanderen.be/ns/besluit#bestuurt> ;
 	sh:property [
 		sh:name "bestuurt" ;
 		sh:description "De bestuurseenheid die door het orgaan bestuurd wordt." ;
@@ -179,8 +180,8 @@
 		sh:description "Het type bestuursorgaan." ;
 		sh:path <http://www.w3.org/ns/org#classification> ;
 		sh:class <http://www.w3.org/2004/02/skos/core#Concept> ;
-		# sh:minCount 1 ; # We don't set this on all levels
-		sh:maxCount 1 ;
+		sh:minCount 1 ;
+		# sh:maxCount 1 ; # VR bestuurt gemeenschap + gewest
 	] ;
 	sh:property [
 		sh:name "naam" ;
