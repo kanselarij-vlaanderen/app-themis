@@ -9,6 +9,7 @@ WHERE {
             <http://www.w3.org/ns/prov#Generation>
             <http://www.w3.org/ns/prov#Invalidation>
             <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan>
+            # Should contain <http://data.vlaanderen.be/ns/besluit#Bestuurseenheid> too?
             <http://www.w3.org/ns/person#Person>
             <http://data.vlaanderen.be/ns/mandaat#Mandataris>
             <http://data.vlaanderen.be/ns/mandaat#Mandaat>
