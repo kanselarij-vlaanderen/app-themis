@@ -187,7 +187,7 @@
 		sh:description "Geografische gebied waarbinnen de bestuurseenheid bepaalde verantwoordelijkheden heeft waarbinnen het bestuurshandelingen kan stellen." ;
 		sh:path <http://data.vlaanderen.be/ns/besluit#werkingsgebied> ;
 		sh:class <http://www.w3.org/ns/prov#Location> ;
-		sh:minCount 1 ;
+		# sh:minCount 1 ; # We don't fill this currently
 		sh:maxCount 1 ;
 	] ;
 	sh:closed false .
