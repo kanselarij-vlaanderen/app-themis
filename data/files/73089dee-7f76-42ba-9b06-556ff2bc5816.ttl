@@ -190,9 +190,14 @@
 	ns8:qualifiedInvalidation	<http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e7> ;
 	ns4:uuid	"5fed907ce6670526694a0499" .
 <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f>	rdf:type	ns5:Bestuursorgaan ;
-	skos:prefLabel	"Van den Brande I" ;
+	skos:prefLabel	"Van den Brande I (VE)" ;
 	ns7:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a0499> ;
-	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> ,
+	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b5> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b6> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b7> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04bc> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a1> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a2> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a3> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a5> ,
@@ -200,7 +205,12 @@
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a8> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04a9> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ac> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ae> ;
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ae> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04af> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b1> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b2> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b3> ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b4> ;
 	ns8:qualifiedGeneration	<http://themis.vlaanderen.be/id/creatie/5fed907ce6670526694a049e> ;
 	ns8:qualifiedInvalidation	<http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e8> ;
 	ns4:uuid	"5fed907ce6670526694a049f" .
@@ -214,7 +224,7 @@
 	ns8:qualifiedInvalidation	<http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a052b> ;
 	ns4:uuid	"5fed907de6670526694a04e9" .
 <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef>	rdf:type	ns5:Bestuursorgaan ;
-	skos:prefLabel	"Van den Brande III" ;
+	skos:prefLabel	"Van den Brande II" ;
 	ns7:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04e9> ;
 	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0524> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0525> ,
@@ -275,7 +285,8 @@
 <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a0533>	rdf:type	ns5:Bestuursorgaan ;
 	skos:prefLabel	"Dewael I" ;
 	ns7:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a052d> ;
-	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b> ,
+	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/95cfe981-9d27-4f00-8e50-28519f068e23> ,
+		<http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b> ,
 		<http://themis.vlaanderen.be/id/mandataris/532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e> ,
 		<http://themis.vlaanderen.be/id/mandataris/7cad1801-dfd1-44a6-bdfa-5d4e8259d023> ,
 		<http://themis.vlaanderen.be/id/mandataris/57d1cd49-58bf-438b-9ca4-dd521fb02066> ,
@@ -5859,7 +5870,7 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	ns8:atTime	"1995-06-19T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"5fed907de6670526694a04e7" .
 <http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a04e8>	rdf:type	ns8:Invalidation ;
-	ns8:atTime	"1992-01-29T00:00:00Z"^^xsd:dateTime ;
+	ns8:atTime	"1992-10-19T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"5fed907de6670526694a04e8" .
 <http://themis.vlaanderen.be/id/opheffing/5fed907de6670526694a052b>	rdf:type	ns8:Invalidation ;
 	ns8:atTime	"1999-07-12T00:00:00Z"^^xsd:dateTime ;
@@ -6247,6 +6258,18 @@ ns21:ef51c9d5-8b45-4501-9dcd-3e00ccff524f	rdf:type	skos:Concept ;
 	skos:prefLabel	"Ministerraad - Plan Vlaamse Veerkracht" ;
 	ns4:uuid	"9b4701f8-a136-4009-94c6-d64fdc96b9a2" ;
 	skos:broader	<http://themis.vlaanderen.be/id/concept/vergaderactiviteit-type/30d6a064-8cca-4485-8b37-7ab2357d931d> .
+ns6:e7a239de-c48c-441c-8293-ec365eedce93	rdf:type	ns5:Bestuurseenheid ;
+	skos:prefLabel	"Vlaams Gewest" ;
+	ns1:classification	ns15:ba6abed5-a5b7-482b-9c19-18d51a4a6e6f ;
+	ns4:uuid	"e7a239de-c48c-441c-8293-ec365eedce93" .
+<http://themis.vlaanderen.be/id/mandataris/95cfe981-9d27-4f00-8e50-28519f068e23>	rdf:type	ns22:Mandataris ;
+	ns22:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0545> ;
+	ns22:rangorde	6 ;
+	ns22:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+	ns1:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+	ns4:uuid	"95cfe981-9d27-4f00-8e50-28519f068e23" ;
+	ns23:title	"Vlaams minister van Leefmilieu en Landbouw" .
 <http://themis.vlaanderen.be/id/opheffing/0a630d03-e849-4ea6-98e1-e041f9098174>	rdf:type	ns8:Invalidation ;
 	ns8:atTime	"2003-06-04T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"0a630d03-e849-4ea6-98e1-e041f9098174" .
@@ -6268,6 +6291,10 @@ ns10:dc8685f9-ec92-41ed-9ac5-f4526df96d38	rdf:type	ns8:Invalidation ;
 <http://themis.vlaanderen.be/id/concept/bestuurseenheid-classificatie/60d0dc2ab1838d01fca7db63>	rdf:type	skos:Concept ;
 	skos:prefLabel	"Gemeenschap" ;
 	ns4:uuid	"60d0dc2ab1838d01fca7db63" .
+<http://themis.vlaanderen.be/id/bestuurseenheid/60d0dc2ab1838d01fca7db64>	rdf:type	ns5:Bestuurseenheid ;
+	skos:prefLabel	"Vlaamse Gemeenschap" ;
+	ns1:classification	<http://themis.vlaanderen.be/id/concept/bestuurseenheid-classificatie/60d0dc2ab1838d01fca7db63> ;
+	ns4:uuid	"60d0dc2ab1838d01fca7db64" .
 <http://themis.vlaanderen.be/id/concept/bestuursorgaan-classificatie/18893b4f4c664ee182316cca1ecae156>	rdf:type	skos:Concept ;
 	skos:prefLabel	"Gemeenschapsregering" ;
 	ns4:uuid	"18893b4f4c664ee182316cca1ecae156" .
@@ -6288,7 +6315,7 @@ ns10:dc8685f9-ec92-41ed-9ac5-f4526df96d38	rdf:type	ns8:Invalidation ;
 	ns1:role	<http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db67> ;
 	ns4:uuid	"60d0dc2ab1838d01fca7db6a" .
 <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70>	rdf:type	ns5:Bestuursorgaan ;
-	skos:prefLabel	"Van den Brande II (VR)" ;
+	skos:prefLabel	"Van den Brande I (VR)" ;
 	ns7:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a0499> ;
 	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04be> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04bf> ,
@@ -6333,28 +6360,6 @@ ns10:dc8685f9-ec92-41ed-9ac5-f4526df96d38	rdf:type	ns8:Invalidation ;
 <http://themis.vlaanderen.be/id/creatie/60d0dc2ab1838d01fca7db6e>	rdf:type	ns8:Generation ;
 	ns8:atTime	"1992-10-20T00:00:00Z"^^xsd:dateTime ;
 	ns4:uuid	"60d0dc2ab1838d01fca7db6e" .
-<http://themis.vlaanderen.be/id/opheffing/60d0dc2ab1838d01fca7db6c>	rdf:type	ns8:Invalidation ;
-	ns8:atTime	"1992-10-19T00:00:00Z"^^xsd:dateTime ;
-	ns4:uuid	"60d0dc2ab1838d01fca7db6c" .
-<http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d>	rdf:type	ns5:Bestuursorgaan ;
-	skos:prefLabel	"Van den Brande II (VE)" ;
-	ns7:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a0499> ;
-	ns8:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b5> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b6> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b7> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04ba> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04bc> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04af> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b1> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b2> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b3> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907ce6670526694a04b4> ;
-	ns8:qualifiedGeneration	<http://themis.vlaanderen.be/id/creatie/60d0dc2ab1838d01fca7db6b> ;
-	ns8:qualifiedInvalidation	<http://themis.vlaanderen.be/id/opheffing/60d0dc2ab1838d01fca7db6c> ;
-	ns4:uuid	"60d0dc2ab1838d01fca7db6d" .
-<http://themis.vlaanderen.be/id/creatie/60d0dc2ab1838d01fca7db6b>	rdf:type	ns8:Generation ;
-	ns8:atTime	"1992-01-30T00:00:00Z"^^xsd:dateTime ;
-	ns4:uuid	"60d0dc2ab1838d01fca7db6b" .
 <http://themis.vlaanderen.be/id/bestuursfunctie/60d0dc2ab1838d01fca7db67>	rdf:type	ns1:Role ;
 	skos:inScheme	ns3:BestuursfunctieCode ;
 	skos:prefLabel	"Gemeenschapsminister" ;
@@ -6423,13 +6428,10 @@ ns9:d52fcc41-d25f-451b-be35-102f650517ab	rdf:type	ns22:Mandataris ;
 	ns4:uuid	"09684a8d-ac57-4c8b-9727-42ed9a477e55" ;
 	ns23:title	"Vlaams minister van Werkgelegenheid en Toerisme" .
 <http://themis.vlaanderen.be/id/mandataris/9daab663-7277-4080-85cb-d768feb5242b>	rdf:type	ns22:Mandataris ;
-	ns22:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ,
-		"2001-07-31T00:00:00Z"^^xsd:dateTime ;
+	ns22:einde	"2001-07-31T00:00:00Z"^^xsd:dateTime ;
 	ns22:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0545> ;
-	ns22:rangorde	6 ,
-		7 ;
-	ns22:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ,
-		"2001-05-18T00:00:00Z"^^xsd:dateTime ;
+	ns22:rangorde	7 ;
+	ns22:start	"2001-05-18T00:00:00Z"^^xsd:dateTime ;
 	ns1:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
 	ns4:uuid	"9daab663-7277-4080-85cb-d768feb5242b" ;
 	ns23:title	"Vlaams minister van Leefmilieu en Landbouw" .
