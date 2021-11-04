@@ -21,6 +21,9 @@ The "Samenstelling Vlaamse Regering"-dataset can be [validated](https://www.itb.
 
 - Run the `CONSTRUCT`-query provided in `scripts/get_minister_dataset.sparql`. Select Virtuoso's `Pretty-printed Turtle (slow!)`-option.
 - Save the result in `data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl`.
+- Update the modification date of:
+  - the dataset (uri similar to `https://themis.vlaanderen.be/id/dataset/96be5ff2-3571-475f-96ac-fdbf8d364a94`)
+  - the distribution (uri similar to `http://themis.vlaanderen.be/id/distribution/ae76dd1f-745e-4b19-9811-6c0823a523ba`)
 
 
 
