@@ -289,6 +289,7 @@
 		sh:path <http://data.vlaanderen.be/ns/mandaat#rangorde> ;
 		# sh:datatype <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> ;
 		sh:datatype <http://www.w3.org/2001/XMLSchema#integer> ;
+		sh:minCount 1 ;
 		sh:maxCount 1 ;
 	] ;
 	sh:property [
