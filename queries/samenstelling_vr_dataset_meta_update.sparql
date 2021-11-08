@@ -1,0 +1,51 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+PREFIX nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+DELETE {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?dataset dct:modified ?modDate .
+
+        ?distribution dct:modified ?modDate1 .
+        ?distribution dcat:byteSize ?byteSize1 .
+
+        ?logicalFile nfo:fileSize ?byteSize2 .
+        ?physicalFile nfo:fileSize ?byteSize3 .
+    }
+}
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?dataset dct:modified "2020-11-03T11:01:14+01:00"^^xsd:dateTime .
+
+        ?distribution dct:modified "2020-11-03T11:01:14+01:00"^^xsd:dateTime .
+        ?distribution dcat:byteSize 429669 .
+
+        ?logicalFile nfo:fileSize 429669 .
+        ?physicalFile nfo:fileSize 429669 .
+    }
+}
+WHERE {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?dataset
+            a dcat:Dataset ;
+            dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> ;
+            dct:modified ?modDate ;
+            dcat:distribution ?distribution .
+            
+        ?distribution
+            a dcat:Distribution ;
+            dct:modified ?modDate1 ;
+            dcat:byteSize ?byteSize1 ;
+            dct:subject ?logicalFile .
+            
+        ?logicalFile nfo:fileSize ?byteSize2 .
+        # ?logicalFile dct:created ?cread .
+        # OPTIONAL { ?logicalFile dct:modified ?modDate2 . }
+
+        ?physicalFile nie:dataSource ?logicalFile .
+        ?physicalFile nfo:fileSize ?byteSize3 .
+        # OPTIONAL { ?physicalFile dct:modified ?modDate3 . }
+    }
+}
