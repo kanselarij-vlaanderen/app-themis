@@ -96,7 +96,7 @@ services:
     restart: always
     logging: *default-logging
   publication-consumer:
-    image: kanselarij/themis-publication-consumer:2.0.0
+    image: kanselarij/themis-publication-consumer:2.1.0
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
