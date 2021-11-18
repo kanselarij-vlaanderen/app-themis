@@ -96,18 +96,18 @@ services:
     restart: always
     logging: *default-logging
   publication-consumer:
-    image: kanselarij/themis-publication-consumer:2.1.0
+    image: kanselarij/themis-publication-consumer:2.2.0
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
     restart: always
     logging: *default-logging
   themis-same-as:
-    image: kanselarij/themis-same-as-service:0.3.0
+    image: kanselarij/themis-same-as-service:0.4.0
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service:0.2.1
+    image: kanselarij/dcat-dataset-publication-service:0.3.1
     volumes:
       - ./data/files:/share
     restart: always
