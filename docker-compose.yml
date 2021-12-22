@@ -97,6 +97,9 @@ services:
     logging: *default-logging
   publication-consumer:
     image: kanselarij/themis-publication-consumer:2.2.0
+    environment:
+      LOG_SPARQL_ALL: "false"
+      DEBUG_AUTH_HEADERS: "false"
     volumes:
       - ./data/downloaded-publications:/tmp
       - ./data/files:/share
@@ -104,10 +107,16 @@ services:
     logging: *default-logging
   themis-same-as:
     image: kanselarij/themis-same-as-service:0.4.0
+    environment:
+      LOG_SPARQL_ALL: "false"
+      DEBUG_AUTH_HEADERS: "false"
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
     image: kanselarij/dcat-dataset-publication-service:0.3.1
+    environment:
+      LOG_SPARQL_ALL: "false"
+      DEBUG_AUTH_HEADERS: "false"
     volumes:
       - ./data/files:/share
     restart: always
