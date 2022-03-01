@@ -20,7 +20,7 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: kanselarij/frontend-themis:0.8.1
+    image: kanselarij/frontend-themis:0.9.0
     links:
       - identifier:backend
     restart: always
