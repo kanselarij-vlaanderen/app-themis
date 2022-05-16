@@ -15,6 +15,7 @@ MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 THEMIS_GOV_DATASET_MODEL_DOC = "https://themis-test.vlaanderen.be/docs/catalogs"
 THEMIS_GOV_DATASET_MODEL_DOC_SRC = "https://github.com/kanselarij-vlaanderen/frontend-themis/blob/8b288d6af5f67f2ade1ed69f4eeb630d40929105/app/templates/docs/catalogs.hbs#L255"
 
+SAMENSTELLING = "http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0706" # TODO don't hardcode
 
 END_SAMENSTELLING = 'Een regeringssamenstelling afsluiten'
 END_LEGISLATUUR = 'Een legislatuur afsluiten'
@@ -77,7 +78,7 @@ elif flow_type == START_LEGISLATUUR:
     " Start zo nodig het script opnieuw om een regeringssamenstelling aan te maken.")
 elif flow_type == GEN_MANDATEES:
     # TODO: ask for samenstelling_uri once, then loop
-    g = ask_about_mandatee()
+    g = ask_about_mandatee(regeringssamenstelling)
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(timestamp)
     g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')

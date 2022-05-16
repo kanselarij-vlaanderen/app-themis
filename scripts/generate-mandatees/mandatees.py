@@ -77,7 +77,7 @@ def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeri
     return g
 
 
-def ask_about_mandatee():
+def ask_about_mandatee(regeringssamenstelling):
     answers = prompt(MANDATEE_QUESTIONS)
     graph = generate_mandatee(
         answers["title"],
@@ -85,5 +85,6 @@ def ask_about_mandatee():
         answers["start_date"],
         answers["end_date"],
         answers["rank"],
-        answers["mandate"])
+        answers["mandate"],
+        regeringssamenstelling)
     return graph
