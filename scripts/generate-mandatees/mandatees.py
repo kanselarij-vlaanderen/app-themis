@@ -34,8 +34,8 @@ MANDATEE_QUESTIONS = [
         'type': 'input',
         'name': 'end_date',
         'message': "What's the mandatees end date?",
-        'validate': DateValidator,
-        'filter': datetime.date.fromisoformat
+        # 'validate': DateValidator,
+        'filter': lambda d: datetime.date.fromisoformat if d else None
     },
     {
         'type': 'input',
@@ -64,7 +64,8 @@ def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeri
     m = g.resource("{}id/mandatee/{}".format(THEMIS_BASE, uuid))
     m.set(RDF.type, MANDAAT.Mandataris)
     m.set(MU.uuid, Literal(uuid))
-    m.set(DCT.title, Literal(title))
+    if title:
+        m.set(DCT.title, Literal(title))
     m.set(MANDAAT.start, Literal(
         datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=datetime.timezone.utc)))
     if end_date:

@@ -7,6 +7,7 @@ from prompt_toolkit.validation import Validator, ValidationError
 from validation import DateValidator, NumberValidator
 import datetime
 from mandatees import ask_about_mandatee
+from duplicate_mandatee import duplicate_mandatees
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, ask_about_start_regeringssamenstelling
 from legislatuur import ask_about_end_legislatuur, ask_about_start_legislatuur
 
@@ -21,6 +22,7 @@ END_SAMENSTELLING = 'Een regeringssamenstelling afsluiten'
 END_LEGISLATUUR = 'Een legislatuur afsluiten'
 START_SAMENSTELLING = 'Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten'
 START_LEGISLATUUR = 'Een nieuwe legislatuur starten'
+UPDATE_MANDATEES = 'Mandatarissen binnen een bestaande regeringssamenstelling "updaten"'
 GEN_MANDATEES = 'Mandatarissen voor een regeringssamenstelling aanmaken'
 
 questions = [
@@ -33,6 +35,7 @@ questions = [
             END_LEGISLATUUR,
             START_SAMENSTELLING,
             START_LEGISLATUUR,
+            UPDATE_MANDATEES,
             GEN_MANDATEES
         ]
     }
@@ -76,6 +79,15 @@ elif flow_type == START_LEGISLATUUR:
     "Ook de mandaten voor een nieuwe legislatuur werden toegevoegd.")
     print("Het starten van een legislatuur houdt normaal gezien ook het aanmaken van een nieuwe regeringssamenstelling in." + \
     " Start zo nodig het script opnieuw om een regeringssamenstelling aan te maken.")
+elif flow_type == UPDATE_MANDATEES:
+    now = datetime.datetime.now()
+    start_date_default = datetime.datetime(now.year, now.month, now.day, tzinfo=datetime.timezone.utc)
+    # TODO: ask about samenstelling uri and end_datetime
+    g = duplicate_mandatees(SAMENSTELLING, start_date_default)
+    timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(timestamp)
+    g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')
+    # TODO: add graph file
 elif flow_type == GEN_MANDATEES:
     # TODO: ask for samenstelling_uri once, then loop
     g = ask_about_mandatee(regeringssamenstelling)
