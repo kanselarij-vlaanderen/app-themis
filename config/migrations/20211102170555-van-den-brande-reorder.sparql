@@ -1,0 +1,90 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> skos:prefLabel ?label .
+    ?invalidation prov:atTime ?end_datetime .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> skos:prefLabel "Van den Brande I (VE)" .
+    ?invalidation prov:atTime "1992-10-19T00:00:00Z"^^xsd:dateTime .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f>
+      skos:prefLabel ?label ;
+      prov:qualifiedInvalidation ?invalidation .
+    ?invalidation prov:atTime ?end_datetime .
+  }
+}
+
+;
+
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d> ?p ?o .
+    ?generation ?gp ?go .
+    ?invalidation ?ip ?io .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ce6670526694a049f> prov:hadMember ?mandatee .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db6d>
+      ?p ?o ;
+      prov:hadMember ?mandatee ;
+      prov:qualifiedGeneration ?generation ;
+      prov:qualifiedInvalidation ?invalidation .
+    ?generation ?gp ?go .
+    ?invalidation ?ip ?io .
+  }
+}
+
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70> skos:prefLabel ?label .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70> skos:prefLabel "Van den Brande I (VR)" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/60d0dc2ab1838d01fca7db70> skos:prefLabel ?label .
+
+  }
+}
+
+;
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> skos:prefLabel ?label .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> skos:prefLabel "Van den Brande II" .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907de6670526694a04ef> skos:prefLabel ?label .
+
+  }
+}
+

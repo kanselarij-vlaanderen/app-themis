@@ -1,0 +1,22 @@
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:einde ?end_datetime .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?mandatee mandaat:einde "2010-07-05T00:00:00Z"^^xsd:dateTime .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+   <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0658> prov:hadMember ?mandatee .
+   ?mandatee mandaat:start "2009-07-13T00:00:00Z"^^xsd:dateTime .
+   ?mandatee mandaat:einde ?end_datetime .
+  }
+}

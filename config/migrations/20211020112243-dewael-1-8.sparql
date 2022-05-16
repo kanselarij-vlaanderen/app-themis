@@ -1,0 +1,150 @@
+PREFIX rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX org:	<http://www.w3.org/ns/org#>
+PREFIX mu:	<http://mu.semte.ch/vocabularies/core/>
+
+DELETE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?nextMandatee mandaat:start ?nextStart .
+    ?prevMandatee mandaat:einde ?prevEnd .
+  }
+}
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?nextMandatee mandaat:start "2003-03-19T00:00:00Z"^^xsd:dateTime .
+    ?prevMandatee mandaat:einde "2003-01-30T00:00:00Z"^^xsd:dateTime .
+
+    <http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ce6670526694a0436> ;
+    	mandaat:rangorde	1 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"6c1ff914-8472-49ed-a22b-8d01d907ff8b" ;
+    	dct:title	"Minister" .
+    <http://themis.vlaanderen.be/id/mandataris/532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ce6670526694a0436> ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a052f> ;
+    	mu:uuid	"532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e" .
+    <http://themis.vlaanderen.be/id/mandataris/7cad1801-dfd1-44a6-bdfa-5d4e8259d023>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0520> ;
+    	mandaat:rangorde	2 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"7cad1801-dfd1-44a6-bdfa-5d4e8259d023" ;
+    	dct:title	"Vlaams minister van Mobiliteit, Openbare Werken en Energie" .
+    <http://themis.vlaanderen.be/id/mandataris/57d1cd49-58bf-438b-9ca4-dd521fb02066>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0520> ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0530> ;
+    	mu:uuid	"57d1cd49-58bf-438b-9ca4-dd521fb02066" .
+    <http://themis.vlaanderen.be/id/mandataris/3f4bfdbf-a8c4-4687-937d-7608b1e4270c>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0539> ;
+    	mandaat:rangorde	3 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"3f4bfdbf-a8c4-4687-937d-7608b1e4270c" ;
+    	dct:title	"Vlaams minister van Welzijn, Gezondheid, Gelijke Kansen en Ontwikkelingssamenwerking" .
+    <http://themis.vlaanderen.be/id/mandataris/60f3b4dc-ad5c-4722-9a69-baf991384412>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0540> ;
+    	mandaat:rangorde	4 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"60f3b4dc-ad5c-4722-9a69-baf991384412" ;
+    	dct:title	"Vlaams minister van Onderwijs en Vorming" .
+    <http://themis.vlaanderen.be/id/mandataris/9ce68339-a517-4501-8302-60472167a8d4>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0542> ;
+    	mandaat:rangorde	5 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"9ce68339-a517-4501-8302-60472167a8d4" ;
+    	dct:title	"Vlaams minister van Werkgelegenheid en Toerisme" .
+    <http://themis.vlaanderen.be/id/mandataris/9daab663-7277-4080-85cb-d768feb5242b>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0545> ;
+    	mandaat:rangorde	6 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"9daab663-7277-4080-85cb-d768feb5242b" ;
+    	dct:title	"Vlaams minister van Leefmilieu en Landbouw" .
+    <http://themis.vlaanderen.be/id/mandataris/345dfd2a-3c09-42bc-a3d1-99ac8c72f515>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0549> ;
+    	mandaat:rangorde	7 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"345dfd2a-3c09-42bc-a3d1-99ac8c72f515" ;
+    	dct:title	"Vlaams minister van Financi\u00EBn en Begroting, Innovatie, Media en Ruimtelijke Ordening" .
+    <http://themis.vlaanderen.be/id/mandataris/e86d0c8a-6182-4f73-b921-4a67771a18e0>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a056b> ;
+    	mandaat:rangorde	8 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"e86d0c8a-6182-4f73-b921-4a67771a18e0" ;
+    	dct:title	"Vlaams minister van Binnenlandse Aangelegenheden, Cultuur, Jeugd en Ambtenarenzaken" .
+    <http://themis.vlaanderen.be/id/mandataris/c88ce55a-a1f8-4d99-b2a8-fff46f62e4e4>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0579> ;
+    	mandaat:rangorde	9 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"c88ce55a-a1f8-4d99-b2a8-fff46f62e4e4" ;
+    	dct:title	"Vlaams minister van Economie, Buitenlands Beleid, Buitenlandse Handel en Huisvesting" .
+    <http://themis.vlaanderen.be/id/mandataris/c66e1c4b-e01f-43c5-88e4-36112ba21db5>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0587> ;
+    	mandaat:rangorde	10 ;
+    	mandaat:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
+    	mu:uuid	"c66e1c4b-e01f-43c5-88e4-36112ba21db5" ;
+    	dct:title	"Vlaams minister van Sport en Hoofdstedelijke Aangelegenheden" .
+      
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/7cad1801-dfd1-44a6-bdfa-5d4e8259d023> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/57d1cd49-58bf-438b-9ca4-dd521fb02066> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/3f4bfdbf-a8c4-4687-937d-7608b1e4270c> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/60f3b4dc-ad5c-4722-9a69-baf991384412> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/9ce68339-a517-4501-8302-60472167a8d4> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/9daab663-7277-4080-85cb-d768feb5242b> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/345dfd2a-3c09-42bc-a3d1-99ac8c72f515> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/e86d0c8a-6182-4f73-b921-4a67771a18e0> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/c88ce55a-a1f8-4d99-b2a8-fff46f62e4e4> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/c66e1c4b-e01f-43c5-88e4-36112ba21db5> .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?nextMandatee a mandaat:Mandataris;
+      mandaat:einde "2003-05-25T00:00:00Z"^^xsd:dateTime ;
+      mandaat:start ?nextStart .
+    ?prevMandatee a mandaat:Mandataris;
+      mandaat:start "2002-07-03T00:00:00Z"^^xsd:dateTime ;
+      mandaat:einde ?prevEnd .
+    ?gov prov:hadMember ?prevMandatee .
+    ?gov prov:hadMember ?nextMandatee .
+  }
+}

@@ -1,0 +1,132 @@
+PREFIX rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX org:	<http://www.w3.org/ns/org#>
+PREFIX mu:	<http://mu.semte.ch/vocabularies/core/>
+
+
+INSERT {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?prevMandatee mandaat:einde "2021-05-09T00:00:00Z"^^xsd:dateTime .
+
+    <http://themis.vlaanderen.be/id/mandataris/5deb9bb2-204a-4fbe-93ba-edeb5fa7a57b>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> ;
+    	mandaat:rangorde	1 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"5deb9bb2-204a-4fbe-93ba-edeb5fa7a57b" ;
+    	dct:title	"Vlaams minister van Buitenlandse Zaken, Cultuur, Digitalisering en Facilitair Management" .
+    <http://themis.vlaanderen.be/id/mandataris/81e6ca1b-97c1-4572-ae79-fba4ccb91e91>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0702> ;
+    	mu:uuid	"81e6ca1b-97c1-4572-ae79-fba4ccb91e91" .
+    <http://themis.vlaanderen.be/id/mandataris/dc66d32b-be05-43b8-ac18-0d91fdf8c6ec>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> ;
+    	mandaat:rangorde	2 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"dc66d32b-be05-43b8-ac18-0d91fdf8c6ec" ;
+    	dct:title	"Vlaams minister van Economie, Innovatie, Werk, Sociale economie en Landbouw" .
+    <http://themis.vlaanderen.be/id/mandataris/cabd47da-7956-4c21-83b3-539fd0f4a4de>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+    	mu:uuid	"cabd47da-7956-4c21-83b3-539fd0f4a4de" .
+    <http://themis.vlaanderen.be/id/mandataris/1e207740-3834-4e98-8431-5a2c08704516>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05b8> ;
+    	mandaat:rangorde	3 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"1e207740-3834-4e98-8431-5a2c08704516" ;
+    	dct:title	"Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" .
+    <http://themis.vlaanderen.be/id/mandataris/e2242233-4b72-4079-bb20-d196da78edbb>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05b8> ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+    	mu:uuid	"e2242233-4b72-4079-bb20-d196da78edbb" .
+    <http://themis.vlaanderen.be/id/mandataris/d437d986-09de-4b46-8fce-f6ca4389f492>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> ;
+    	mandaat:rangorde	4 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"d437d986-09de-4b46-8fce-f6ca4389f492" ;
+    	dct:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" .
+    <http://themis.vlaanderen.be/id/mandataris/a390a4fb-1be7-4128-afd0-e38da7883e5d>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+    	mu:uuid	"a390a4fb-1be7-4128-afd0-e38da7883e5d" .
+    <http://themis.vlaanderen.be/id/mandataris/5678ff3c-ef96-4d19-b5a9-b383adcc69aa>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0714> ;
+    	mandaat:rangorde	5 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"5678ff3c-ef96-4d19-b5a9-b383adcc69aa" ;
+    	dct:title	"Vlaams minister van Justitie en Handhaving, Omgeving, Energie en Toerisme" .
+    <http://themis.vlaanderen.be/id/mandataris/74cf5db5-8b6c-442e-baf4-97fbc896f986>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0718> ;
+    	mandaat:rangorde	6 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"74cf5db5-8b6c-442e-baf4-97fbc896f986" ;
+    	dct:title	"Vlaams minister van Welzijn, Volksgezondheid, Gezin en Armoedebestrijding" .
+    <http://themis.vlaanderen.be/id/mandataris/dc380cfb-3987-42bb-afc6-8e079e64ff63>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071a> ;
+    	mandaat:rangorde	7 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"dc380cfb-3987-42bb-afc6-8e079e64ff63" ;
+    	dct:title	"Vlaams minister van Financi\u00EBn en Begroting, Wonen en Onroerend Erfgoed" .
+    <http://themis.vlaanderen.be/id/mandataris/3dc729d9-94b7-41f7-8c91-cc30951d6a56>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06d2> ;
+    	mandaat:rangorde	8 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"3dc729d9-94b7-41f7-8c91-cc30951d6a56" ;
+    	dct:title	"Vlaams minister van Mobiliteit en Openbare Werken" .
+    <http://themis.vlaanderen.be/id/mandataris/d89222e1-eb8a-411f-8889-b1c1b688ab90>
+    	rdf:type	mandaat:Mandataris ;
+    	mandaat:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071d> ;
+    	mandaat:rangorde	9 ;
+    	mandaat:start	"2021-05-10T00:00:00Z"^^xsd:dateTime ;
+    	org:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+    	mu:uuid	"d89222e1-eb8a-411f-8889-b1c1b688ab90" ;
+    	dct:title	"Vlaams minister van Brussel, Jeugd en Media" .
+
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/5deb9bb2-204a-4fbe-93ba-edeb5fa7a57b> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/81e6ca1b-97c1-4572-ae79-fba4ccb91e91> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/dc66d32b-be05-43b8-ac18-0d91fdf8c6ec> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/cabd47da-7956-4c21-83b3-539fd0f4a4de> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/1e207740-3834-4e98-8431-5a2c08704516> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/e2242233-4b72-4079-bb20-d196da78edbb> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/d437d986-09de-4b46-8fce-f6ca4389f492> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/a390a4fb-1be7-4128-afd0-e38da7883e5d> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/5678ff3c-ef96-4d19-b5a9-b383adcc69aa> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/74cf5db5-8b6c-442e-baf4-97fbc896f986> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/dc380cfb-3987-42bb-afc6-8e079e64ff63> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/3dc729d9-94b7-41f7-8c91-cc30951d6a56> .
+    ?gov prov:hadMember <http://themis.vlaanderen.be/id/mandataris/d89222e1-eb8a-411f-8889-b1c1b688ab90> .
+  }
+}
+WHERE {
+  GRAPH <http://mu.semte.ch/graphs/public> {
+    ?prevMandatee a mandaat:Mandataris;
+      mandaat:start "2019-10-02T00:00:00Z"^^xsd:dateTime .
+    ?gov prov:hadMember ?prevMandatee .
+  }
+}
