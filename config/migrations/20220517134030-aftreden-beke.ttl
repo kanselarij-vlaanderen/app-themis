@@ -18,31 +18,31 @@
         <http://themis.vlaanderen.be/id/mandatee/ddcf86cf-387e-4afc-a38f-2e183ce46909>,
         <http://themis.vlaanderen.be/id/mandatee/e6652d4d-418b-4060-b309-084d6f0a60fe> .
 
-<http://themis.vlaanderen.be/id/mandataris/1e207740-3834-4e98-8431-5a2c08704516> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/1e207740-3834-4e98-8431-5a2c08704516> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/3dc729d9-94b7-41f7-8c91-cc30951d6a56> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/3dc729d9-94b7-41f7-8c91-cc30951d6a56> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/5678ff3c-ef96-4d19-b5a9-b383adcc69aa> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/5678ff3c-ef96-4d19-b5a9-b383adcc69aa> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/5deb9bb2-204a-4fbe-93ba-edeb5fa7a57b> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/5deb9bb2-204a-4fbe-93ba-edeb5fa7a57b> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/74cf5db5-8b6c-442e-baf4-97fbc896f986> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/74cf5db5-8b6c-442e-baf4-97fbc896f986> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/81e6ca1b-97c1-4572-ae79-fba4ccb91e91> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/81e6ca1b-97c1-4572-ae79-fba4ccb91e91> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/a390a4fb-1be7-4128-afd0-e38da7883e5d> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/a390a4fb-1be7-4128-afd0-e38da7883e5d> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/cabd47da-7956-4c21-83b3-539fd0f4a4de> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/cabd47da-7956-4c21-83b3-539fd0f4a4de> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/d437d986-09de-4b46-8fce-f6ca4389f492> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/d437d986-09de-4b46-8fce-f6ca4389f492> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/d89222e1-eb8a-411f-8889-b1c1b688ab90> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/d89222e1-eb8a-411f-8889-b1c1b688ab90> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/dc380cfb-3987-42bb-afc6-8e079e64ff63> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/dc380cfb-3987-42bb-afc6-8e079e64ff63> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/dc66d32b-be05-43b8-ac18-0d91fdf8c6ec> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/dc66d32b-be05-43b8-ac18-0d91fdf8c6ec> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
-<http://themis.vlaanderen.be/id/mandataris/e2242233-4b72-4079-bb20-d196da78edbb> ns1:einde "2022-05-17T00:00:00+02:00"^^xsd:dateTime .
+<http://themis.vlaanderen.be/id/mandataris/e2242233-4b72-4079-bb20-d196da78edbb> ns1:einde "2022-05-16T00:00:00+02:00"^^xsd:dateTime .
 
 <http://themis.vlaanderen.be/id/mandatee/a55415f4-a212-4ff0-b8e6-3bc1799361af> a ns1:Mandataris ;
     ns1:isBestuurlijkeAliasVan <http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> ;
