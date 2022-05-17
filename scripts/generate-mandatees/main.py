@@ -6,7 +6,7 @@ from rdflib import Graph, Namespace, Literal, URIRef
 from prompt_toolkit.validation import Validator, ValidationError
 from validation import DateValidator, NumberValidator
 import datetime
-from mandatees import ask_about_mandatee
+from mandatees import mandatee_generation_loop
 from duplicate_mandatee import duplicate_mandatees
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, ask_about_start_regeringssamenstelling
 from legislatuur import ask_about_end_legislatuur, ask_about_start_legislatuur
@@ -23,7 +23,7 @@ END_LEGISLATUUR = 'Een legislatuur afsluiten'
 START_SAMENSTELLING = 'Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten'
 START_LEGISLATUUR = 'Een nieuwe legislatuur starten'
 UPDATE_MANDATEES = 'Mandatarissen binnen een bestaande regeringssamenstelling "updaten"'
-GEN_MANDATEES = 'Mandatarissen voor een regeringssamenstelling aanmaken'
+GEN_MANDATEES = 'Mandatarissen voor een nieuwe regeringssamenstelling aanmaken'
 
 questions = [
     {
@@ -90,7 +90,7 @@ elif flow_type == UPDATE_MANDATEES:
     # TODO: add graph file
 elif flow_type == GEN_MANDATEES:
     # TODO: ask for samenstelling_uri once, then loop
-    g = ask_about_mandatee(regeringssamenstelling)
+    g = mandatee_generation_loop(SAMENSTELLING)
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(timestamp)
     g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')

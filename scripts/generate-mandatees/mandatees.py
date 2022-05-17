@@ -89,3 +89,17 @@ def ask_about_mandatee(regeringssamenstelling):
         answers["mandate"],
         regeringssamenstelling)
     return graph
+
+def mandatee_generation_loop(regeringssamenstelling):
+    g = Graph()
+    while True:
+        again = prompt([{
+            "type": "confirm",
+            "name": "confirmation",
+            "message": f"(Nog) een nieuwe mandataris aanmaken?",
+            "default": True
+        }])["confirmation"]
+        if not again:
+            break
+        g = g + ask_about_mandatee(regeringssamenstelling)
+    return g
