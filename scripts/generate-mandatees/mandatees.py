@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from __future__ import print_function, unicode_literals
 import datetime
 from uuid import uuid4 as generate_uuid
 from pytz import timezone

@@ -4,12 +4,11 @@ import datetime
 from string import Template
 from pytz import timezone
 from PyInquirer import prompt
-from rdflib import Graph, Literal, URIRef
-from validation import DateValidator, NumberValidator
+from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
-from mandatees import MP, VICE_MP, MINISTER, BESTUURSFUNCTIES
+from mandatees import BESTUURSFUNCTIES
 
 BRUSSELS_TZ = timezone('Europe/Brussels')
 

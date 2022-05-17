@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-from rdflib import Graph, Namespace, Literal, URIRef
-from prompt_toolkit.validation import Validator, ValidationError
 import datetime
-
+from prompt_toolkit.validation import Validator, ValidationError
 
 class DateValidator(Validator):
     def validate(self, document):
