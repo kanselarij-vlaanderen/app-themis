@@ -22,7 +22,7 @@ END_SAMENSTELLING = 'Een regeringssamenstelling afsluiten'
 END_LEGISLATUUR = 'Een legislatuur afsluiten'
 START_SAMENSTELLING = 'Een nieuwe regeringssamenstelling (binnen een lopende legislatuur) starten'
 START_LEGISLATUUR = 'Een nieuwe legislatuur starten'
-UPDATE_MANDATEES = 'Mandatarissen binnen een bestaande regeringssamenstelling "updaten"'
+UPDATE_MANDATEES = 'Veranderingen in mandatarissen binnen een bestaande regeringssamenstelling'
 GEN_MANDATEES = 'Mandatarissen voor een nieuwe regeringssamenstelling aanmaken'
 
 questions = [
@@ -84,6 +84,7 @@ elif flow_type == UPDATE_MANDATEES:
     start_date_default = datetime.datetime(now.year, now.month, now.day, tzinfo=datetime.timezone.utc)
     # TODO: ask about samenstelling uri and end_datetime
     g = duplicate_mandatees(SAMENSTELLING, start_date_default)
+    g = g + mandatee_generation_loop(SAMENSTELLING)
     timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(timestamp)
     g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')
@@ -97,3 +98,4 @@ elif flow_type == GEN_MANDATEES:
     # TODO: add graph file
 else:
     pass
+
