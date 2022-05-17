@@ -2,13 +2,11 @@
 from __future__ import print_function, unicode_literals
 import datetime
 from string import Template
-from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from namespaces import *
+from config import BRUSSELS_TZ
 from mandatees import MANDATEE_QUESTIONS, generate_mandatee, ask_about_mandatee
-
-BRUSSELS_TZ = timezone('Europe/Brussels')
 
 FOLDER = "/data/app/data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl"
 

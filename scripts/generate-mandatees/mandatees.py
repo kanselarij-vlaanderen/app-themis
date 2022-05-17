@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 import datetime
 from uuid import uuid4 as generate_uuid
-from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
 from namespaces import *
-
-BRUSSELS_TZ = timezone('Europe/Brussels')
 
 MP = "https://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
 VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
@@ -18,6 +15,7 @@ BESTUURSFUNCTIES = [
     VICE_MP,
     MINISTER
 ]
+from config import BRUSSELS_TZ
 
 MANDATEE_QUESTIONS = [
     {

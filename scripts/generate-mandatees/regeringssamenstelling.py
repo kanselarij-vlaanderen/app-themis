@@ -2,13 +2,11 @@
 import datetime
 from string import Template
 from PyInquirer import prompt
-from pytz import timezone
 from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
-
-BRUSSELS_TZ = timezone('Europe/Brussels')
+from config import BRUSSELS_TZ
 
 GRAPH = "http://mu.semte.ch/graphs/public"
 REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"

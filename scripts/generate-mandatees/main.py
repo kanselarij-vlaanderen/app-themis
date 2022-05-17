@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-from pytz import timezone
 from PyInquirer import prompt, print_json
 from uuid import uuid4 as generate_uuid
 from rdflib import Graph, Namespace, Literal, URIRef
 from prompt_toolkit.validation import Validator, ValidationError
 from validation import DateValidator, NumberValidator
 import datetime
+from config import BRUSSELS_TZ
 from mandatees import mandatee_generation_loop
 from duplicate_mandatee import duplicate_mandatees
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, ask_about_start_regeringssamenstelling
 from legislatuur import ask_about_end_legislatuur, ask_about_start_legislatuur
-
-BRUSSELS_TZ = timezone('Europe/Brussels')
 
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 

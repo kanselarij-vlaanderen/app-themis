@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 import datetime
 from string import Template
-from pytz import timezone
 from PyInquirer import prompt
 from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
+from config import BRUSSELS_TZ
 
-BRUSSELS_TZ = timezone('Europe/Brussels')
 GRAPH = "http://mu.semte.ch/graphs/public"
 
 OPEN_GOV_BODY_IN_TIME_QUESTIONS = [
