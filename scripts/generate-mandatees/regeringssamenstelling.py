@@ -5,9 +5,12 @@ from string import Template
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
+from pytz import timezone
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
+
+BRUSSELS_TZ = timezone('Europe/Brussels')
 
 GRAPH = "http://mu.semte.ch/graphs/public"
 REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
@@ -34,7 +37,7 @@ END_REGERINGSSAMENSTELLING_QUESTIONS = [
 ]
 
 def generate_end_regeringssamenstelling_query(gov_body_uri, end_date):
-    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)
+    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)
     invalidation_uuid = generate_uuid()
     invalidation_uri = INVALIDATION_BASE_URI + invalidation_uuid
     query_template = Template("""
@@ -124,7 +127,7 @@ def generate_start_regeringssamenstelling_query(legislatuur_uri, label, start_da
     start_datetime = datetime.datetime(start_date.year,
         start_date.month,
         start_date.day,
-        tzinfo=datetime.timezone.utc)
+        tzinfo=BRUSSELS_TZ)
 
     samenstelling_uuid = generate_uuid()
     samenstelling_uri = REGERINGSSAMENSTELLING_BASE_URI + samenstelling_uuid

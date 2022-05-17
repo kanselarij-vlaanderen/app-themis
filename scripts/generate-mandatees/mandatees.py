@@ -2,10 +2,13 @@
 from __future__ import print_function, unicode_literals
 import datetime
 from uuid import uuid4 as generate_uuid
+from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
 from namespaces import *
+
+BRUSSELS_TZ = timezone('Europe/Brussels')
 
 MP = "https://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
 VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
@@ -67,10 +70,10 @@ def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeri
     if title:
         m.set(DCT.title, Literal(title))
     m.set(MANDAAT.start, Literal(
-        datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=datetime.timezone.utc)))
+        datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=BRUSSELS_TZ)))
     if end_date:
         m.set(MANDAAT.einde, Literal(
-        datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)))
+        datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)))
     m.set(MANDAAT.rangorde, Literal(rank))
     m.set(ORG.holds, URIRef(mandate))
     m.set(MANDAAT.isBestuurlijkeAliasVan, URIRef(person))

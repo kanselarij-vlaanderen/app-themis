@@ -2,10 +2,13 @@
 from __future__ import print_function, unicode_literals
 import datetime
 from string import Template
+from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from namespaces import *
 from mandatees import MANDATEE_QUESTIONS, generate_mandatee, ask_about_mandatee
+
+BRUSSELS_TZ = timezone('Europe/Brussels')
 
 FOLDER = "/data/app/data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl"
 
@@ -65,7 +68,7 @@ def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
         new_g.add([
             URIRef(row.mandatee),
             MANDAAT.einde,
-            Literal(datetime.datetime(new_start.year, new_start.month, new_start.day, tzinfo=datetime.timezone.utc))
+            Literal(datetime.datetime(new_start.year, new_start.month, new_start.day, tzinfo=BRUSSELS_TZ))
         ]) # Assumes all mandatees get "renewed" once there is one change
         if not pick_mandatee:
             continue

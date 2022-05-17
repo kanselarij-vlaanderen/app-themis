@@ -2,6 +2,7 @@
 from __future__ import print_function, unicode_literals
 import datetime
 from string import Template
+from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
@@ -9,6 +10,7 @@ from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
 
+BRUSSELS_TZ = timezone('Europe/Brussels')
 GRAPH = "http://mu.semte.ch/graphs/public"
 
 OPEN_GOV_BODY_IN_TIME_QUESTIONS = [
@@ -43,7 +45,7 @@ CLOSE_GOV_BODY_IN_TIME_QUESTIONS = [
 ]
 
 def generate_close_gov_body_in_time(gov_body_uri, end_date):
-    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)
+    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)
     INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
     invalidation_uuid = generate_uuid()
     invalidation_uri = INVALIDATION_BASE_URI + invalidation_uuid
@@ -142,10 +144,10 @@ WHERE {
 #     m.set(MU.uuid, Literal(uuid))
 #     m.set(DCT.title, Literal(title))
 #     m.set(MANDAAT.start, Literal(
-#         datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=datetime.timezone.utc)))
+#         datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=BRUSSELS_TZ)))
 #     if end_date:
 #         m.set(MANDAAT.einde, Literal(
-#         datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)))
+#         datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)))
 #     m.set(MANDAAT.rangorde, Literal(rank))
 #     m.set(ORG.holds, URIRef(mandate))
 #     m.set(MANDAAT.isBestuurlijkeAliasVan, URIRef(person))

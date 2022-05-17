@@ -2,6 +2,7 @@
 from __future__ import print_function, unicode_literals
 import datetime
 from string import Template
+from pytz import timezone
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
@@ -9,6 +10,8 @@ from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
 from mandatees import MP, VICE_MP, MINISTER, BESTUURSFUNCTIES
+
+BRUSSELS_TZ = timezone('Europe/Brussels')
 
 GRAPH = "http://mu.semte.ch/graphs/public"
 
@@ -41,7 +44,7 @@ END_LEGISLATUUR_QUESTIONS = [
 ]
 
 def generate_end_legislatuur_query(gov_body_uri, end_date):
-    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=datetime.timezone.utc)
+    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)
     invalidation_uuid = generate_uuid()
     invalidation_uri = INVALIDATION_BASE_URI + invalidation_uuid
     query_template = Template("""
@@ -143,7 +146,7 @@ def generate_start_legislatuur_query(start_date):
     start_datetime = datetime.datetime(start_date.year,
         start_date.month,
         start_date.day,
-        tzinfo=datetime.timezone.utc)
+        tzinfo=BRUSSELS_TZ)
 
     legislatuur_uuid = generate_uuid()
     legislatuur_uri = LEGISLATUUR_BASE_URI + legislatuur_uuid
