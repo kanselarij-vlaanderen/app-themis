@@ -31,7 +31,7 @@ END_REGERINGSSAMENSTELLING_QUESTIONS = [
 ]
 
 def generate_end_regeringssamenstelling_query(gov_body_uri, end_date):
-    end_datetime = datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)
+    end_datetime = BRUSSELS_TZ.localize(datetime.datetime(end_date.year, end_date.month, end_date.day))
     invalidation_uuid = generate_uuid()
     invalidation_uri = INVALIDATION_BASE_URI + invalidation_uuid
     query_template = Template("""
@@ -118,10 +118,9 @@ START_REGERINGSSAMENSTELLING_QUESTIONS = [
 ]
 
 def generate_start_regeringssamenstelling_query(legislatuur_uri, label, start_date):
-    start_datetime = datetime.datetime(start_date.year,
+    start_datetime = BRUSSELS_TZ.localize(datetime.datetime(start_date.year,
         start_date.month,
-        start_date.day,
-        tzinfo=BRUSSELS_TZ)
+        start_date.day))
 
     samenstelling_uuid = generate_uuid()
     samenstelling_uri = REGERINGSSAMENSTELLING_BASE_URI + samenstelling_uuid

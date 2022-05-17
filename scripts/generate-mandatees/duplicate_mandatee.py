@@ -63,7 +63,7 @@ def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
         new_g.add([
             URIRef(row.mandatee),
             MANDAAT.einde,
-            Literal(datetime.datetime(new_start.year, new_start.month, new_start.day, tzinfo=BRUSSELS_TZ))
+            Literal(BRUSSELS_TZ.localize(datetime.datetime(new_start.year, new_start.month, new_start.day)))
         ]) # Assumes all mandatees get "renewed" once there is one change
         if not pick_mandatee:
             continue

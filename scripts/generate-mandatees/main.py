@@ -72,7 +72,7 @@ elif flow_type == START_LEGISLATUUR:
     print("Het starten van een legislatuur houdt normaal gezien ook het aanmaken van een nieuwe regeringssamenstelling in." + \
     " Start zo nodig het script opnieuw om een regeringssamenstelling aan te maken.")
 elif flow_type == UPDATE_MANDATEES:
-    start_date_default = datetime.datetime(now.year, now.month, now.day, tzinfo=BRUSSELS_TZ)
+    start_date_default = BRUSSELS_TZ.localize(datetime.datetime(now.year, now.month, now.day))
     # TODO: ask about samenstelling uri and end_datetime
     g = duplicate_mandatees(SAMENSTELLING, start_date_default)
     g = g + mandatee_generation_loop(SAMENSTELLING)

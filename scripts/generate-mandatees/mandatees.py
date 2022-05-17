@@ -57,10 +57,10 @@ def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeri
     if title:
         m.set(DCT.title, Literal(title))
     m.set(MANDAAT.start, Literal(
-        datetime.datetime(start_date.year, start_date.month, start_date.day, tzinfo=BRUSSELS_TZ)))
+        BRUSSELS_TZ.localize(datetime.datetime(start_date.year, start_date.month, start_date.day))))
     if end_date:
         m.set(MANDAAT.einde, Literal(
-        datetime.datetime(end_date.year, end_date.month, end_date.day, tzinfo=BRUSSELS_TZ)))
+        BRUSSELS_TZ.localize(datetime.datetime(end_date.year, end_date.month, end_date.day))))
     m.set(MANDAAT.rangorde, Literal(rank))
     m.set(ORG.holds, URIRef(mandate))
     m.set(MANDAAT.isBestuurlijkeAliasVan, URIRef(person))
