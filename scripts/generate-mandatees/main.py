@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-from PyInquirer import prompt, print_json
-from uuid import uuid4 as generate_uuid
-from rdflib import Graph, Namespace, Literal, URIRef
-from prompt_toolkit.validation import Validator, ValidationError
-from validation import DateValidator, NumberValidator
 import datetime
+from PyInquirer import prompt, print_json
+from prompt_toolkit.validation import Validator, ValidationError
 from config import BRUSSELS_TZ, MIGRATIONS_FOLDER
 from mandatees import mandatee_generation_loop
 from duplicate_mandatee import duplicate_mandatees
