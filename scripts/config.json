@@ -4,7 +4,7 @@
     {
       "documentation": {
         "command": "generate-mandatees",
-        "description": "Introduces a catch-all redirect route",
+        "description": "Generate migrations to reflect changes within government",
         "arguments": []
       },
       "environment": {
