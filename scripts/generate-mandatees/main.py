@@ -5,13 +5,11 @@ from rdflib import Graph, Namespace, Literal, URIRef
 from prompt_toolkit.validation import Validator, ValidationError
 from validation import DateValidator, NumberValidator
 import datetime
-from config import BRUSSELS_TZ
+from config import BRUSSELS_TZ, MIGRATIONS_FOLDER
 from mandatees import mandatee_generation_loop
 from duplicate_mandatee import duplicate_mandatees
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, ask_about_start_regeringssamenstelling
 from legislatuur import ask_about_end_legislatuur, ask_about_start_legislatuur
-
-MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
 THEMIS_GOV_DATASET_MODEL_DOC = "https://themis-test.vlaanderen.be/docs/catalogs"
 THEMIS_GOV_DATASET_MODEL_DOC_SRC = "https://github.com/kanselarij-vlaanderen/frontend-themis/blob/8b288d6af5f67f2ade1ed69f4eeb630d40929105/app/templates/docs/catalogs.hbs#L255"

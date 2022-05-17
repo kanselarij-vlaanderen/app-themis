@@ -6,12 +6,10 @@ from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
-from config import BRUSSELS_TZ
-
-GRAPH = "http://mu.semte.ch/graphs/public"
-REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
-INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
-GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
+from config import BRUSSELS_TZ, GRAPH, \
+    REGERINGSSAMENSTELLING_BASE_URI, \
+    INVALIDATION_BASE_URI, \
+    GENERATION_BASE_URI
 
 ################################################################################
 ### Regeringsamenstelling afsluiten

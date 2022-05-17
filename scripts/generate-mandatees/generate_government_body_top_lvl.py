@@ -6,9 +6,7 @@ from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
-from config import BRUSSELS_TZ
-
-GRAPH = "http://mu.semte.ch/graphs/public"
+from config import BRUSSELS_TZ, GRAPH
 
 OPEN_GOV_BODY_IN_TIME_QUESTIONS = [
 

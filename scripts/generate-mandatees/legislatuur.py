@@ -7,19 +7,14 @@ from validation import DateValidator
 from namespaces import *
 from mu_sparql_helpers.escape_helpers import *
 from mu_sparql_helpers.helpers import generate_uuid
-from config import BRUSSELS_TZ
-from mandatees import BESTUURSFUNCTIES
-
-GRAPH = "http://mu.semte.ch/graphs/public"
-
-LEGISLATUUR_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
-MANDAAT_BASE_URI = "http://themis.vlaanderen.be/id/mandaat/"
-INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
-GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
-
-VLAAMSE_REGERING = "http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025"
-
-
+from config import BRUSSELS_TZ,\
+    GRAPH, \
+    LEGISLATUUR_BASE_URI, \
+    MANDAAT_BASE_URI, \
+    INVALIDATION_BASE_URI, \
+    GENERATION_BASE_URI, \
+    VLAAMSE_REGERING, \
+    BESTUURSFUNCTIES
 
 ################################################################################
 ### Legislatuur afsluiten

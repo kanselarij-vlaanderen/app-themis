@@ -5,10 +5,8 @@ from string import Template
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from namespaces import *
-from config import BRUSSELS_TZ
+from config import BRUSSELS_TZ, MANDATEE_TTL_DATASET_FILE
 from mandatees import MANDATEE_QUESTIONS, generate_mandatee, ask_about_mandatee
-
-FOLDER = "/data/app/data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl"
 
 
 current_mandatees_query = Template("""
@@ -53,7 +51,7 @@ ORDER BY ?order
 
 def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
     g = Graph()
-    g.parse(FOLDER)
+    g.parse(MANDATEE_TTL_DATASET_FILE)
     qres = g.query(current_mandatees_query.substitute(samenstelling=f"<{regeringssamenstelling}>"))
     new_g = Graph()
     for row in qres:
