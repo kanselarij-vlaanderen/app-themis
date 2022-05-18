@@ -5276,8 +5276,34 @@ ns16:da98cfcb-f30f-46ef-a7a6-c8aeb7bf4af7	rdf:type	skos:Concept ;
 	ns3:uuid	"5fed907ee6670526694a0706" ;
 	skos:prefLabel	"Jambon" ;
 	ns22:qualifiedGeneration	<http://themis.vlaanderen.be/id/creatie/5fed907ee6670526694a0705> ;
-	ns23:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0700> ;
-	ns22:hadMember	<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0719> ,
+	ns23:isTijdspecialisatieVan	<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0700> .
+@prefix ns27:	<http://themis.vlaanderen.be/id/mandatee/> .
+<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0706>	ns22:hadMember	ns27:aa642a1e-7cc4-44da-9a6b-bce625761c5f ,
+		ns27:e8706d05-70b7-4b5c-ba75-f07c56cb259f ,
+		ns27:bb2e174a-374e-447d-ad0c-002204b4561f ,
+		<http://themis.vlaanderen.be/id/mandatee/43c129cc-ba12-4457-b93e-737b7370c46e> ,
+		ns27:f7fe3320-7c15-4322-b907-02571d3dfe6e ,
+		<http://themis.vlaanderen.be/id/mandatee/488d5ce1-bed5-400c-985a-734ff6e296f5> ,
+		<http://themis.vlaanderen.be/id/mandatee/6ace9621-2236-4023-b77d-f4cb8dec1565> ,
+		ns27:c665812d-820d-4f77-a559-e8c757a82302 ,
+		ns27:e92489ff-126c-4569-a15e-ae8e193be345 ,
+		ns27:d283fd40-f781-4300-a913-60658e2aec85 ,
+		<http://themis.vlaanderen.be/id/mandatee/758e0782-fa7e-4740-a5fa-032e4c0d04ca> ,
+		<http://themis.vlaanderen.be/id/mandatee/38e5e0e9-52c7-4f7d-b92b-16eee0edd193> ,
+		<http://themis.vlaanderen.be/id/mandatee/8dcdc330-348d-4f69-b10c-02f584adb9af> ,
+		ns27:ddcf86cf-387e-4afc-a38f-2e183ce46909 ,
+		<http://themis.vlaanderen.be/id/mandatee/145bafde-10ea-4a73-8fe9-042cdea3ccbe> ,
+		<http://themis.vlaanderen.be/id/mandatee/34405d19-996f-4f9e-8616-a30e6f3a1175> ,
+		<http://themis.vlaanderen.be/id/mandatee/14d57d14-5922-4a7b-8574-1b682df71145> ,
+		<http://themis.vlaanderen.be/id/mandatee/8d2639a1-afca-467c-b7a8-9ba01fa54852> ,
+		<http://themis.vlaanderen.be/id/mandatee/1c62a2f3-cc0c-4760-ada9-90c7f879369e> ,
+		ns27:a55415f4-a212-4ff0-b8e6-3bc1799361af ,
+		<http://themis.vlaanderen.be/id/mandatee/4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65> ,
+		ns27:b374d85b-428d-4177-910d-0f7077cb3311 ,
+		ns27:e6652d4d-418b-4060-b309-084d6f0a60fe ,
+		<http://themis.vlaanderen.be/id/mandatee/7c4c08aa-b058-4656-8aac-cd9946cbeac3> ,
+		ns27:d7593ea4-a74d-403d-beeb-8f9ed0fbb082 ,
+		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0719> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a070f> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0708> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0713> ,
@@ -5300,33 +5326,7 @@ ns16:da98cfcb-f30f-46ef-a7a6-c8aeb7bf4af7	rdf:type	skos:Concept ;
 		ns26:a390a4fb-1be7-4128-afd0-e38da7883e5d ,
 		<http://themis.vlaanderen.be/id/mandataris/5678ff3c-ef96-4d19-b5a9-b383adcc69aa> ,
 		ns26:e2242233-4b72-4079-bb20-d196da78edbb ,
-		ns26:d437d986-09de-4b46-8fce-f6ca4389f492 .
-@prefix ns27:	<http://themis.vlaanderen.be/id/mandatee/> .
-<http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0706>	ns22:hadMember	ns27:e92489ff-126c-4569-a15e-ae8e193be345 ,
-		<http://themis.vlaanderen.be/id/mandatee/758e0782-fa7e-4740-a5fa-032e4c0d04ca> ,
-		ns27:c665812d-820d-4f77-a559-e8c757a82302 ,
-		<http://themis.vlaanderen.be/id/mandatee/43c129cc-ba12-4457-b93e-737b7370c46e> ,
-		ns27:d283fd40-f781-4300-a913-60658e2aec85 ,
-		<http://themis.vlaanderen.be/id/mandatee/8dcdc330-348d-4f69-b10c-02f584adb9af> ,
-		ns27:f7fe3320-7c15-4322-b907-02571d3dfe6e ,
-		ns27:bb2e174a-374e-447d-ad0c-002204b4561f ,
-		<http://themis.vlaanderen.be/id/mandatee/38e5e0e9-52c7-4f7d-b92b-16eee0edd193> ,
-		<http://themis.vlaanderen.be/id/mandatee/6ace9621-2236-4023-b77d-f4cb8dec1565> ,
-		<http://themis.vlaanderen.be/id/mandatee/488d5ce1-bed5-400c-985a-734ff6e296f5> ,
-		ns27:e8706d05-70b7-4b5c-ba75-f07c56cb259f ,
-		ns27:aa642a1e-7cc4-44da-9a6b-bce625761c5f ,
-		<http://themis.vlaanderen.be/id/mandatee/14d57d14-5922-4a7b-8574-1b682df71145> ,
-		<http://themis.vlaanderen.be/id/mandatee/145bafde-10ea-4a73-8fe9-042cdea3ccbe> ,
-		ns27:b374d85b-428d-4177-910d-0f7077cb3311 ,
-		ns27:d7593ea4-a74d-403d-beeb-8f9ed0fbb082 ,
-		ns27:e6652d4d-418b-4060-b309-084d6f0a60fe ,
-		<http://themis.vlaanderen.be/id/mandatee/8d2639a1-afca-467c-b7a8-9ba01fa54852> ,
-		<http://themis.vlaanderen.be/id/mandatee/1c62a2f3-cc0c-4760-ada9-90c7f879369e> ,
-		<http://themis.vlaanderen.be/id/mandatee/34405d19-996f-4f9e-8616-a30e6f3a1175> ,
-		<http://themis.vlaanderen.be/id/mandatee/7c4c08aa-b058-4656-8aac-cd9946cbeac3> ,
-		ns27:a55415f4-a212-4ff0-b8e6-3bc1799361af ,
-		<http://themis.vlaanderen.be/id/mandatee/4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65> ,
-		ns27:ddcf86cf-387e-4afc-a38f-2e183ce46909 ,
+		ns26:d437d986-09de-4b46-8fce-f6ca4389f492 ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a070d> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907ee6670526694a0715> .
 <http://themis.vlaanderen.be/id/creatie/5fed907ee6670526694a0705>	rdf:type	ns22:Generation ;
@@ -6696,62 +6696,6 @@ ns26:c66e1c4b-e01f-43c5-88e4-36112ba21db5	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
 	ns17:rangorde	6 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0545> .
-ns27:b374d85b-428d-4177-910d-0f7077cb3311	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"b374d85b-428d-4177-910d-0f7077cb3311" ;
-	ns21:title	"Minister-president van de Vlaamse Regering" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0702> ;
-	ns17:rangorde	1 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
-ns27:d7593ea4-a74d-403d-beeb-8f9ed0fbb082	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"d7593ea4-a74d-403d-beeb-8f9ed0fbb082" ;
-	ns21:title	"Vlaams minister van Economie, Innovatie, Werk, Sociale economie en Landbouw" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
-	ns17:rangorde	2 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> .
-<http://themis.vlaanderen.be/id/mandatee/14d57d14-5922-4a7b-8574-1b682df71145>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"14d57d14-5922-4a7b-8574-1b682df71145" ;
-	ns21:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
-	ns17:rangorde	4 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
-<http://themis.vlaanderen.be/id/mandatee/145bafde-10ea-4a73-8fe9-042cdea3ccbe>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"145bafde-10ea-4a73-8fe9-042cdea3ccbe" ;
-	ns21:title	"Vlaams minister van Mobiliteit en Openbare Werken" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	7 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06d2> .
-<http://themis.vlaanderen.be/id/mandatee/4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65" ;
-	ns21:title	"Vlaams minister van Financi\u00EBn en Begroting, Wonen en Onroerend Erfgoed" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	6 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071a> .
-ns27:ddcf86cf-387e-4afc-a38f-2e183ce46909	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"ddcf86cf-387e-4afc-a38f-2e183ce46909" ;
-	ns21:title	"Vlaams minister van Brussel, Jeugd en Media" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	8 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071d> .
-<http://themis.vlaanderen.be/id/mandatee/7c4c08aa-b058-4656-8aac-cd9946cbeac3>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"7c4c08aa-b058-4656-8aac-cd9946cbeac3" ;
-	ns21:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
-	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	4 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
 ns27:a55415f4-a212-4ff0-b8e6-3bc1799361af	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"a55415f4-a212-4ff0-b8e6-3bc1799361af" ;
 	ns21:title	"Vlaams minister van Buitenlandse Zaken, Cultuur, Digitalisering en Facilitair Management" ;
@@ -6760,6 +6704,13 @@ ns27:a55415f4-a212-4ff0-b8e6-3bc1799361af	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	1 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
+<http://themis.vlaanderen.be/id/mandatee/8d2639a1-afca-467c-b7a8-9ba01fa54852>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"8d2639a1-afca-467c-b7a8-9ba01fa54852" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+	ns17:rangorde	3 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05b8> .
 <http://themis.vlaanderen.be/id/mandatee/1c62a2f3-cc0c-4760-ada9-90c7f879369e>	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"1c62a2f3-cc0c-4760-ada9-90c7f879369e" ;
 	ns21:title	"Vlaams minister van Economie, Innovatie, Werk, Sociale economie en Landbouw" ;
@@ -6776,6 +6727,52 @@ ns27:a55415f4-a212-4ff0-b8e6-3bc1799361af	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	5 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0714> .
+<http://themis.vlaanderen.be/id/mandatee/14d57d14-5922-4a7b-8574-1b682df71145>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"14d57d14-5922-4a7b-8574-1b682df71145" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+	ns17:rangorde	4 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
+ns27:ddcf86cf-387e-4afc-a38f-2e183ce46909	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"ddcf86cf-387e-4afc-a38f-2e183ce46909" ;
+	ns21:title	"Vlaams minister van Brussel, Jeugd en Media" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	8 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071d> .
+<http://themis.vlaanderen.be/id/mandatee/145bafde-10ea-4a73-8fe9-042cdea3ccbe>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"145bafde-10ea-4a73-8fe9-042cdea3ccbe" ;
+	ns21:title	"Vlaams minister van Mobiliteit en Openbare Werken" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	7 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06d2> .
+<http://themis.vlaanderen.be/id/mandatee/7c4c08aa-b058-4656-8aac-cd9946cbeac3>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"7c4c08aa-b058-4656-8aac-cd9946cbeac3" ;
+	ns21:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	4 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
+ns27:d7593ea4-a74d-403d-beeb-8f9ed0fbb082	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"d7593ea4-a74d-403d-beeb-8f9ed0fbb082" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+	ns17:rangorde	2 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> .
+ns27:b374d85b-428d-4177-910d-0f7077cb3311	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"b374d85b-428d-4177-910d-0f7077cb3311" ;
+	ns21:title	"Minister-president van de Vlaamse Regering" ;
+	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0702> ;
+	ns17:rangorde	1 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
 ns27:e6652d4d-418b-4060-b309-084d6f0a60fe	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"e6652d4d-418b-4060-b309-084d6f0a60fe" ;
 	ns21:title	"Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" ;
@@ -6784,63 +6781,27 @@ ns27:e6652d4d-418b-4060-b309-084d6f0a60fe	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	3 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05b8> .
-<http://themis.vlaanderen.be/id/mandatee/8d2639a1-afca-467c-b7a8-9ba01fa54852>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"8d2639a1-afca-467c-b7a8-9ba01fa54852" ;
-	ns21:title	"Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" ;
+<http://themis.vlaanderen.be/id/mandatee/4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"4eae2f7e-ca9f-42d6-abed-dcd4ab56fd65" ;
+	ns21:title	"Vlaams minister van Financi\u00EBn en Begroting, Wonen en Onroerend Erfgoed" ;
 	ns17:einde	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
 	ns17:start	"2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
-	ns17:rangorde	3 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a05b8> .
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	6 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071a> .
 <http://themis.vlaanderen.be/id/persoon/74888cf5-6e19-4cf3-abf1-eeb9af999922>	rdf:type	ns18:Person ;
 	ns3:uuid	"74888cf5-6e19-4cf3-abf1-eeb9af999922" ;
 	ns19:gebruikteVoornaam	"Jo" ;
 	foaf:familyName	"Brouns" .
-ns27:d283fd40-f781-4300-a913-60658e2aec85	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"d283fd40-f781-4300-a913-60658e2aec85" ;
-	ns21:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
+ns27:f7fe3320-7c15-4322-b907-02571d3dfe6e	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"f7fe3320-7c15-4322-b907-02571d3dfe6e" ;
+	ns21:title	"Vlaams minister van Economie, Innovatie, Werk, Sociale Economie en Landbouw" ;
 	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	4 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
-ns27:c665812d-820d-4f77-a559-e8c757a82302	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"c665812d-820d-4f77-a559-e8c757a82302" ;
-	ns21:title	"Vlaams minister van Buitenlandse Zaken, Cultuur, Digitalisering en Facilitair Management" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	1 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
-<http://themis.vlaanderen.be/id/mandatee/43c129cc-ba12-4457-b93e-737b7370c46e>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"43c129cc-ba12-4457-b93e-737b7370c46e" ;
-	ns21:title	"Minister-president van de Vlaamse Regering" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0702> ;
-	ns17:rangorde	1 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
-ns27:e8706d05-70b7-4b5c-ba75-f07c56cb259f	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"e8706d05-70b7-4b5c-ba75-f07c56cb259f" ;
-	ns21:title	"Vlaams minister van Welzijn, Volksgezondheid, Gezin en Zeevisserij" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
-	ns17:rangorde	2 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> .
-ns27:aa642a1e-7cc4-44da-9a6b-bce625761c5f	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"aa642a1e-7cc4-44da-9a6b-bce625761c5f" ;
-	ns21:title	"Vlaams minister van Justitie en Handhaving, Omgeving, Energie en Toerisme" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	5 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0714> .
-<http://themis.vlaanderen.be/id/mandatee/6ace9621-2236-4023-b77d-f4cb8dec1565>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"6ace9621-2236-4023-b77d-f4cb8dec1565" ;
-	ns21:title	"Vlaams minister van Financi\u00EBn en Begroting, Wonen en Onroerend Erfgoed" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	6 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071a> .
+	ns17:rangorde	9 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/74888cf5-6e19-4cf3-abf1-eeb9af999922> .
 <http://themis.vlaanderen.be/id/mandatee/488d5ce1-bed5-400c-985a-734ff6e296f5>	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"488d5ce1-bed5-400c-985a-734ff6e296f5" ;
-	ns21:title	"Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" ;
 	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
 	ns17:rangorde	3 ;
@@ -6850,6 +6811,26 @@ ns27:bb2e174a-374e-447d-ad0c-002204b4561f	rdf:type	ns17:Mandataris ;
 	ns21:title	"Vlaams minister van Welzijn, Volksgezondheid, Gezin en Zeevisserij" ;
 	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	2 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> .
+<http://themis.vlaanderen.be/id/mandatee/43c129cc-ba12-4457-b93e-737b7370c46e>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"43c129cc-ba12-4457-b93e-737b7370c46e" ;
+	ns21:title	"Minister-president van de Vlaamse Regering" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0702> ;
+	ns17:rangorde	1 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
+ns27:aa642a1e-7cc4-44da-9a6b-bce625761c5f	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"aa642a1e-7cc4-44da-9a6b-bce625761c5f" ;
+	ns21:title	"Vlaams minister van Justitie en Handhaving, Omgeving, Energie en Toerisme" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	5 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0714> .
+ns27:e8706d05-70b7-4b5c-ba75-f07c56cb259f	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"e8706d05-70b7-4b5c-ba75-f07c56cb259f" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
 	ns17:rangorde	2 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a061b> .
 <http://themis.vlaanderen.be/id/mandatee/38e5e0e9-52c7-4f7d-b92b-16eee0edd193>	rdf:type	ns17:Mandataris ;
@@ -6866,18 +6847,11 @@ ns27:bb2e174a-374e-447d-ad0c-002204b4561f	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	8 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071d> .
-ns27:f7fe3320-7c15-4322-b907-02571d3dfe6e	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"f7fe3320-7c15-4322-b907-02571d3dfe6e" ;
-	ns21:title	"Vlaams minister van Economie, Innovatie, Werk, Sociale Economie en Landbouw" ;
-	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
-	ns17:rangorde	9 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/74888cf5-6e19-4cf3-abf1-eeb9af999922> .
-ns27:e92489ff-126c-4569-a15e-ae8e193be345	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"e92489ff-126c-4569-a15e-ae8e193be345" ;
+ns27:d283fd40-f781-4300-a913-60658e2aec85	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"d283fd40-f781-4300-a913-60658e2aec85" ;
 	ns21:title	"Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
 	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	4 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
 <http://themis.vlaanderen.be/id/mandatee/758e0782-fa7e-4740-a5fa-032e4c0d04ca>	rdf:type	ns17:Mandataris ;
@@ -6887,3 +6861,23 @@ ns27:e92489ff-126c-4569-a15e-ae8e193be345	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	7 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a06d2> .
+ns27:c665812d-820d-4f77-a559-e8c757a82302	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"c665812d-820d-4f77-a559-e8c757a82302" ;
+	ns21:title	"Vlaams minister van Buitenlandse Zaken, Cultuur, Digitalisering en Facilitair Management" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	1 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0707> .
+ns27:e92489ff-126c-4569-a15e-ae8e193be345	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"e92489ff-126c-4569-a15e-ae8e193be345" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> ;
+	ns17:rangorde	4 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a0697> .
+<http://themis.vlaanderen.be/id/mandatee/6ace9621-2236-4023-b77d-f4cb8dec1565>	rdf:type	ns17:Mandataris ;
+	ns3:uuid	"6ace9621-2236-4023-b77d-f4cb8dec1565" ;
+	ns21:title	"Vlaams minister van Financi\u00EBn en Begroting, Wonen en Onroerend Erfgoed" ;
+	ns17:start	"2022-05-18T00:00:00+02:00"^^xsd:dateTime ;
+	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
+	ns17:rangorde	6 ;
+	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071a> .
