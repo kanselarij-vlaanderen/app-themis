@@ -1,0 +1,46 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+# dataset is part of catalog
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/188d6318-9b7e-4bbf-95ce-2a23980e2d31> .
+
+# This VR ministers dataset is a revision of the previous VR ministers dataset
+<http://themis.vlaanderen.be/id/dataset/188d6318-9b7e-4bbf-95ce-2a23980e2d31> <http://www.w3.org/ns/prov#wasRevisionOf> <http://themis.vlaanderen.be/id/dataset/96be5ff2-3571-475f-96ac-fdbf8d364a94> .
+
+<http://themis.vlaanderen.be/id/dataset/188d6318-9b7e-4bbf-95ce-2a23980e2d31> a dcat:Dataset ;
+    mu:uuid "188d6318-9b7e-4bbf-95ce-2a23980e2d31" ;
+    dct:title "Minister dataset" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> ;
+    dct:issued "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dct:modified "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/0c769d27-85f2-4588-ad01-b484f79c6b11> .
+
+<http://themis.vlaanderen.be/id/distribution/0c769d27-85f2-4588-ad01-b484f79c6b11> a dcat:Distribution ;
+    mu:uuid "0c769d27-85f2-4588-ad01-b484f79c6b11" ;
+    dct:issued "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dct:modified "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/4d8e539a-6eb2-4fff-a0a8-ab59e31964ea/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "445696"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/4d8e539a-6eb2-4fff-a0a8-ab59e31964ea> a nfo:FileDataObject ;
+    mu:uuid "4d8e539a-6eb2-4fff-a0a8-ab59e31964ea" ;
+    nfo:fileName "ministers-vlaamse-regering.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "445696"^^xsd:integer ;
+    dct:created "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://2f09437a-d644-4248-8850-5342f95d6f58.ttl> a nfo:FileDataObject ;
+    mu:uuid "2f09437a-d644-4248-8850-5342f95d6f58" ;
+    nfo:fileName "2f09437a-d644-4248-8850-5342f95d6f58.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "445696"^^xsd:integer ;
+    dct:created "2022-05-18T12:38:22+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/4d8e539a-6eb2-4fff-a0a8-ab59e31964ea> .
