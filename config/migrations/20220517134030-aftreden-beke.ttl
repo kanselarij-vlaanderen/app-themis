@@ -65,7 +65,6 @@
     ns1:rangorde 2 ;
     ns1:start "2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
     ns3:uuid "d7593ea4-a74d-403d-beeb-8f9ed0fbb082" ;
-    ns5:title "Vlaams minister van Economie, Innovatie, Werk, Sociale economie en Landbouw" ;
     ns4:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> .
 
 <http://themis.vlaanderen.be/id/mandatee/1c62a2f3-cc0c-4760-ada9-90c7f879369e> a ns1:Mandataris ;
@@ -89,7 +88,6 @@
     ns1:rangorde 3 ;
     ns1:start "2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
     ns3:uuid "8d2639a1-afca-467c-b7a8-9ba01fa54852" ;
-    ns5:title "Vlaams minister van Binnenlands Bestuur, Bestuurszaken, Inburgering en Gelijke Kansen" ;
     ns4:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> .
 
 <http://themis.vlaanderen.be/id/mandatee/14d57d14-5922-4a7b-8574-1b682df71145> a ns1:Mandataris ;
@@ -97,7 +95,6 @@
     ns1:rangorde 4 ;
     ns1:start "2022-05-16T00:00:00+02:00"^^xsd:dateTime ;
     ns3:uuid "14d57d14-5922-4a7b-8574-1b682df71145" ;
-    ns5:title "Vlaams minister van Onderwijs, Sport, Dierenwelzijn en Vlaamse Rand" ;
     ns4:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0703> .
 
 <http://themis.vlaanderen.be/id/mandatee/7c4c08aa-b058-4656-8aac-cd9946cbeac3> a ns1:Mandataris ;
