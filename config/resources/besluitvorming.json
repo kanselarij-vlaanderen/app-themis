@@ -154,7 +154,8 @@
         "end-date": {
           "target": "versions",
           "predicate": "prov:qualifiedInvalidation",
-          "cardinality": "one"
+          "cardinality": "one",
+          "_comment": "Note that 'versions' is defined as type 'prov:Generation', while 'prov:qualifiedInvalidation' refers to a 'prov:Invalidation'. This relationship definition depends on the fact that mu-cl-resources currently doesn't check relationship target rdf type in database."
         },
         "mandates": {
           "target": "mandates",
