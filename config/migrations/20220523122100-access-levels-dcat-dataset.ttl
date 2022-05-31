@@ -10,7 +10,7 @@
 
 <http://themis.vlaanderen.be/id/dataset/8457269b-a299-4246-ae19-0a7b1905a3f0> a dcat:Dataset ;
     mu:uuid "8457269b-a299-4246-ae19-0a7b1905a3f0" ;
-    dct:title "Toegangs niveaus codelist" ;
+    dct:title "Toegangsniveaus codelist" ;
     dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1>  ;
     dct:issued "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
     dct:modified "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
