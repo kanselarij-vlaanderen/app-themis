@@ -3600,7 +3600,6 @@ ns16:da98cfcb-f30f-46ef-a7a6-c8aeb7bf4af7	rdf:type	skos:Concept ;
 		<http://themis.vlaanderen.be/id/mandataris/3f4bfdbf-a8c4-4687-937d-7608b1e4270c> ,
 		<http://themis.vlaanderen.be/id/mandataris/532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e> ,
 		<http://themis.vlaanderen.be/id/mandataris/7cad1801-dfd1-44a6-bdfa-5d4e8259d023> ,
-		<http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b> ,
 		<http://themis.vlaanderen.be/id/mandataris/95cfe981-9d27-4f00-8e50-28519f068e23> ,
 		<http://themis.vlaanderen.be/id/mandataris/763a0c72-6bd3-4670-9ff3-6246b58ba5f1> ,
 		<http://themis.vlaanderen.be/id/mandataris/43b0ffea-8395-42c2-aad5-c7796c0cd33a> ,
@@ -3649,7 +3648,6 @@ ns16:da98cfcb-f30f-46ef-a7a6-c8aeb7bf4af7	rdf:type	skos:Concept ;
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0565> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0541> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055d> ,
-		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a057c> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a055c> ,
 		<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0536> ,
@@ -3954,14 +3952,6 @@ ns16:da98cfcb-f30f-46ef-a7a6-c8aeb7bf4af7	rdf:type	skos:Concept ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
 	ns17:rangorde	5 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907de6670526694a0540> .
-<http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a056e>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"5fed907de6670526694a056e" ;
-	ns21:title	"Minister" ;
-	ns17:einde	"2002-07-02T00:00:00Z"^^xsd:dateTime ;
-	ns17:start	"2001-08-01T00:00:00Z"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
-	ns17:rangorde	1 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ce6670526694a0436> .
 <http://themis.vlaanderen.be/id/mandataris/5fed907de6670526694a0565>	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"5fed907de6670526694a0565" ;
 	ns21:title	"Vlaams minister van Welzijn, Gezondheid en Gelijke Kansen" ;
@@ -6553,14 +6543,6 @@ ns26:d89222e1-eb8a-411f-8889-b1c1b688ab90	rdf:type	ns17:Mandataris ;
 	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> ;
 	ns17:rangorde	9 ;
 	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ee6670526694a071d> .
-<http://themis.vlaanderen.be/id/mandataris/6c1ff914-8472-49ed-a22b-8d01d907ff8b>	rdf:type	ns17:Mandataris ;
-	ns3:uuid	"6c1ff914-8472-49ed-a22b-8d01d907ff8b" ;
-	ns21:title	"Minister" ;
-	ns17:einde	"2003-03-18T00:00:00Z"^^xsd:dateTime ;
-	ns17:start	"2003-01-31T00:00:00Z"^^xsd:dateTime ;
-	ns12:holds	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a0531> ;
-	ns17:rangorde	1 ;
-	ns17:isBestuurlijkeAliasVan	<http://themis.vlaanderen.be/id/persoon/5fed907ce6670526694a0436> .
 <http://themis.vlaanderen.be/id/mandataris/532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e>	rdf:type	ns17:Mandataris ;
 	ns3:uuid	"532a4a5b-eabe-4f93-bc3a-7ef5f8f3c26e" ;
 	ns21:title	"Minister-president van de Vlaamse Regering" ;
