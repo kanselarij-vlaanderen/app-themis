@@ -1,0 +1,43 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+# dataset is part of catalog
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/516f7a63-a361-4466-8bf2-143b04a01c7c> .
+
+<http://themis.vlaanderen.be/id/dataset/516f7a63-a361-4466-8bf2-143b04a01c7c> a dcat:Dataset ;
+    mu:uuid "516f7a63-a361-4466-8bf2-143b04a01c7c" ;
+    dct:title "Beleidsvelden codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1> ;
+    dct:issued "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/2556b32f-14c1-422c-983a-92d3c2ad1a20> .
+
+<http://themis.vlaanderen.be/id/distribution/2556b32f-14c1-422c-983a-92d3c2ad1a20> a dcat:Distribution ;
+    mu:uuid "2556b32f-14c1-422c-983a-92d3c2ad1a20" ;
+    dct:issued "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/5d9aaf0e-c319-4d0f-b094-ec3005b2d70f/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "468414"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/5d9aaf0e-c319-4d0f-b094-ec3005b2d70f> a nfo:FileDataObject ;
+    mu:uuid "5d9aaf0e-c319-4d0f-b094-ec3005b2d70f" ;
+    nfo:fileName "beleidsvelden.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "468414"^^xsd:integer ;
+    dct:created "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://bcb7ac02-8b04-4602-b729-7279943e4dcf.ttl> a nfo:FileDataObject ;
+    mu:uuid "bcb7ac02-8b04-4602-b729-7279943e4dcf" ;
+    nfo:fileName "bcb7ac02-8b04-4602-b729-7279943e4dcf.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "468414"^^xsd:integer ;
+    dct:created "2022-10-26T15:00:00+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/5d9aaf0e-c319-4d0f-b094-ec3005b2d70f> .
