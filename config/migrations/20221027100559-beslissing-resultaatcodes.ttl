@@ -1,0 +1,27 @@
+<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Beslissing resultaatcodes"@nl .
+<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497>	<http://mu.semte.ch/vocabularies/core/uuid>	"43052680-1c88-47f1-b081-99087afc4497" .
+
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/56312c4b-9d2a-4735-b0b1-2ff14bb524fd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/56312c4b-9d2a-4735-b0b1-2ff14bb524fd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Goedgekeurd"@nl .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/56312c4b-9d2a-4735-b0b1-2ff14bb524fd>	<http://mu.semte.ch/vocabularies/core/uuid>	"56312c4b-9d2a-4735-b0b1-2ff14bb524fd" .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/56312c4b-9d2a-4735-b0b1-2ff14bb524fd>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/56312c4b-9d2a-4735-b0b1-2ff14bb524fd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/453a36e8-6fbd-45d3-b800-ec96e59f273b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/453a36e8-6fbd-45d3-b800-ec96e59f273b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Ingetrokken"@nl .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/453a36e8-6fbd-45d3-b800-ec96e59f273b>	<http://mu.semte.ch/vocabularies/core/uuid>	"453a36e8-6fbd-45d3-b800-ec96e59f273b" .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/453a36e8-6fbd-45d3-b800-ec96e59f273b>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/453a36e8-6fbd-45d3-b800-ec96e59f273b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/9f342a88-9485-4a83-87d9-245ed4b504bf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/9f342a88-9485-4a83-87d9-245ed4b504bf>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Akte genomen"@nl .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/9f342a88-9485-4a83-87d9-245ed4b504bf>	<http://mu.semte.ch/vocabularies/core/uuid>	"9f342a88-9485-4a83-87d9-245ed4b504bf" .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/9f342a88-9485-4a83-87d9-245ed4b504bf>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/9f342a88-9485-4a83-87d9-245ed4b504bf>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/a29b3ffd-0839-45cb-b8f4-e1760f7aacaa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/a29b3ffd-0839-45cb-b8f4-e1760f7aacaa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Uitgesteld"@nl .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/a29b3ffd-0839-45cb-b8f4-e1760f7aacaa>	<http://mu.semte.ch/vocabularies/core/uuid>	"a29b3ffd-0839-45cb-b8f4-e1760f7aacaa" .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/a29b3ffd-0839-45cb-b8f4-e1760f7aacaa>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
+<http://themis.vlaanderen.be/id/concept/beslissing-resultaatcodes/a29b3ffd-0839-45cb-b8f4-e1760f7aacaa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://themis.vlaanderen.be/id/concept-scheme/43052680-1c88-47f1-b081-99087afc4497> .
