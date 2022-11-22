@@ -1,0 +1,44 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/c044ab09-1217-4661-a039-3027a3d267b9> .
+
+<http://themis.vlaanderen.be/id/dataset/c044ab09-1217-4661-a039-3027a3d267b9> <http://www.w3.org/ns/prov#wasRevisionOf> <http://themis.vlaanderen.be/id/dataset/910f5fdf-39d5-49b2-ab4d-7fd961d34ff2> .
+
+<http://themis.vlaanderen.be/id/dataset/c044ab09-1217-4661-a039-3027a3d267b9> a dcat:Dataset ;
+    mu:uuid "c044ab09-1217-4661-a039-3027a3d267b9" ;
+    dct:title "Document types codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1>  ;
+    dct:issued "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/8855a240-b1cd-42d7-b54f-9a5bf46b282b> .
+
+<http://themis.vlaanderen.be/id/distribution/8855a240-b1cd-42d7-b54f-9a5bf46b282b> a dcat:Distribution ;
+    mu:uuid "8855a240-b1cd-42d7-b54f-9a5bf46b282b" ;
+    dct:issued "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/13e1a176-a363-419a-8a81-56ad1b65b94c/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "15733"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/13e1a176-a363-419a-8a81-56ad1b65b94c> a nfo:FileDataObject ;
+    mu:uuid "13e1a176-a363-419a-8a81-56ad1b65b94c" ;
+    nfo:fileName "document-types-codelist.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "15733"^^xsd:integer ;
+    dct:created "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://6cfea208-8cd5-48dc-bf14-368143ed6f2f.ttl> a nfo:FileDataObject ;
+    mu:uuid "6cfea208-8cd5-48dc-bf14-368143ed6f2f" ;
+    nfo:fileName "6cfea208-8cd5-48dc-bf14-368143ed6f2f.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "15733"^^xsd:integer ;
+    dct:created "2022-10-26T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/13e1a176-a363-419a-8a81-56ad1b65b94c> .
