@@ -20,8 +20,10 @@ services:
     restart: always
     logging: *default-logging
   frontend:
-    image: kanselarij/frontend-themis:0.10.2
+    image: kanselarij/frontend-themis:0.11.0-fastboot
     restart: always
+    environment:
+      EMBER_FASTBOOT_HOST: "themis-test.vlaanderen.be"
     logging: *default-logging
   database:
     image: semtech/mu-authorization:0.6.0-beta.7
