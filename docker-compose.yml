@@ -113,7 +113,7 @@ services:
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service:0.3.2
+    image: kanselarij/dcat-dataset-publication-service:0.3.3
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
