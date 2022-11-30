@@ -47,6 +47,10 @@ defmodule Dispatcher do
   # RESOURCES
   ###############
 
+  get "/health-checks/*_path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, [], "http://resource/health-checks/"
+  end
+
   get "/catalogs/*path", %{ layer: :resources, accept: %{ json: true } } do
     forward conn, path, "http://cache/catalogs/"
   end
