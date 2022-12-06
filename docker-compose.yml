@@ -92,7 +92,7 @@ services:
     restart: always
     logging: *default-logging
   resource-labels:
-    image: lblod/resource-label-service:0.3.1
+    image: lblod/resource-label-service:0.3.2
     environment:
       DEFAULT_LANGUAGE: "nil"
     restart: always
