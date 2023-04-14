@@ -125,7 +125,7 @@ defmodule Dispatcher do
   #################
   # NOT FOUND
   #################
-  match "/*_", %{ last_call: true } do
+  match "/*_", %{ layer: :not_found, accept: %{ any: true } } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
 
