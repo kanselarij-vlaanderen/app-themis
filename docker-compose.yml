@@ -28,7 +28,7 @@ services:
       EMBER_FASTBOOT_HOST: "themis-test.vlaanderen.be"
     logging: *default-logging
   database:
-    image: semtech/mu-authorization:0.6.0-beta.7
+    image: semtech/mu-authorization:0.6.0-beta.8
     environment:
       MU_SPARQL_ENDPOINT: "http://virtuoso:8890/sparql"
       DATABASE_COMPATIBILITY: "Virtuoso"
