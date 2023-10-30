@@ -108,14 +108,14 @@ services:
     restart: always
     logging: *default-logging
   themis-same-as:
-    image: kanselarij/themis-same-as-service:0.4.0
+    image: kanselarij/themis-same-as-service:0.4.1
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service:0.4.0
+    image: kanselarij/dcat-dataset-publication-service:0.4.1
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
