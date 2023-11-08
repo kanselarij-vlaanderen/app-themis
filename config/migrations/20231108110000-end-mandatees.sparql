@@ -1,0 +1,28 @@
+
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+DELETE {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?mandatee mandaat:einde ?mandatee_end .
+    }
+}
+INSERT {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        ?mandatee mandaat:einde "2023-11-08T00:00:00+01:00"^^xsd:dateTime .
+    }
+}
+WHERE {
+    GRAPH <http://mu.semte.ch/graphs/public> {
+        <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0706> a besluit:Bestuursorgaan ;
+            prov:hadMember ?mandatee .
+        ?mandatee a mandaat:Mandataris .
+        OPTIONAL { ?mandatee mandaat:einde ?mandatee_end . }
+    }
+}
