@@ -147,12 +147,12 @@
           "inverse": true
         },
         "start-date": {
-          "target": "versions",
+          "target": "generations",
           "predicate": "prov:qualifiedGeneration",
           "cardinality": "one"
         },
         "end-date": {
-          "target": "versions",
+          "target": "invalidations",
           "predicate": "prov:qualifiedInvalidation",
           "cardinality": "one"
         },
@@ -253,7 +253,7 @@
       ],
       "new-resource-base": "http://themis.vlaanderen.be/id/concept-scheme/"
     },
-    "versions": {
+    "generations": {
       "class": "prov:Generation",
       "attributes": {
         "time": {
@@ -267,7 +267,22 @@
           "predicate": "prov:qualifiedGeneration",
           "cardinality": "one",
           "inverse": true
-        },
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/id/generatie/"
+    },
+    "invalidations": {
+      "class": "prov:Invalidation",
+      "attributes": {
+        "time": {
+          "type": "datetime",
+          "predicate": "prov:atTime"
+        }
+      },
+      "relationships": {
         "government-body-end": {
           "target": "government-bodies",
           "predicate": "prov:qualifiedInvalidation",
@@ -278,7 +293,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis.vlaanderen.be/id/versie/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/invalidatie/"
     },
     "meetings": {
       "class": "besluit:Vergaderactiviteit",

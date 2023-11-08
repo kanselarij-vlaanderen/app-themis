@@ -1,0 +1,272 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+    <http://mu.semte.ch/vocabularies/core/uuid> "559774e3-061c-4f4b-a758-57228d4b68cd" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Document types" .
+
+<http://themis.vlaanderen.be/id/concept/document-type/d3a616a1-4734-409d-be51-30917c91eb84> a skos:Concept ;
+    mu:uuid "d3a616a1-4734-409d-be51-30917c91eb84" ;
+    skos:prefLabel "OBVR" ;
+    skos:altLabel "Ontwerp van BVR" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/9c043848-6a9f-4448-9794-600e40dee6d2> a skos:Concept ;
+    mu:uuid "9c043848-6a9f-4448-9794-600e40dee6d2" ;
+    skos:prefLabel "Advies AgO" ;
+    skos:altLabel "Advies agentschap overheidspersoneel" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/b3e150d3-eac6-44cf-9e70-dd4d13423631> a skos:Concept ;
+    mu:uuid "b3e150d3-eac6-44cf-9e70-dd4d13423631" ;
+    skos:prefLabel "Bijlage" ;
+    skos:altLabel "Bijlage" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/a270ebff-2883-4c96-95c7-64fa89a729c5> a skos:Concept ;
+    mu:uuid "a270ebff-2883-4c96-95c7-64fa89a729c5" ;
+    skos:prefLabel "BijlageInfo" ;
+    skos:altLabel "Bijlage(n) ter informatie" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/cc9b4207-43da-4394-94d7-3be051aa95e7> a skos:Concept ;
+    mu:uuid "cc9b4207-43da-4394-94d7-3be051aa95e7" ;
+    skos:prefLabel "Akkoord BZ" ;
+    skos:altLabel "Akkoord Bestuurszaken" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/83888ef0-a44a-4abf-a977-acfcfa63ed8b> a skos:Concept ;
+    mu:uuid "83888ef0-a44a-4abf-a977-acfcfa63ed8b" ;
+    skos:prefLabel "Besluit HD" ;
+    skos:altLabel "Besluit Hoofd Departement" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/126f7ca5-c1e8-458a-80c2-38828a6010cc> a skos:Concept ;
+    mu:uuid "126f7ca5-c1e8-458a-80c2-38828a6010cc" ;
+    skos:prefLabel "Groenboek" ;
+    skos:altLabel "Groenboek" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/e807feec-1958-46cf-a558-3379b5add49e> a skos:Concept ;
+    mu:uuid "e807feec-1958-46cf-a558-3379b5add49e" ;
+    skos:prefLabel "BF" ;
+    skos:altLabel "Beslissingsfiche" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/0ed0785c-f427-4bc0-8507-72eb2a7b5454> a skos:Concept ;
+    mu:uuid "0ed0785c-f427-4bc0-8507-72eb2a7b5454" ;
+    skos:prefLabel "SWA" ;
+    skos:altLabel "Samenwerkingsakkoord" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/e87f3a3a-d4dd-4560-8834-024b1e27a374> a skos:Concept ;
+    mu:uuid "e87f3a3a-d4dd-4560-8834-024b1e27a374" ;
+    skos:prefLabel "Bericht" ;
+    skos:altLabel "Bericht" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/73d69df5-c3f3-43b2-aeae-5a24b56b376e> a skos:Concept ;
+    mu:uuid "73d69df5-c3f3-43b2-aeae-5a24b56b376e" ;
+    skos:prefLabel "RvS" ;
+    skos:altLabel "Advies Raad van State" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/fbd697b7-9857-477f-8725-d6856a563f7a> a skos:Concept ;
+    mu:uuid "fbd697b7-9857-477f-8725-d6856a563f7a" ;
+    skos:prefLabel "Beleidsbrief" ;
+    skos:altLabel "Beleidsbrief" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/3f6ed920-7cd0-4296-a5b7-eb06d77ca5f4> a skos:Concept ;
+    mu:uuid "3f6ed920-7cd0-4296-a5b7-eb06d77ca5f4" ;
+    skos:prefLabel "VOBVR" ;
+    skos:altLabel "Voorontwerp van BVR" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/2fef8c6a-ca60-4cd5-97b3-578144aece0a> a skos:Concept ;
+    mu:uuid "2fef8c6a-ca60-4cd5-97b3-578144aece0a" ;
+    skos:prefLabel "Resolutie" ;
+    skos:altLabel "Resolutie" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/e9e8ec50-c6fd-44ac-bc34-e5e4cdb0294e> a skos:Concept ;
+    mu:uuid "e9e8ec50-c6fd-44ac-bc34-e5e4cdb0294e" ;
+    skos:prefLabel "OMZ" ;
+    skos:altLabel "Omzendbrief" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/5c8689fc-af45-480e-b16a-ec1e61680acd> a skos:Concept ;
+    mu:uuid "5c8689fc-af45-480e-b16a-ec1e61680acd" ;
+    skos:prefLabel "Besluit AH" ;
+    skos:altLabel "Besluit Afdelingshoofd" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/eb048853-dc2e-44f8-9bf1-f0b7a7460a4d> a skos:Concept ;
+    mu:uuid "eb048853-dc2e-44f8-9bf1-f0b7a7460a4d" ;
+    skos:prefLabel "Besluit RvB" ;
+    skos:altLabel "Besluit Raad van Bestuur" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/728b0691-c89b-4569-b570-4793f31b7100> a skos:Concept ;
+    mu:uuid "728b0691-c89b-4569-b570-4793f31b7100" ;
+    skos:prefLabel "Arrest" ;
+    skos:altLabel "Arrest" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/351ba62d-eeff-4b08-b1e3-0a56d38116c4> a skos:Concept ;
+    mu:uuid "351ba62d-eeff-4b08-b1e3-0a56d38116c4" ;
+    skos:prefLabel "IF" ;
+    skos:altLabel "Advies van Inspectie Financiën" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/cf471294-af65-455c-a200-86b7fd70751a> a skos:Concept ;
+    mu:uuid "cf471294-af65-455c-a200-86b7fd70751a" ;
+    skos:prefLabel "Overeenkomst" ;
+    skos:altLabel "Overeenkomst" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/d638e0dc-c879-4a75-9485-9e6970a83d67> a skos:Concept ;
+    mu:uuid "d638e0dc-c879-4a75-9485-9e6970a83d67" ;
+    skos:prefLabel "Notulen" ;
+    skos:altLabel "Notulen" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/6870daa2-d80a-4483-a78f-53cbd6b85af2> a skos:Concept ;
+    mu:uuid "6870daa2-d80a-4483-a78f-53cbd6b85af2" ;
+    skos:prefLabel "BA" ;
+    skos:altLabel "Begrotingsakkoord van de minister van begroting" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/72dd647f-7afa-4d2a-9c7f-de73a8bd85a1> a skos:Concept ;
+    mu:uuid "72dd647f-7afa-4d2a-9c7f-de73a8bd85a1" ;
+    skos:prefLabel "Mededeling" ;
+    skos:altLabel "Mededeling" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/fb931eff-38f2-4743-802b-4240c35b8b0c> a skos:Concept ;
+    mu:uuid "fb931eff-38f2-4743-802b-4240c35b8b0c" ;
+    skos:prefLabel "Advies" ;
+    skos:altLabel "Advies" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/7b8cc610-2bcd-4eab-afa2-8cd7adbd4d4f> a skos:Concept ;
+    mu:uuid "7b8cc610-2bcd-4eab-afa2-8cd7adbd4d4f" ;
+    skos:prefLabel "Motie" ;
+    skos:altLabel "Motie" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/7ef77ae1-816b-4eba-bae8-1f7d73cd7cba> a skos:Concept ;
+    mu:uuid "7ef77ae1-816b-4eba-bae8-1f7d73cd7cba" ;
+    skos:prefLabel "Concept" ;
+    skos:altLabel "Conceptnota" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/a354eebe-43d2-43b9-a018-483b3cd605ea> a skos:Concept ;
+    mu:uuid "a354eebe-43d2-43b9-a018-483b3cd605ea" ;
+    skos:prefLabel "Errat" ;
+    skos:altLabel "Erratum" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/f2b0f655-8ed7-4f61-8f2b-ca813de7a6ed> a skos:Concept ;
+    mu:uuid "f2b0f655-8ed7-4f61-8f2b-ca813de7a6ed" ;
+    skos:prefLabel "Nota" ;
+    skos:altLabel "Nota aan de Vlaamse Regering" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/59b81be7-26c9-4a08-9a51-ce23ce83a133> a skos:Concept ;
+    mu:uuid "59b81be7-26c9-4a08-9a51-ce23ce83a133" ;
+    skos:prefLabel "Verslag" ;
+    skos:altLabel "Verslag aan de Regering" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/2c18bb9d-bbfe-474a-9f81-63ba3983a33e> a skos:Concept ;
+    mu:uuid "2c18bb9d-bbfe-474a-9f81-63ba3983a33e" ;
+    skos:prefLabel "VOD" ;
+    skos:altLabel "Voorontwerp van decreet" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/25b58316-50f2-411c-9012-e4e1957b1750> a skos:Concept ;
+    mu:uuid "25b58316-50f2-411c-9012-e4e1957b1750" ;
+    skos:prefLabel "Besluit SG" ;
+    skos:altLabel "Besluit van een secretaris-generaal" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/8ae796bd-690a-4ed6-855c-c4572e883066> a skos:Concept ;
+    mu:uuid "8ae796bd-690a-4ed6-855c-c4572e883066" ;
+    skos:prefLabel "Visienota" ;
+    skos:altLabel "Visienota" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/bcbd33f1-f058-46d0-9c53-569edd5dbede> a skos:Concept ;
+    mu:uuid "bcbd33f1-f058-46d0-9c53-569edd5dbede" ;
+    skos:prefLabel "Besluit AG" ;
+    skos:altLabel "Besluit van een administrateur-generaal" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/f036e016-268e-4611-8fee-77d2047b51d8> a skos:Concept ;
+    mu:uuid "f036e016-268e-4611-8fee-77d2047b51d8" ;
+    skos:prefLabel "MvT" ;
+    skos:altLabel "Memorie van Toelichting" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/6b4e9376-449a-43f8-8027-6dc63494057b> a skos:Concept ;
+    mu:uuid "6b4e9376-449a-43f8-8027-6dc63494057b" ;
+    skos:prefLabel "PV" ;
+    skos:altLabel "Proces Verbaal" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/53aea93f-c0f7-4a9e-a5b3-5d683ccf783c> a skos:Concept ;
+    mu:uuid "53aea93f-c0f7-4a9e-a5b3-5d683ccf783c" ;
+    skos:prefLabel "Beleidsnota" ;
+    skos:altLabel "Beleidsnota" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/361f3132-d763-412d-8d16-609ad664055c> a skos:Concept ;
+    mu:uuid "361f3132-d763-412d-8d16-609ad664055c" ;
+    skos:prefLabel "Witboek" ;
+    skos:altLabel "Witboek" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/8864821b-0eb8-42c6-99db-e39f20e9de10> a skos:Concept ;
+    mu:uuid "8864821b-0eb8-42c6-99db-e39f20e9de10" ;
+    skos:prefLabel "Besluit HA" ;
+    skos:altLabel "Besluit Hoofd Agentschap" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/8a1e048a-4b55-4a19-b1c0-c85dba09a15c> a skos:Concept ;
+    mu:uuid "8a1e048a-4b55-4a19-b1c0-c85dba09a15c" ;
+    skos:prefLabel "OD" ;
+    skos:altLabel "Ontwerpdecreet van Vlaamse Regering" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/83f7dc8b-b763-47c4-8a21-f7e43b879ad2> a skos:Concept ;
+    mu:uuid "83f7dc8b-b763-47c4-8a21-f7e43b879ad2" ;
+    skos:prefLabel "SWO" ;
+    skos:altLabel "Samenwerkingsovereenkomst" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/1e254f84-d442-425e-9fc9-5ac552b9d089> a skos:Concept ;
+    mu:uuid "1e254f84-d442-425e-9fc9-5ac552b9d089" ;
+    skos:prefLabel "BijlageNota" ;
+    skos:altLabel "Bijlage ter beslissing" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/2f331ce0-70e7-4150-b317-d2dbf52d6251> a skos:Concept ;
+    mu:uuid "2f331ce0-70e7-4150-b317-d2dbf52d6251" ;
+    skos:prefLabel "Agenda" ;
+    skos:altLabel "Agenda" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<http://themis.vlaanderen.be/id/concept/document-type/63d628cb-a594-4166-8b4e-880b4214fc5b> a skos:Concept ;
+    mu:uuid "63d628cb-a594-4166-8b4e-880b4214fc5b" ;
+    skos:prefLabel "Nieuwsbericht" ;
+    skos:altLabel "Beslissing in kort bestek" ;
+    skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<https://data.vlaanderen.be/id/concept/AardWetgeving/Protocol> skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<https://data.vlaanderen.be/id/concept/AardWetgeving/MinisterieelBesluit> skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<https://data.vlaanderen.be/id/concept/AardWetgeving/BesluitVanDeVlaamseRegering> skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .
+
+<https://data.vlaanderen.be/id/concept/AardWetgeving/Decreet> skos:inScheme <http://themis.vlaanderen.be/id/concept-scheme/559774e3-061c-4f4b-a758-57228d4b68cd> .

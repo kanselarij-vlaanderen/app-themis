@@ -1,4 +1,5 @@
 # Virtuoso files /data/db
+/data/db
 /data/db/*
 /data/db/clean-logs.sh
 /data/db/*.log
@@ -22,3 +23,5 @@
 
 docker-compose.override.yml
 .log/
+
+.env

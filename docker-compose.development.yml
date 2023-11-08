@@ -1,0 +1,43 @@
+version: "3.4"
+
+x-logging: &default-logging
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  identifier:
+    restart: "no"
+    ports:
+      - "80:80"
+  dispatcher:
+    restart: "no"
+  frontend:
+    restart: "no"
+  database:
+    restart: "no"
+  delta-notifier:
+    restart: "no"
+  virtuoso:
+    restart: "no"
+  migrations:
+    restart: "no"
+  resource:
+    restart: "no"
+  cache:
+    restart: "no"
+  file:
+    restart: "no"
+  uri-info:
+    restart: "no"
+  resource-labels-cache:
+    restart: "no"
+  resource-labels:
+    restart: "no"
+  publication-consumer:
+    restart: "no"
+  themis-same-as:
+    restart: "no"
+  dcat-dataset-publication:
+    restart: "no"

@@ -1,0 +1,19 @@
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+WITH <http://mu.semte.ch/graphs/public>
+DELETE {
+    ?mandataris mandaat:start ?start .
+}
+WHERE {
+    ?mandataris a mandaat:Mandataris ;
+                mandaat:start ?start .
+};
+WITH <http://mu.semte.ch/graphs/public>
+DELETE {
+    ?mandataris mandaat:einde ?einde .
+}
+WHERE {
+    ?mandataris a mandaat:Mandataris ;
+                mandaat:einde ?einde .
+}

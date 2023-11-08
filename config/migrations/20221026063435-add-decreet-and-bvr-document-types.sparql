@@ -1,0 +1,14 @@
+WITH <http://mu.semte.ch/graphs/public>
+DELETE {
+  ?oldUri ?p ?o .
+}
+INSERT {
+  ?newUri ?p ?o .
+}
+WHERE {
+  VALUES (?oldUri ?newUri) {
+    (<http://themis.vlaanderen.be/id/concept/document-type/6f269434-70c9-4e76-a1e1-698b744165b1> <https://data.vlaanderen.be/id/concept/AardWetgeving/BesluitVanDeVlaamseRegering>)
+    (<http://themis.vlaanderen.be/id/concept/document-type/47480113-623c-4885-8a1b-81b4de7f5bcb> <https://data.vlaanderen.be/id/concept/AardWetgeving/Decreet>)
+  }
+  ?oldUri ?p ?o .
+}

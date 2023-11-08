@@ -1,0 +1,42 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/8457269b-a299-4246-ae19-0a7b1905a3f0> .
+
+<http://themis.vlaanderen.be/id/dataset/8457269b-a299-4246-ae19-0a7b1905a3f0> a dcat:Dataset ;
+    mu:uuid "8457269b-a299-4246-ae19-0a7b1905a3f0" ;
+    dct:title "Toegangsniveaus codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1>  ;
+    dct:issued "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/87bc93e3-4057-4dd1-aa7f-02ed788bcdb0> .
+
+<http://themis.vlaanderen.be/id/distribution/87bc93e3-4057-4dd1-aa7f-02ed788bcdb0> a dcat:Distribution ;
+    mu:uuid "87bc93e3-4057-4dd1-aa7f-02ed788bcdb0" ;
+    dct:issued "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dct:modified "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/f9721105-42a5-4811-a9de-b56a247144c8/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "1858"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/f9721105-42a5-4811-a9de-b56a247144c8> a nfo:FileDataObject ;
+    mu:uuid "f9721105-42a5-4811-a9de-b56a247144c8" ;
+    nfo:fileName "access-levels-codelist.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "1858"^^xsd:integer ;
+    dct:created "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://f4a1258e-205e-4f41-b79e-39a9bd92e2a8.ttl> a nfo:FileDataObject ;
+    mu:uuid "f4a1258e-205e-4f41-b79e-39a9bd92e2a8" ;
+    nfo:fileName "f4a1258e-205e-4f41-b79e-39a9bd92e2a8.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "1858"^^xsd:integer ;
+    dct:created "2022-05-23T08:00:00.000Z"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/f9721105-42a5-4811-a9de-b56a247144c8> .

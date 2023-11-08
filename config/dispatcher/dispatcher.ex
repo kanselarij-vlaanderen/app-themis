@@ -47,12 +47,16 @@ defmodule Dispatcher do
   # RESOURCES
   ###############
 
+  get "/health-checks/*_path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, [], "http://resource/health-checks/"
+  end
+
   get "/catalogs/*path", %{ layer: :resources, accept: %{ json: true } } do
     forward conn, path, "http://cache/catalogs/"
   end
 
   get "/datasets/*path", %{ layer: :resources, accept: %{ json: true } } do
-    forward conn, path, "http://cache/datasets/"
+    forward conn, path, "http://resource/datasets/"
   end
 
   get "/distributions/*path", %{ layer: :resources, accept: %{ json: true } } do
@@ -121,7 +125,7 @@ defmodule Dispatcher do
   #################
   # NOT FOUND
   #################
-  match "/*_", %{ last_call: true } do
+  match "/*_", %{ layer: :not_found, accept: %{ any: true } } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
   end
 
