@@ -15,6 +15,21 @@
       "mounts": {
         "app": "/data/app/"
       }
+    },
+    {
+      "documentation": {
+        "command": "generate-dataset",
+        "description": "Generate dcat distribution, dataset and file",
+        "arguments": []
+      },
+      "environment": {
+        "image": "generate-dataset-script",
+        "interactive": true,
+        "script": "./generate-dataset/main.py"
+      },
+      "mounts": {
+        "app": "/data/app/"
+      }
     }
   ]
 }
