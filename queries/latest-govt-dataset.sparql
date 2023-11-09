@@ -4,7 +4,7 @@ PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
 PREFIX nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>
 PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
 
-SELECT ?dataset ?physicalFile ?creation_date
+SELECT ?dataset ?file_path ?creation_date
 WHERE {
     ?dataset
         a dcat:Dataset ;
@@ -19,6 +19,8 @@ WHERE {
     BIND(REPLACE(REPLACE(STR(?downloadUrl), "https://themis.vlaanderen.be/files/", ""), "/download", "") AS ?file_id)
     ?logicalFile mu:uuid ?file_id .
 
-    ?physicalFile nie:dataSource ?logicalFile .
+    ?share_uri nie:dataSource ?logicalFile .
+    BIND(REPLACE(STR(?share_uri), "share://", "./data/files/") AS ?file_path)
+
 }
 ORDER BY DESC(?creation_date)
