@@ -96,7 +96,7 @@
     ns1:rangorde 2 ;
     ns1:start "2023-11-08T00:00:00+01:00"^^xsd:dateTime ;
     ns2:uuid "85e6f060-c8c5-4780-a399-e8b9b2d7d069" ;
-    dcterms:title "Vlaams minister van Welzijn, Volksgezondheid, Gezin en Zeevisserij" ;
+    dcterms:title "Vlaams minister van Welzijn, Volksgezondheid en Gezin" ;
     org:holds <http://themis.vlaanderen.be/id/mandaat/5fed907ee6670526694a0704> .
 
 <http://themis.vlaanderen.be/id/mandatee/a006282b-ce31-4b69-8ba2-ad010a644bc9> a ns1:Mandataris ;
