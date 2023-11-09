@@ -1,0 +1,24 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+PREFIX nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+
+SELECT ?dataset ?physicalFile ?creation_date
+WHERE {
+    ?dataset
+        a dcat:Dataset ;
+        dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> ;
+        dct:issued ?creation_date ;
+        dcat:distribution ?distribution .
+
+    ?distribution
+        a dcat:Distribution ;
+        dcat:downloadURL ?downloadUrl .
+
+    BIND(REPLACE(REPLACE(STR(?downloadUrl), "https://themis.vlaanderen.be/files/", ""), "/download", "") AS ?file_id)
+    ?logicalFile mu:uuid ?file_id .
+
+    ?physicalFile nie:dataSource ?logicalFile .
+}
+ORDER BY DESC(?creation_date)
