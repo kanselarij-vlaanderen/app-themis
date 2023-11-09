@@ -18,6 +18,9 @@ BESTUURSFUNCTIES = [
 ### CONFIG ###
 
 GRAPH = "http://mu.semte.ch/graphs/public"
+# This file isn't a static parameter. It changes each time a new dump is generated.
+# TODO: make the filename an argument of the script. Which filename to use can be determined by
+# querying the prod DB
 MANDATEE_TTL_DATASET_FILE = "/data/app/data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl"
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
