@@ -20,7 +20,7 @@
       "documentation": {
         "command": "generate-dataset",
         "description": "Generate dcat distribution, dataset and file",
-        "arguments": []
+        "arguments": ["last_previous_dataset_dump"]
       },
       "environment": {
         "image": "generate-dataset-script",

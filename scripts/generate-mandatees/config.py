@@ -1,4 +1,6 @@
 from pytz import timezone
+import sys
+import os
 
 ### CONSTANTS ###
 
@@ -18,10 +20,17 @@ BESTUURSFUNCTIES = [
 ### CONFIG ###
 
 GRAPH = "http://mu.semte.ch/graphs/public"
-# This file isn't a static parameter. It changes each time a new dump is generated.
-# TODO: make the filename an argument of the script. Which filename to use can be determined by
-# querying the prod DB
-MANDATEE_TTL_DATASET_FILE = "/data/app/data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl"
+
+if len(sys.argv) != 2:
+    print("Please provide a path to the latest government dataset dump file")
+    print("mu script project-scripts generate-mandatees dataset-dump")
+    print("  dataset-dump: path to government dataset ttl dump file (relative to project root)")
+    sys.exit()
+
+MANDATEE_TTL_DATASET_FILE = os.path.join("/data/app/", sys.argv[1])
+if not os.path.isfile(MANDATEE_TTL_DATASET_FILE):
+    raise Exception(MANDATEE_TTL_DATASET_FILE + "isn't a valid path to the latest government dataset ttl dump file")
+
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
 REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"

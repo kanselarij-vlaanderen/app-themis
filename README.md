@@ -13,16 +13,19 @@ OpenAPI documentation can be generated using [cl-resources-openapi-generator](ht
 
 ### Dataset "Samenstelling Vlaamse Regering"
 
-An interactive mu-script is available to generate migrations based on data-input describing changes in government. Make sure to have [mu-cli](https://github.com/mu-semtech/mu-cli) installed before running.
-
+An interactive mu-script is available to generate migrations based on data-input describing changes in government. Make sure to have [mu-cli](https://github.com/mu-semtech/mu-cli) installed before running. Since the script uses a docker image that isn't available in a registry, you need to build the image locally. Do this by running:
 ```
 docker build -t "generate-mandatees-script" ./scripts/generate-mandatees/
-mu script project-scripts generate-mandatees
+```
+
+A dumpfile containing the latest version of the government dataset is used as a source for defaults when running the script. The filename of the latest version of this dump-file can be determined by running the query at `queries/latest-govt-dataset.sparql` on `https://themis.vlaanderen.be/sparql`
+```
+mu script project-scripts generate-mandatees ./data/files/latest-dataset-example.ttl
 ```
 
 #### Validation
 
-The "Samenstelling Vlaamse Regering"-dataset can be [validated](https://www.itb.ec.europa.eu/shacl/any/upload) by means of a [SHACL](https://www.w3.org/TR/shacl/) constraints-file. The constraints-file can be found at `./config/shacl-validator`. The dataset itself can be found at `data/files/73089dee-7f76-42ba-9b06-556ff2bc5816.ttl`.
+The "Samenstelling Vlaamse Regering"-dataset can be [validated](https://www.itb.ec.europa.eu/shacl/any/upload) by means of a [SHACL](https://www.w3.org/TR/shacl/) constraints-file. The constraints-file can be found at `./config/shacl-validator`. 
 
 #### Providing an up-to-date dump
 
