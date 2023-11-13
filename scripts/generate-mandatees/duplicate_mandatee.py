@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import datetime
+import copy
 from string import Template
 from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
@@ -68,7 +69,7 @@ def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
         if not pick_mandatee:
             continue
 
-        questions = MANDATEE_QUESTIONS.copy()
+        questions = copy.deepcopy(MANDATEE_QUESTIONS)
         if row.title:
             questions[0]["default"] = row.title
         questions[1]["default"] = new_start.isoformat()[0:10]
