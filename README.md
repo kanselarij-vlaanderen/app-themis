@@ -18,7 +18,7 @@ An interactive mu-script is available to generate migrations based on data-input
 docker build -t "generate-mandatees-script" ./scripts/generate-mandatees/
 ```
 
-A dumpfile containing the latest version of the government dataset is used as a source for defaults when running the script. The filename of the latest version of this dump-file can be determined by running the query at `queries/latest-govt-dataset.sparql` on `https://themis.vlaanderen.be/sparql`
+A dumpfile containing the latest version of the government dataset is used as a source for defaults when running the script. The filename of the latest version of this dump-file can be determined by running the query at `queries/latest-govt-dataset.sparql` on [https://themis.vlaanderen.be/sparql](https://themis.vlaanderen.be/sparql)
 ```
 mu script project-scripts generate-mandatees ./data/files/latest-dataset-example.ttl
 ```
