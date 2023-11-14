@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import datetime
 from PyInquirer import prompt, print_json
 from prompt_toolkit.validation import Validator, ValidationError
@@ -77,14 +78,20 @@ elif flow_type == UPDATE_MANDATEES:
     g = duplicate_mandatees(SAMENSTELLING, start_date_default)
     g = g + mandatee_generation_loop(SAMENSTELLING)
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(now.strftime("%Y%m%d%H%M%S"))
-    g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')
+    filename = '{}.ttl'.format(filename_without_ext)
+    g.serialize(destination=filename, format='turtle')
     # TODO: add graph file
 elif flow_type == GEN_MANDATEES:
     # TODO: ask for samenstelling_uri once, then loop
     g = mandatee_generation_loop(SAMENSTELLING)
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(now.strftime("%Y%m%d%H%M%S"))
-    g.serialize(destination='{}.ttl'.format(filename_without_ext), format='turtle')
+    filename = '{}.ttl'.format(filename_without_ext)
+    g.serialize(destination=filename, format='turtle')
     # TODO: add graph file
 else:
-    pass
+    filename = None
 
+if filename:
+    print("Wrote migration file to {}".format(os.path.relpath(filename, "/data/app")))
+    if os.path.splitext(filename)[1] == '.ttl':
+        print("Verify if you want to add a .graph-file manually")
