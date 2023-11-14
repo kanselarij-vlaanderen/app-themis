@@ -130,24 +130,6 @@ WHERE {
 # 	ns16:hasPost	<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a04ed> ,
 # 		<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a04eb> ,
 # 		<http://themis.vlaanderen.be/id/mandaat/5fed907de6670526694a04ec> .
-# 
-# def generate_mandatee(title, person, start_date, end_date, rank, mandate):
-#     g = Graph()
-#     uuid = generate_uuid()
-#     m = g.resource("{}id/mandatee/{}".format(THEMIS_BASE, uuid))
-#     m.set(RDF.type, MANDAAT.Mandataris)
-#     m.set(MU.uuid, Literal(uuid))
-#     m.set(DCT.title, Literal(title))
-#     m.set(MANDAAT.start, Literal(
-#         datetime.datetime(start_date.year, start_date.month, start_date.day).localize(BRUSSELS_TZ)))
-#     if end_date:
-#         m.set(MANDAAT.einde, Literal(
-#         datetime.datetime(end_date.year, end_date.month, end_date.day).localize(BRUSSELS_TZ)))
-#     m.set(MANDAAT.rangorde, Literal(rank))
-#     m.set(ORG.holds, URIRef(mandate))
-#     m.set(MANDAAT.isBestuurlijkeAliasVan, URIRef(person))
-#     return g
-
 
 def ask_about_close_gov_body_in_time():
     answers = prompt(CLOSE_GOV_BODY_IN_TIME_QUESTIONS)
