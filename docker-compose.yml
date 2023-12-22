@@ -62,7 +62,7 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:1.22.0
+    image: semtech/mu-cl-resources:1.22.2
     volumes:
       - ./config/resources:/config
     environment:
