@@ -29,7 +29,7 @@ The "Samenstelling Vlaamse Regering"-dataset can be [validated](https://www.itb.
 
 #### Providing an up-to-date dump
 
-- Run the `CONSTRUCT`-query provided in `queries/construct_samenstelling_vr_dataset.sparql`. Select Virtuoso's `Pretty-printed Turtle (slow!)`-option.
+- Run the `CONSTRUCT`-query provided in `queries/construct_samenstelling_vr_dataset.sparql`. Select Virtuoso's `Turtle (beautified)`-option.
 - Save the result to `data/files/insert_uuid_here.ttl` (replace the placeholder in the filename by a new uuid)
 _make sure to stage the dump file in git (contents of `./data/files` are gitignored by default)_
 - Create a migration that adds new dataset/distribution metadata for the file you just generated. This can be done with the following script. _Note that the script will automatically choose the newest ttl-file in `./data/files` as the source file for the distribution_
