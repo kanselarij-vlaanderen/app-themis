@@ -1,0 +1,53 @@
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+PREFIX nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+
+DELETE {
+    GRAPH ?g {
+        <http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35> dct:modified ?modifiedDataset .
+    }
+}
+INSERT {
+    GRAPH ?g {
+        <http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35>
+            dcat:distribution <http://themis.vlaanderen.be/id/distribution/fb4ac582-dfb4-4e24-897b-f5992143f4bd> ;
+            dct:modified "2024-08-06T12:50:00"^^xsd:dateTime .
+
+        <http://themis.vlaanderen.be/id/distribution/fb4ac582-dfb4-4e24-897b-f5992143f4bd> a dcat:Distribution ;
+            mu:uuid "fb4ac582-dfb4-4e24-897b-f5992143f4bd" ;
+            dct:issued "2024-08-06T12:50:00"^^xsd:dateTime ;
+            dct:modified "2024-08-06T12:50:00"^^xsd:dateTime ;
+            dcat:downloadURL <https://themis.vlaanderen.be/files/c29cfc3e-639b-4c31-ae7c-50f49cc9fb6a/download> ;
+            dct:format "text/turtle" ;
+            dcat:byteSize "738221"^^xsd:integer ;
+            dct:replaces ?previousDistribution .
+
+        <http://themis.vlaanderen.be/id/file/c29cfc3e-639b-4c31-ae7c-50f49cc9fb6a> a nfo:FileDataObject ;
+            mu:uuid "c29cfc3e-639b-4c31-ae7c-50f49cc9fb6a" ;
+            nfo:fileName "ministers-vlaamse-regering.ttl" ;
+            dct:format "text/turtle" ;
+            nfo:fileSize "738221"^^xsd:integer ;
+            dct:created "2024-08-06T12:50:00"^^xsd:dateTime ;
+            dbpedia:fileExtension "ttl" .
+
+        <share://1a3590b9-f18d-4a58-a707-74426087acd1.ttl> a nfo:FileDataObject ;
+            mu:uuid "bf9e43dd-b2de-4b77-bac0-361e85d8cd5e" ;
+            nfo:fileName "1a3590b9-f18d-4a58-a707-74426087acd1.ttl" ;
+            dct:format "text/turtle" ;
+            nfo:fileSize "738221"^^xsd:integer ;
+            dct:created "2024-08-06T12:50:00"^^xsd:dateTime ;
+            dbpedia:fileExtension "ttl" ;
+            nie:dataSource <http://themis.vlaanderen.be/id/file/c29cfc3e-639b-4c31-ae7c-50f49cc9fb6a> .
+    }
+}
+WHERE {
+    GRAPH ?g {
+        <http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35> a dcat:Dataset ;
+            dcat:distribution ?previousDistribution .
+        OPTIONAL { <http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35> dct:modified ?modifiedDataset . }
+    }
+}
