@@ -22,13 +22,13 @@
     dct:modified "2024-08-05T14:49:12.680089"^^xsd:dateTime ;
     dcat:downloadURL <https://themis.vlaanderen.be/files/c15148f4-a030-40cd-b329-7d62882af4e1/download> ;
     dct:format "text/turtle" ;
-    dcat:byteSize "738728"^^xsd:integer .
+    dcat:byteSize "914031"^^xsd:integer .
 
 <http://themis.vlaanderen.be/id/file/c15148f4-a030-40cd-b329-7d62882af4e1> a nfo:FileDataObject ;
     mu:uuid "c15148f4-a030-40cd-b329-7d62882af4e1" ;
     nfo:fileName "ministers-vlaamse-regering.ttl" ;
     dct:format "text/turtle" ;
-    nfo:fileSize "738728"^^xsd:integer ;
+    nfo:fileSize "914031"^^xsd:integer ;
     dct:created "2024-08-05T14:49:12.680089"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" .
 
@@ -36,7 +36,7 @@
     mu:uuid "f18e5449-a471-4a83-8a08-0b9e20c8827e" ;
     nfo:fileName "f18e5449-a471-4a83-8a08-0b9e20c8827e.ttl" ;
     dct:format "text/turtle" ;
-    nfo:fileSize "738728"^^xsd:integer ;
+    nfo:fileSize "914031"^^xsd:integer ;
     dct:created "2024-08-05T14:49:12.680089"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" ;
     nie:dataSource <http://themis.vlaanderen.be/id/file/c15148f4-a030-40cd-b329-7d62882af4e1> .
