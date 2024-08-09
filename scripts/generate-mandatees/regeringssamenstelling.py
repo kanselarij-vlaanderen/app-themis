@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import datetime
 from string import Template
+from rdflib import Graph
 from PyInquirer import prompt
 from validation import DateValidator
 from namespaces import *
@@ -9,7 +10,9 @@ from mu_sparql_helpers.helpers import generate_uuid
 from config import BRUSSELS_TZ, GRAPH, \
     REGERINGSSAMENSTELLING_BASE_URI, \
     INVALIDATION_BASE_URI, \
-    GENERATION_BASE_URI
+    GENERATION_BASE_URI, \
+    VLAAMSE_REGERING, \
+    MANDATEE_TTL_DATASET_FILE
 
 ################################################################################
 ### Regeringsamenstelling afsluiten
@@ -87,11 +90,17 @@ WHERE {
     )
 
 def ask_about_end_regeringssamenstelling():
-    answers = prompt(END_REGERINGSSAMENSTELLING_QUESTIONS)
-    query = generate_end_regeringssamenstelling_query(
-        answers["gov_body_uri"],
-        answers["end_date"])
-    return query
+    g = Graph()
+    g.parse(MANDATEE_TTL_DATASET_FILE)
+    qres = g.query(generate_current_regeringssamenstelling_query())
+    for res in qres:  # only iterates max once (not an iterator, no decent other way)
+        print(f"De actieve regeringssamenstelling volgens aangeleverde dump is {res.samenstelling} ({res.label}).")
+        END_REGERINGSSAMENSTELLING_QUESTIONS[0]["default"] = res.samenstelling
+        answers = prompt(END_REGERINGSSAMENSTELLING_QUESTIONS)
+        query = generate_end_regeringssamenstelling_query(
+            answers["gov_body_uri"],
+            answers["end_date"])
+        return query
 
 ################################################################################
 ### Regeringsamenstelling starten
@@ -174,3 +183,51 @@ def ask_about_start_regeringssamenstelling():
         answers["label"],
         answers["start_date"])
     return query
+
+################################################################################
+### Huidige regeringsamenstelling bevragen
+################################################################################
+
+CURRENT_REGERINGSSAMENSTELLING_QUESTION = [
+    {
+        'type': 'input',
+        'name': 'samenstelling_uri',
+        'message': "Wat is de URI van de huidige regerinssamenstelling?",
+    },
+]
+
+def generate_current_regeringssamenstelling_query():
+    query_template = Template("""
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX besluit: <http://data.vlaanderen.be/ns/besluit#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX generiek: <https://data.vlaanderen.be/ns/generiek#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?samenstelling ?label
+WHERE {
+    ?samenstelling a besluit:Bestuursorgaan ;
+        skos:prefLabel ?label ;
+        generiek:isTijdspecialisatieVan / generiek:isTijdspecialisatieVan $vr ;
+        prov:qualifiedGeneration ?generation .
+    ?generation a prov:Generation ;
+        prov:atTime ?start_datetime .
+    FILTER NOT EXISTS { ?samenstelling prov:qualifiedInvalidation ?invalidation }
+}
+ORDER BY DESC(?start_datetime)
+LIMIT 1
+""")
+    return query_template.substitute(
+        vr=sparql_escape_uri(VLAAMSE_REGERING),
+    )
+
+def ask_about_current_regeringssamenstelling():
+    g = Graph()
+    g.parse(MANDATEE_TTL_DATASET_FILE)
+    qres = g.query(generate_current_regeringssamenstelling_query())
+    for res in qres:  # only iterates max once (not an iterator, no decent other way)
+        print(f"De actieve regeringssamenstelling volgens aangeleverde dump is {res.samenstelling} ({res.label}).")
+        CURRENT_REGERINGSSAMENSTELLING_QUESTION[0]["default"] = res.samenstelling
+        answers = prompt(CURRENT_REGERINGSSAMENSTELLING_QUESTION)
+        return answers["samenstelling_uri"]
