@@ -1,0 +1,46 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+# dataset is part of catalog
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/d1d2b9bf-5504-4167-a471-7b1ca95de520> .
+
+# dataset is a revision of the old register
+<http://themis.vlaanderen.be/id/dataset/d1d2b9bf-5504-4167-a471-7b1ca95de520> <http://www.w3.org/ns/prov#wasRevisionOf> <http://themis.vlaanderen.be/id/dataset/53ca3fac-fb78-401c-9c4d-0f6978573965> .
+
+<http://themis.vlaanderen.be/id/dataset/d1d2b9bf-5504-4167-a471-7b1ca95de520> a dcat:Dataset ;
+    mu:uuid "d1d2b9bf-5504-4167-a471-7b1ca95de520" ;
+    dct:title "Beleidsdomeinen codelist" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1> ;
+    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/f434a73b-aa74-4479-a2e6-eca53c647f17> .
+
+<http://themis.vlaanderen.be/id/distribution/f434a73b-aa74-4479-a2e6-eca53c647f17> a dcat:Distribution ;
+    mu:uuid "f434a73b-aa74-4479-a2e6-eca53c647f17" ;
+    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/2f2c615c-2a9a-4623-aea2-260fa1de3dc6/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "8711"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/2f2c615c-2a9a-4623-aea2-260fa1de3dc6> a nfo:FileDataObject ;
+    mu:uuid "2f2c615c-2a9a-4623-aea2-260fa1de3dc6" ;
+    nfo:fileName "beleidsdomeinen.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "8711"^^xsd:integer ;
+    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://d5f45f4f-6b78-463c-9d9b-08e9b09f5c47.ttl> a nfo:FileDataObject ;
+    mu:uuid "d5f45f4f-6b78-463c-9d9b-08e9b09f5c47" ;
+    nfo:fileName "d5f45f4f-6b78-463c-9d9b-08e9b09f5c47.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "8711"^^xsd:integer ;
+    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/2f2c615c-2a9a-4623-aea2-260fa1de3dc6> .
