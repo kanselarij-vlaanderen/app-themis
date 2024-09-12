@@ -62,7 +62,7 @@ services:
     restart: always
     logging: *default-logging
   resource:
-    image: semtech/mu-cl-resources:1.22.0
+    image: semtech/mu-cl-resources:1.22.2
     volumes:
       - ./config/resources:/config
     environment:
@@ -108,14 +108,14 @@ services:
     restart: always
     logging: *default-logging
   themis-same-as:
-    image: kanselarij/themis-same-as-service:0.4.0
+    image: kanselarij/themis-same-as-service:0.4.1
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
     restart: always
     logging: *default-logging
   dcat-dataset-publication:
-    image: kanselarij/dcat-dataset-publication-service:0.3.3
+    image: kanselarij/dcat-dataset-publication-service:0.4.1
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
@@ -123,3 +123,8 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+  project-scripts:
+    image: semtech/simple-script-store:1.0.0
+    volumes:
+      - ./scripts/:/app/scripts/
+    restart: "no"

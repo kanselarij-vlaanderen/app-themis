@@ -122,8 +122,9 @@
 		sh:description "qualifiedGeneration" ;
 		sh:path <http://www.w3.org/ns/prov#qualifiedInvalidation> ;
 		sh:class <http://www.w3.org/ns/prov#Invalidation> ;
-		# sh:minCount 1 ; # Not filled in for currently active
+		sh:minCount 1 ;
 		sh:maxCount 1 ;
+		sh:severity sh:Info ; # Not filled in for currently active
 	] ;
 	sh:sparql [
 			a sh:SPARQLConstraint ;
@@ -280,8 +281,9 @@
 		sh:description "Tijdstip vanaf wanneer de mandataris het mandaat niet langer opneemt." ;
 		sh:path <http://data.vlaanderen.be/ns/mandaat#einde> ;
 		sh:datatype <http://www.w3.org/2001/XMLSchema#dateTime> ;
-		# sh:minCount 1 ; # Not filled in for currently active
+		sh:minCount 1 ;
 		sh:maxCount 1 ;
+		sh:severity sh:Info ; # Not filled in for currently active
 	] ;
 	sh:property [
 		sh:name "rangorde" ;

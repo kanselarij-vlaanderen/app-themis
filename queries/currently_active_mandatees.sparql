@@ -1,0 +1,37 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX person: <http://www.w3.org/ns/person#>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX mandaat: <http://data.vlaanderen.be/ns/mandaat#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+# Only works through mu-authorization (without this comment). Virtuoso doesn't like the union
+# atm we don't save future end dates in practice
+SELECT ?mandatee ?person ?mandate ?mandateLabel ?order ?title
+WHERE {
+    <http://themis.vlaanderen.be/id/bestuursorgaan/5fed907ee6670526694a0706> prov:hadMember ?mandatee .
+    ?mandatee
+        a mandaat:Mandataris ;
+        mandaat:isBestuurlijkeAliasVan ?person ;
+        mandaat:start ?mandatee_start ;
+        mandaat:rangorde ?order ;
+        org:holds ?mandate .
+    ?mandate org:role / skos:prefLabel ?mandateLabel
+  	OPTIONAL { ?mandatee dct:title ?title }
+    ?person
+        a person:Person ;
+        foaf:familyName ?familyName .
+    {
+        FILTER NOT EXISTS { ?mandatee mandaat:einde ?mandatee_end }
+    }
+    UNION 
+    {
+        ?mandatee mandaat:einde ?mandatee_end .
+        FILTER(?mandatee_end > NOW())
+    }
+ }
+ORDER BY ?order

@@ -56,7 +56,7 @@ defmodule Dispatcher do
   end
 
   get "/datasets/*path", %{ layer: :resources, accept: %{ json: true } } do
-    forward conn, path, "http://cache/datasets/"
+    forward conn, path, "http://resource/datasets/"
   end
 
   get "/distributions/*path", %{ layer: :resources, accept: %{ json: true } } do

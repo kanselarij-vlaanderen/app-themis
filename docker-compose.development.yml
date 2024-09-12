@@ -14,6 +14,7 @@ services:
   dispatcher:
     restart: "no"
   frontend:
+    # image: # specify the same image than the one in docker-compose, but without the "-fastboot" suffix here for a fastboot-less local setup
     restart: "no"
   database:
     restart: "no"
