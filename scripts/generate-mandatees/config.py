@@ -11,11 +11,16 @@ VLAAMSE_REGERING = "http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-
 MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
 VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
 MINISTER = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0"
+# These don't exist on themis but are needed for kaleidos. remove from themis migrations after copy
+SECRETARIS = "http://themis.vlaanderen.be/id/bestuursfunctie/9d5ebfb9-3829-4b1f-a2a8-15033f7e2097"
+WAARNEMEND_SECRETARIS = "http://themis.vlaanderen.be/id/bestuursfunctie/cfa6ed74-bb6f-4d4c-b905-9a205be135d7"
 
 BESTUURSFUNCTIES = [
     MP,
     VICE_MP,
-    MINISTER
+    MINISTER,
+    SECRETARIS,
+    WAARNEMEND_SECRETARIS
 ]
 ### CONFIG ###
 
