@@ -62,11 +62,6 @@ WHERE {
 }
 ;
 
-DELETE {
-    GRAPH $graph {
-        ?mandatee mandaat:einde ?mandatee_end .
-    }
-}
 INSERT {
     GRAPH $graph {
         ?mandatee mandaat:einde $end_datetime .
@@ -77,7 +72,7 @@ WHERE {
         $gov_body a besluit:Bestuursorgaan ;
             prov:hadMember ?mandatee .
         ?mandatee a mandaat:Mandataris .
-        OPTIONAL { ?mandatee mandaat:einde ?mandatee_end . }
+        FILTER NOT EXISTS { ?mandatee mandaat:einde ?mandatee_end . }
     }
 }
 """)
