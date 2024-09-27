@@ -8,7 +8,7 @@ BRUSSELS_TZ = timezone('Europe/Brussels')
 
 VLAAMSE_REGERING = "http://themis.vlaanderen.be/id/bestuursorgaan/7f2c82aa-75ac-40f8-a6c3-9fe539163025"
 
-MP = "https://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
+MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03de"
 VICE_MP = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03df"
 MINISTER = "http://themis.vlaanderen.be/id/bestuursfunctie/5fed907ce6670526694a03e0"
 
