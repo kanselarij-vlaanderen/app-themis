@@ -71,7 +71,7 @@ WHERE {
         BIND(xsd:dateTime(?start_date) AS ?start_datetime)
         BIND(CONCAT(STR(DAY(?start_datetime)), "/", STR(MONTH(?start_datetime)), "/", STR(YEAR(?start_datetime))) AS ?label_start_date)
         BIND($end_datetime AS ?end_datetime)
-        BIND(xsd:date(?end_datetime) AS ?end_date)
+        BIND(xsd:dateTime(?end_datetime) AS ?end_date)
         BIND(CONCAT(STR(DAY(?end_datetime)), "/", STR(MONTH(?end_datetime)), "/", STR(YEAR(?end_datetime))) AS ?label_end_date)
         BIND(CONCAT("Vlaamse Regering ", ?label_start_date, " - ", ?label_end_date) AS ?newLabel)
     }
