@@ -16,14 +16,14 @@
     mu:uuid "2e8e9773-bd6d-4617-aa8d-8272b7667270" ;
     dct:title "Beleidsvelden codelist" ;
     dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1> ;
-    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
-    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:issued "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dcat:distribution <http://themis.vlaanderen.be/id/distribution/8934dbb1-f993-482a-9cf1-4df319b545f2> .
 
 <http://themis.vlaanderen.be/id/distribution/8934dbb1-f993-482a-9cf1-4df319b545f2> a dcat:Distribution ;
     mu:uuid "8934dbb1-f993-482a-9cf1-4df319b545f2" ;
-    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
-    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:issued "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dcat:downloadURL <https://themis.vlaanderen.be/files/adc8528b-aef2-4f87-87c9-9fb175a6cb17/download> ;
     dct:format "text/turtle" ;
     dcat:byteSize "506765"^^xsd:integer .
@@ -33,7 +33,7 @@
     nfo:fileName "beleidsvelden.ttl" ;
     dct:format "text/turtle" ;
     nfo:fileSize "506765"^^xsd:integer ;
-    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:created "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" .
 
 <share://9ffd937d-901c-4750-8b58-81cbf9bbc0d2.ttl> a nfo:FileDataObject ;
@@ -41,6 +41,6 @@
     nfo:fileName "9ffd937d-901c-4750-8b58-81cbf9bbc0d2.ttl" ;
     dct:format "text/turtle" ;
     nfo:fileSize "506765"^^xsd:integer ;
-    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:created "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" ;
     nie:dataSource <http://themis.vlaanderen.be/id/file/adc8528b-aef2-4f87-87c9-9fb175a6cb17> .

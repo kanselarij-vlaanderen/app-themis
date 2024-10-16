@@ -16,14 +16,14 @@
     mu:uuid "d1d2b9bf-5504-4167-a471-7b1ca95de520" ;
     dct:title "Beleidsdomeinen codelist" ;
     dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/49e2bdc1-6c32-4021-b12b-2c9ff3674cd1> ;
-    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
-    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:issued "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dcat:distribution <http://themis.vlaanderen.be/id/distribution/f434a73b-aa74-4479-a2e6-eca53c647f17> .
 
 <http://themis.vlaanderen.be/id/distribution/f434a73b-aa74-4479-a2e6-eca53c647f17> a dcat:Distribution ;
     mu:uuid "f434a73b-aa74-4479-a2e6-eca53c647f17" ;
-    dct:issued "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
-    dct:modified "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:issued "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
+    dct:modified "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dcat:downloadURL <https://themis.vlaanderen.be/files/2f2c615c-2a9a-4623-aea2-260fa1de3dc6/download> ;
     dct:format "text/turtle" ;
     dcat:byteSize "8711"^^xsd:integer .
@@ -33,7 +33,7 @@
     nfo:fileName "beleidsdomeinen.ttl" ;
     dct:format "text/turtle" ;
     nfo:fileSize "8711"^^xsd:integer ;
-    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:created "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" .
 
 <share://d5f45f4f-6b78-463c-9d9b-08e9b09f5c47.ttl> a nfo:FileDataObject ;
@@ -41,6 +41,6 @@
     nfo:fileName "d5f45f4f-6b78-463c-9d9b-08e9b09f5c47.ttl" ;
     dct:format "text/turtle" ;
     nfo:fileSize "8711"^^xsd:integer ;
-    dct:created "2024-09-11T15:00:00+02:00"^^xsd:dateTime ;
+    dct:created "2024-10-16T15:00:00+02:00"^^xsd:dateTime ;
     dbpedia:fileExtension "ttl" ;
     nie:dataSource <http://themis.vlaanderen.be/id/file/2f2c615c-2a9a-4623-aea2-260fa1de3dc6> .
