@@ -41,6 +41,7 @@ MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 REGERINGSSAMENSTELLING_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
 LEGISLATUUR_BASE_URI = "http://themis.vlaanderen.be/id/bestuursorgaan/"
 MANDAAT_BASE_URI = "http://themis.vlaanderen.be/id/mandaat/"
+MANDATEE_BASE_URI = "http://themis.vlaanderen.be/id/mandataris/"
 INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
 GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
 
