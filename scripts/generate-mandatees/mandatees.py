@@ -5,7 +5,8 @@ from PyInquirer import prompt
 from rdflib import Graph, Literal, URIRef
 from validation import DateValidator, NumberValidator
 from namespaces import *
-from config import BRUSSELS_TZ
+from config import BRUSSELS_TZ,\
+    MANDATEE_BASE_URI
 
 MANDATEE_QUESTIONS = [
     {
@@ -51,7 +52,7 @@ MANDATEE_QUESTIONS = [
 def generate_mandatee(title, person, start_date, end_date, rank, mandate, regeringssamenstelling):
     g = Graph()
     uuid = generate_uuid()
-    m = g.resource("{}id/mandatee/{}".format(THEMIS_BASE, uuid))
+    m = g.resource(MANDATEE_BASE_URI + Literal(uuid))
     m.set(RDF.type, MANDAAT.Mandataris)
     m.set(MU.uuid, Literal(uuid))
     if title:
