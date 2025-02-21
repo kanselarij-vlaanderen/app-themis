@@ -14,6 +14,7 @@
 
 (read-domain-file "dcat.json")
 (read-domain-file "besluitvorming.json")
+(read-domain-file "email-domain.lisp")
 (read-domain-file "health-check.lisp")
 
 (defcall :get (base-path)
