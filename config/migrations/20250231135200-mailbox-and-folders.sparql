@@ -1,0 +1,42 @@
+INSERT DATA {
+  GRAPH <http://mu.semte.ch/graphs/system/email> {
+    <http://themis.vlaanderen.be/id/mailboxes/29f45cd7-c843-4b00-99af-63633b4a3470> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nmo#Mailbox>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "29f45cd7-c843-4b00-99af-63633b4a3470" ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/033c18c4-8eae-43fd-8fb9-f5a6542b27bd> ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/d9a415a4-b5e5-41d0-80ee-3f85d69e318c> ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/2667a166-4da4-4844-81f2-8aa6b8169470> ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/ed24e3bc-3557-4536-8530-ddab649f4f23> ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/92da00ae-f095-4ca0-8f4d-7b2a628dc5d7> ;
+    <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#hasPart> <http://themis.vlaanderen.be/id/mail-folders/1bbcc70a-77fe-4b52-8a37-27cad9086f4b> .
+
+    <http://themis.vlaanderen.be/id/mail-folders/033c18c4-8eae-43fd-8fb9-f5a6542b27bd> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "033c18c4-8eae-43fd-8fb9-f5a6542b27bd";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "inbox";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Incoming mails".
+
+    <http://themis.vlaanderen.be/id/mail-folders/d9a415a4-b5e5-41d0-80ee-3f85d69e318c> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "d9a415a4-b5e5-41d0-80ee-3f85d69e318c";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "outbox";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Mails to be sent".
+
+    <http://themis.vlaanderen.be/id/mail-folders/2667a166-4da4-4844-81f2-8aa6b8169470> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "2667a166-4da4-4844-81f2-8aa6b8169470";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "sentbox";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Sent mails".
+
+    <http://themis.vlaanderen.be/id/mail-folders/ed24e3bc-3557-4536-8530-ddab649f4f23> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "ed24e3bc-3557-4536-8530-ddab649f4f23";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "sending";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Mails currently being processed for sending".
+
+    <http://themis.vlaanderen.be/id/mail-folders/92da00ae-f095-4ca0-8f4d-7b2a628dc5d7> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "92da00ae-f095-4ca0-8f4d-7b2a628dc5d7";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "drafts";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Draft emails".
+
+    <http://themis.vlaanderen.be/id/mail-folders/1bbcc70a-77fe-4b52-8a37-27cad9086f4b> a <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#Folder>;
+       <http://mu.semte.ch/vocabularies/core/uuid> "1bbcc70a-77fe-4b52-8a37-27cad9086f4b";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#title> "failbox";
+       <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#description> "Mails failed to be sent".
+  }
+}
