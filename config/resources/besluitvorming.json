@@ -60,7 +60,7 @@
       "features": [
         "include-uri"
       ],
-      "new-resource-base": "http://themis.vlaanderen.be/id/organization/"
+      "new-resource-base": "http://themis.vlaanderen.be/id/organisatie/"
     },
     "mandatees": {
       "class": "mandaat:Mandataris",
