@@ -38,6 +38,30 @@
       ],
       "new-resource-base": "http://themis.vlaanderen.be/id/person/"
     },
+    "organizations": {
+      "class": "foaf:Organization",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "predicate": "skos:prefLabel"
+        },
+        "ovo-code": {
+          "type": "string",
+          "predicate": "org:identifier"
+        }
+      },
+      "relationships": {
+        "mandatees": {
+          "target": "mandatees",
+          "predicate": "org:hasMember",
+          "cardinality": "many"
+        }
+      },
+      "features": [
+        "include-uri"
+      ],
+      "new-resource-base": "http://themis.vlaanderen.be/organisatie/"
+    },
     "mandatees": {
       "class": "mandaat:Mandataris",
       "attributes": {
@@ -68,6 +92,12 @@
           "target": "persons",
           "predicate": "mandaat:isBestuurlijkeAliasVan",
           "cardinality": "one"
+        },
+        "organization": {
+          "target": "organizations",
+          "predicate": "org:hasMember",
+          "cardinality": "many",
+          "inverse": true
         },
         "government-body": {
           "target": "government-bodies",

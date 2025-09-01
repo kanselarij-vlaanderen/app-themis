@@ -75,6 +75,10 @@ defmodule Dispatcher do
     forward conn, path, "http://cache/mandates/"
   end
 
+  get "/organizations/*path", %{ layer: :resources, accept: %{ json: true } } do
+    forward conn, path, "http://cache/organizations/"
+  end
+
   get "/government-functions/*path", %{ layer: :resources, accept: %{ json: true } } do
     forward conn, path, "http://cache/government-functions/"
   end
