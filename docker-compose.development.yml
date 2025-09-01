@@ -20,7 +20,7 @@ services:
     restart: "no"
   delta-notifier:
     restart: "no"
-  virtuoso:
+  triplestore:
     restart: "no"
   migrations:
     restart: "no"
