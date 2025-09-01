@@ -1,0 +1,11 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://themis.vlaanderen.be/organisatie/9df1b5c0-8556-11ef-bde2-a122874a87a7> mu:uuid "9df1b5c0-8556-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/eb6e2090-8547-11ef-bde2-a122874a87a7> mu:uuid "eb6e2090-8547-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/0ddc96a0-8ac7-11ef-966f-3f7dcc800486> mu:uuid "0ddc96a0-8ac7-11ef-966f-3f7dcc800486" .
+<http://themis.vlaanderen.be/organisatie/1e5f8180-8578-11ef-bde2-a122874a87a7> mu:uuid "1e5f8180-8578-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/55fffea0-81a2-11ef-bde2-a122874a87a7> mu:uuid "55fffea0-81a2-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/6850bd00-8559-11ef-bde2-a122874a87a7> mu:uuid "6850bd00-8559-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/1210af40-8478-11ef-bde2-a122874a87a7> mu:uuid "1210af40-8478-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/74c82900-84b0-11ef-bde2-a122874a87a7> mu:uuid "74c82900-84b0-11ef-bde2-a122874a87a7" .
+<http://themis.vlaanderen.be/organisatie/ebd45450-84b6-11ef-bde2-a122874a87a7> mu:uuid "ebd45450-84b6-11ef-bde2-a122874a87a7" .
