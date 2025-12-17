@@ -132,7 +132,6 @@ services:
     image: redpencil/deliver-email-service:0.3.3
     environment:
       MAILBOX_URI: "http://themis.vlaanderen.be/id/mailboxes/29f45cd7-c843-4b00-99af-63633b4a3470"
-      WELL_KNOWN_SERVICE: "test"
       EMAIL_ADDRESS: "noreply@kaleidos.vlaanderen.be"
       EMAIL_CRON_PATTERN: "*/5 * * * *"
       EMAIL_PROTOCOL: "MS_Graph_API"
