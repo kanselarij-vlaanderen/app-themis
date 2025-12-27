@@ -13,12 +13,16 @@ services:
       DEFAULT_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER: "*"
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   dispatcher:
     image: semtech/mu-dispatcher:2.1.0-beta.2
     volumes:
       - ./config/dispatcher:/config
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   frontend:
     image: kanselarij/frontend-themis:1.0.1-fastboot
     links:
@@ -27,6 +31,8 @@ services:
     environment:
       EMBER_FASTBOOT_HOST: "themis-test.vlaanderen.be"
     logging: *default-logging
+    labels:
+      - "logging=true"
   database:
     image: semtech/mu-authorization:0.6.0-beta.8
     environment:
@@ -37,12 +43,16 @@ services:
       - ./config/authorization:/config
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   delta-notifier:
     image: semtech/mu-delta-notifier:0.4.0
     volumes:
       - ./config/delta:/config
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   triplestore:
     image: redpencil/virtuoso:1.3.0
     environment:
@@ -53,6 +63,8 @@ services:
       - ./config/db/virtuoso.ini:/data/virtuoso.ini
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   migrations:
     image: semtech/mu-migrations-service:0.9.0
     links:
@@ -61,6 +73,8 @@ services:
       - ./config/migrations:/data/migrations
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   resource:
     image: semtech/mu-cl-resources:1.27.2
     volumes:
@@ -69,34 +83,46 @@ services:
       CACHE_CLEAR_PATH: "http://cache/.mu/clear-keys"
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   cache:
     image: semtech/mu-cache:2.0.2
     links:
       - resource:backend
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   file:
     image: semtech/mu-file-service:3.3.0
     volumes:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   resource-labels-cache:
     image: semtech/mu-cache:2.0.2
     links:
       - resource-labels:backend
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   resource-labels:
     image: lblod/resource-label-service:0.3.2
     environment:
       DEFAULT_LANGUAGE: "nil"
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   publication-consumer:
     image: kanselarij/themis-publication-consumer:2.3.0
     environment:
@@ -107,6 +133,8 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   themis-same-as:
     image: kanselarij/themis-same-as-service:0.6.0
     environment:
@@ -114,6 +142,8 @@ services:
       DEBUG_AUTH_HEADERS: "false"
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   dcat-dataset-publication:
     image: kanselarij/dcat-dataset-publication-service:0.6.0
     environment:
@@ -123,16 +153,19 @@ services:
       - ./data/files:/share
     restart: always
     logging: *default-logging
+    labels:
+      - "logging=true"
   project-scripts:
     image: semtech/simple-script-store:1.0.0
     volumes:
       - ./scripts/:/app/scripts/
     restart: "no"
+    labels:
+      - "logging=true"
   mail-delivery:
     image: redpencil/deliver-email-service:0.3.3
     environment:
       MAILBOX_URI: "http://themis.vlaanderen.be/id/mailboxes/29f45cd7-c843-4b00-99af-63633b4a3470"
-      WELL_KNOWN_SERVICE: "test"
       EMAIL_ADDRESS: "noreply@kaleidos.vlaanderen.be"
       EMAIL_CRON_PATTERN: "*/5 * * * *"
       EMAIL_PROTOCOL: "MS_Graph_API"
@@ -143,3 +176,5 @@ services:
       - ./data/files:/share
     logging: *default-logging
     restart: always
+    labels:
+      - "logging=true"
