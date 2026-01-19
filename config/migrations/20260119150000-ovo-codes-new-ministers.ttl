@@ -1,22 +1,39 @@
 @prefix ns3:	<http://www.w3.org/ns/org#> .
 
-<http://themis.vlaanderen.be/organisatie/ebd45450-84b6-11ef-bde2-a122874a87a7>								# OVO053549
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/0d5671f0-cc1d-4b97-90a2-02cf91d526e3> . # Diependaele
-	ns3:hasMember <http://themis.vlaanderen.be/id/mandatee/5270795d-9c0e-4aaf-ba1e-3750c7fba000> . # Diependaele MP
-<http://themis.vlaanderen.be/organisatie/6850bd00-8559-11ef-bde2-a122874a87a7>								# OVO053552
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/9b8f65f4-0398-4750-9457-f2c8c225373a> . # Bonte
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/779ec039-3fd7-477c-b0f1-4b6af58526f2> . # Depraetere
-<http://themis.vlaanderen.be/organisatie/55fffea0-81a2-11ef-bde2-a122874a87a7>								# OVO053550
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/357c45bf-f861-41d4-87c5-1c0797241fa0> . # Crevits
-<http://themis.vlaanderen.be/organisatie/0ddc96a0-8ac7-11ef-966f-3f7dcc800486>								# OVO053551
-	ns3:hasMember <http://themis.vlaanderen.be/id/mandatee/13e106c2-5b00-4021-a7a0-0a4adecf12e6> . # Weyts
-<http://themis.vlaanderen.be/organisatie/eb6e2090-8547-11ef-bde2-a122874a87a7>								# OVO053556
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/a53f5741-04e4-4514-9fe5-14ab4d0b21b2> . # Demir
-<http://themis.vlaanderen.be/organisatie/1210af40-8478-11ef-bde2-a122874a87a7>								# OVO053554
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/a374a810-0a1c-422c-b034-1514d260e048> . # Gennez
-<http://themis.vlaanderen.be/organisatie/1e5f8180-8578-11ef-bde2-a122874a87a7>								# OVO053553
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/2a6aa794-20b4-463e-b412-ae6a87cae03f> . # Brouns
-<http://themis.vlaanderen.be/organisatie/9df1b5c0-8556-11ef-bde2-a122874a87a7>								# OVO053556
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/8c198373-1226-4bae-8c94-438b3b503042> . # De Ridder
-<http://themis.vlaanderen.be/organisatie/74c82900-84b0-11ef-bde2-a122874a87a7>								# OVO053557
-	ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/7241bbe8-378a-4b0a-b7fb-857e21144a6f> . # Van Achter
+# OVO053549 Kabinet Diependaele
+<http://themis.vlaanderen.be/organisatie/ebd45450-84b6-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/0d5671f0-cc1d-4b97-90a2-02cf91d526e3> ; # Diependaele
+	  ns3:hasMember <http://themis.vlaanderen.be/id/mandatee/5270795d-9c0e-4aaf-ba1e-3750c7fba000> . # Diependaele MP
+
+# OVO053552 Kabinet Depraetere
+<http://themis.vlaanderen.be/organisatie/6850bd00-8559-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/9b8f65f4-0398-4750-9457-f2c8c225373a> ; # Bonte
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/779ec039-3fd7-477c-b0f1-4b6af58526f2> . # Depraetere
+
+# OVO053550 Kabinet Crevits
+<http://themis.vlaanderen.be/organisatie/55fffea0-81a2-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/357c45bf-f861-41d4-87c5-1c0797241fa0> . # Crevits
+
+# OVO053551 Kabinet Weyts
+<http://themis.vlaanderen.be/organisatie/0ddc96a0-8ac7-11ef-966f-3f7dcc800486>
+	  ns3:hasMember <http://themis.vlaanderen.be/id/mandatee/13e106c2-5b00-4021-a7a0-0a4adecf12e6> . # Weyts
+
+# OVO053556 Kabinet Demir
+<http://themis.vlaanderen.be/organisatie/eb6e2090-8547-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/a53f5741-04e4-4514-9fe5-14ab4d0b21b2> . # Demir
+
+# OVO053554 Kabinet Gennez
+<http://themis.vlaanderen.be/organisatie/1210af40-8478-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/a374a810-0a1c-422c-b034-1514d260e048> . # Gennez
+
+# OVO053553 Kabinet Brouns
+<http://themis.vlaanderen.be/organisatie/1e5f8180-8578-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/2a6aa794-20b4-463e-b412-ae6a87cae03f> . # Brouns
+
+# OVO053556 Kabinet De Ridder
+<http://themis.vlaanderen.be/organisatie/9df1b5c0-8556-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/8c198373-1226-4bae-8c94-438b3b503042> . # De Ridder
+
+# OVO053557 Kabinet Van Achter
+<http://themis.vlaanderen.be/organisatie/74c82900-84b0-11ef-bde2-a122874a87a7>
+	  ns3:hasMember	<http://themis.vlaanderen.be/id/mandatee/7241bbe8-378a-4b0a-b7fb-857e21144a6f> . # Van Achter
