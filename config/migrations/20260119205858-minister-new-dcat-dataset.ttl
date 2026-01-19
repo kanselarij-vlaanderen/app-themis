@@ -1,0 +1,42 @@
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+<http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/2cfa238b-ebca-4861-ae16-2998ce0f52ab> .
+
+<http://themis.vlaanderen.be/id/dataset/2cfa238b-ebca-4861-ae16-2998ce0f52ab> a dcat:Dataset ;
+    mu:uuid "2cfa238b-ebca-4861-ae16-2998ce0f52ab" ;
+    dct:title "Minister dataset" ;
+    dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> ;
+    dct:issued "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dct:modified "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dcat:distribution <http://themis.vlaanderen.be/id/distribution/540ef81e-4344-45a5-8d16-e4f839855be7> .
+
+<http://themis.vlaanderen.be/id/distribution/540ef81e-4344-45a5-8d16-e4f839855be7> a dcat:Distribution ;
+    mu:uuid "540ef81e-4344-45a5-8d16-e4f839855be7" ;
+    dct:issued "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dct:modified "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dcat:downloadURL <https://themis.vlaanderen.be/files/a7e667f0-9ca4-469e-bd42-01f956626e2d/download> ;
+    dct:format "text/turtle" ;
+    dcat:byteSize "988304"^^xsd:integer .
+
+<http://themis.vlaanderen.be/id/file/a7e667f0-9ca4-469e-bd42-01f956626e2d> a nfo:FileDataObject ;
+    mu:uuid "a7e667f0-9ca4-469e-bd42-01f956626e2d" ;
+    nfo:fileName "ministers-vlaamse-regering.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "988304"^^xsd:integer ;
+    dct:created "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" .
+
+<share://0993c62f-20f5-481c-9241-44fa312a679a.ttl> a nfo:FileDataObject ;
+    mu:uuid "0993c62f-20f5-481c-9241-44fa312a679a" ;
+    nfo:fileName "0993c62f-20f5-481c-9241-44fa312a679a.ttl" ;
+    dct:format "text/turtle" ;
+    nfo:fileSize "988304"^^xsd:integer ;
+    dct:created "2026-01-19T19:58:58.289573"^^xsd:dateTime ;
+    dbpedia:fileExtension "ttl" ;
+    nie:dataSource <http://themis.vlaanderen.be/id/file/a7e667f0-9ca4-469e-bd42-01f956626e2d> .
