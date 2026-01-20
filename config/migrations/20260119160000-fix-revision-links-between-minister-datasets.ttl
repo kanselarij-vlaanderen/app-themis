@@ -1,0 +1,5 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://themis.vlaanderen.be/id/dataset/8af5065a-428f-4f00-9234-c16a837339e5> prov:wasRevisionOf <http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35> .
+<http://themis.vlaanderen.be/id/dataset/edf0343f-ef97-4a4b-b719-533d0428ce35> prov:wasRevisionOf <http://themis.vlaanderen.be/id/dataset/2c223a7b-603a-4173-bce8-ff8b266d4c77> .
+<http://themis.vlaanderen.be/id/dataset/2c223a7b-603a-4173-bce8-ff8b266d4c77> prov:wasRevisionOf  <http://themis.vlaanderen.be/id/dataset/87b6f1d9-9951-496c-a36e-47d4d85b0f7f> .
