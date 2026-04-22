@@ -35,7 +35,15 @@ defmodule Acl.UserGroups.Config do
               "http://data.vlaanderen.be/ns/besluit#Vergaderactiviteit",
               "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#FileDataObject",
               "https://data.vlaanderen.be/ns/dossier#Stuk"
-            ] } } ]
+            ] } },
+          %GraphSpec{
+            graph: "http://mu.semte.ch/graphs/publication-tasks",
+            constraint: %ResourceConstraint{
+              resource_types: [
+                "http://mu.semte.ch/vocabularies/ext/SyncTask",
+                "http://mu.semte.ch/vocabularies/ext/ReleaseTask",
+              ] } }
+        ]
       },
 
       # // CLEANUP

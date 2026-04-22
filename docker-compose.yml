@@ -124,7 +124,7 @@ services:
     labels:
       - "logging=true"
   publication-consumer:
-    image: kanselarij/themis-publication-consumer:2.3.0
+    image: kanselarij/themis-publication-consumer:2.4.0
     environment:
       LOG_SPARQL_ALL: "false"
       DEBUG_AUTH_HEADERS: "false"
