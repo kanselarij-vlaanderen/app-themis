@@ -27,11 +27,10 @@
   :org "http://www.w3.org/ns/org#"
   :besluit "http://data.vlaanderen.be/ns/besluit#"
   :nfo "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#"
-  :dossier "https://data.vlaanderen.be/ns/dossier#")
+  :dossier "https://data.vlaanderen.be/ns/dossier#"
+  :ext "http://mu.semte.ch/vocabularies/ext/")
 
 (supply-allowed-group "public")
-
-(supply-allowed-group "clean")
 
 (define-graph public ("http://mu.semte.ch/graphs/public")
   ("foaf:Agent" -> _)
@@ -50,27 +49,14 @@
   ("nfo:FileDataObject" -> _)
   ("dossier:Stuk" -> _))
 
-(define-graph clean ("http://mu.semte.ch/application")
-  ("foaf:Agent" -> _)
-  ("dcat:Catalog" -> _)
-  ("dcat:Dataset" -> _)
-  ("dcat:Distribution" -> _)
-  ("skos:ConceptScheme" -> _)
-  ("skos:Concept" -> _)
-  ("person:Person" -> _)
-  ("mandaat:Mandataris" -> _)
-  ("mandaat:Mandaat" -> _)
-  ("org:Role" -> _)
-  ("besluit:Bestuursorgaan" -> _)
-  ("besluit:Bestuurseenheid" -> _)
-  ("besluit:Vergaderactiviteit" -> _)
-  ("nfo:FileDataObject" -> _)
-  ("dossier:Stuk" -> _))
+(define-graph publication-tasks ("http://mu.semte.ch/graphs/publication-tasks")
+  ("ext:SyncTask" -> _)
+  ("ext:ReleaseTask" -> _))
 
 (grant (read)
   :to-graph public
   :for-allowed-group "public")
 
-(grant (write)
-  :to-graph clean
-  :for-allowed-group "clean")
+(grant (read)
+  :to-graph publication-tasks
+  :for-allowed-group "public")
