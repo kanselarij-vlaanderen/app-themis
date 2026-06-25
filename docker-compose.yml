@@ -24,7 +24,7 @@ services:
     labels:
       - "logging=true"
   frontend:
-    image: kanselarij/frontend-themis:1.0.1-fastboot
+    image: kanselarij/frontend-themis:1.0.2-fastboot
     links:
       - identifier:backend
     restart: always
