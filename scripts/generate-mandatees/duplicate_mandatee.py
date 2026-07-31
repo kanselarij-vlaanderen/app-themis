@@ -49,11 +49,12 @@ ORDER BY ?order
 # Since it seems like the sparql interpreter doesn't like the union + w don't have that case in practice
 # in data atm, it is left out for now
 
-def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
+def duplicate_mandatees(regeringssamenstelling, start_date_default, new_end=None):
     g = Graph()
     g.parse(MANDATEE_TTL_DATASET_FILE)
     qres = g.query(current_mandatees_query.substitute(samenstelling=f"<{regeringssamenstelling}>"))
     new_g = Graph()
+    renewals = []
     for row in qres:
         pick_mandatee = prompt([{
             "type": "confirm",
@@ -61,32 +62,44 @@ def duplicate_mandatees(regeringssamenstelling, new_start, new_end=None):
             "message": f"New mandatee based on {row.familyName} - {row.title} ({row.mandateLabel})",
             "default": True
         }])["confirmation"]
+        if pick_mandatee:
+            questions = copy.deepcopy(MANDATEE_QUESTIONS)
+            if row.title:
+                questions[0]["default"] = row.title
+            questions[1]["default"] = start_date_default.isoformat()[0:10]
+            # questions[2]["default"] = end_date
+            questions[3]["default"] = row.order
+            questions[5]["default"] = row.mandate
+            questions.pop(4) # The person stays the same
+            answers = prompt(questions)
+
+            end_date = answers["start_date"] # end date of the old mandatee = start date of the new mandatee
+            mandatee_g = generate_mandatee(
+                answers["title"],
+                row.person,
+                answers["start_date"],
+                None,
+                answers["rank"],
+                answers["mandate"],
+                regeringssamenstelling)
+            renewals.append({
+                "old": str(row.mandatee),
+                "new": str(next(mandatee_g.subjects(RDF.type, MANDAAT.Mandataris))),
+                "name": str(row.familyName),
+                "title": answers["title"]
+            })
+            new_g = new_g + mandatee_g # merge graphs
+            print("[OK]")
+        else:
+            end_date = start_date_default
+            print(("Warning: no new mandatee based on {}. "
+                "The end date is set to the current date ({}) "
+                "and will probably need adjusting.").format(
+                row.familyName, start_date_default.isoformat()[0:10]))
         new_g.add([
             URIRef(row.mandatee),
             MANDAAT.einde,
-            Literal(BRUSSELS_TZ.localize(datetime.datetime(new_start.year, new_start.month, new_start.day)))
-        ]) # Assumes all mandatees get "renewed" once there is one change
-        if not pick_mandatee:
-            continue
-
-        questions = copy.deepcopy(MANDATEE_QUESTIONS)
-        if row.title:
-            questions[0]["default"] = row.title
-        questions[1]["default"] = new_start.isoformat()[0:10]
-        # questions[2]["default"] = end_date
-        questions[3]["default"] = row.order
-        questions[5]["default"] = row.mandate
-        questions.pop(4) # The person stays the same
-        answers = prompt(questions)
-
-        new_g = new_g + generate_mandatee( # merge graphs
-            answers["title"],
-            row.person,
-            answers["start_date"],
-            None,
-            answers["rank"],
-            answers["mandate"],
-            regeringssamenstelling)
-        print("[OK]")
-    return new_g
+            Literal(BRUSSELS_TZ.localize(datetime.datetime(end_date.year, end_date.month, end_date.day)))
+        ])
+    return new_g, renewals
 
