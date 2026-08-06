@@ -29,7 +29,7 @@ BESTUURSFUNCTIES = [
 GRAPH = "http://mu.semte.ch/graphs/public"
 
 APP_FOLDER = "/data/app/"
-LATEST_DATASET_QUERY_FILE = APP_FOLDER + "queries/latest-govt-dataset.sparql"
+LATEST_DATASET_QUERY_FILE = APP_FOLDER + "scripts/generate-mandatees/queries/latest-govt-dataset.sparql"
 SPARQL_ENDPOINT = os.environ.get("SPARQL_ENDPOINT", "http://triplestore:8890/sparql")
 
 def find_latest_dataset_dump():

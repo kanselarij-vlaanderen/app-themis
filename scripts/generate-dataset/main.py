@@ -14,7 +14,7 @@ from rdflib.plugins.stores.sparqlstore import SPARQLStore
 APP_FOLDER = "/data/app/"
 MIGRATIONS_FOLDER = APP_FOLDER + "config/migrations/"
 FILES_FOLDER = APP_FOLDER + "data/files/"
-CONSTRUCT_QUERY_FILE = APP_FOLDER + "queries/construct_samenstelling_vr_dataset.sparql"
+CONSTRUCT_QUERY_FILE = APP_FOLDER + "scripts/generate-dataset/queries/construct_samenstelling_vr_dataset.sparql"
 GRAPH = "http://mu.semte.ch/graphs/public"
 MINISTER_DATASET_TYPE = "http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09"
 SPARQL_ENDPOINT = os.environ.get("SPARQL_ENDPOINT", "http://triplestore:8890/sparql")
@@ -46,8 +46,7 @@ try:
         previous_dataset_uri = str(row.dataset)
 except urllib.error.URLError as e:
     sys.exit(("Failed to query {} ({}).\n"
-              "Make sure the stack is running and the script container joins "
-              "the project network (\"join_networks\" in scripts/config.json).").format(SPARQL_ENDPOINT, e))
+              "Make sure the triplestore is up and running").format(SPARQL_ENDPOINT, e))
 if previous_dataset_uri:
     print("Previous dataset: {}".format(previous_dataset_uri))
 else:
