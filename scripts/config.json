@@ -4,8 +4,8 @@
     {
       "documentation": {
         "command": "generate-mandatees",
-        "description": "Generate migrations to reflect changes within government",
-        "arguments": ["dataset-dump (optional, defaults to the latest dump according to Virtuoso)"]
+        "description": "Generate migrations to reflect changes within government. Optionally accepts a path to the TTL dump file of the latest government dataset. When omitted, the latest dump is looked up in the triplestore.",
+        "arguments": ["path-to-dataset-file"]
       },
       "environment": {
         "image": "kanselarij/generate-mandatees-script",
@@ -20,7 +20,7 @@
     {
       "documentation": {
         "command": "generate-dataset",
-        "description": "Generate dcat distribution, dataset and file",
+        "description": "Generate a DCAT distribution, dataset and file of the minister data. This script is typically run after all changes for a new government/minister hav been applied. It creates a snapshot of the current government.",
         "arguments": []
       },
       "environment": {

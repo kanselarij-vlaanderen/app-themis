@@ -43,10 +43,10 @@ def find_latest_dataset_dump():
     except (OSError, ValueError) as e:
         # rdflib's SPARQLConnector re-raises connection errors as ValueError
         e = e.__context__ or e
-        sys.exit(("Failed to query Virtuoso at {} ({}).\n"
+        sys.exit(("\nFailed to query Virtuoso at {} ({}).\n"
             "Make sure the triplestore container is running, "
-            "or provide the path to the dataset dump file explicitly:\n"
-            "mu script project-scripts generate-mandatees data/files/<uuid>.ttl").format(SPARQL_ENDPOINT, e))
+            "or provide the path to the dataset dump file explicitly.\n"
+            "E.g. mu script project-scripts generate-mandatees data/files/f0c11981-1026-47b1-a92f-4d4c8b1630e9.ttl").format(SPARQL_ENDPOINT, e))
     sys.exit("No government dataset found in Virtuoso. Provide the path to the dataset dump file explicitly.")
 
 if len(sys.argv) == 1:
@@ -70,4 +70,3 @@ MANDAAT_BASE_URI = "http://themis.vlaanderen.be/id/mandaat/"
 MANDATEE_BASE_URI = "http://themis.vlaanderen.be/id/mandataris/"
 INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
 GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
-
