@@ -1,6 +1,8 @@
 from pytz import timezone
 import sys
 import os
+from rdflib import Graph
+from rdflib.plugins.stores.sparqlstore import SPARQLStore
 
 ### CONSTANTS ###
 
@@ -26,15 +28,39 @@ BESTUURSFUNCTIES = [
 
 GRAPH = "http://mu.semte.ch/graphs/public"
 
-if len(sys.argv) != 2:
-    print("Please provide a path to the latest government dataset dump file")
-    print("mu script project-scripts generate-mandatees dataset-dump")
-    print("  dataset-dump: path to government dataset ttl dump file (relative to project root)")
+APP_FOLDER = "/data/app/"
+LATEST_DATASET_QUERY_FILE = APP_FOLDER + "scripts/generate-mandatees/queries/latest-govt-dataset.sparql"
+SPARQL_ENDPOINT = os.environ.get("SPARQL_ENDPOINT", "http://triplestore:8890/sparql")
+
+def find_latest_dataset_dump():
+    with open(LATEST_DATASET_QUERY_FILE) as f:
+        query = f.read()
+    db = Graph(SPARQLStore(query_endpoint=SPARQL_ENDPOINT))
+    try:
+        for row in db.query(query):  # results are ordered by creation date, we only need the first
+            print("Latest government dataset according to Virtuoso: {} ({})".format(row.dataset, row.creation_date))
+            return str(row.file_path)
+    except (OSError, ValueError) as e:
+        # rdflib's SPARQLConnector re-raises connection errors as ValueError
+        e = e.__context__ or e
+        sys.exit(("\nFailed to query Virtuoso at {} ({}).\n"
+            "Make sure the triplestore container is running, "
+            "or provide the path to the dataset dump file explicitly.\n"
+            "E.g. mu script project-scripts generate-mandatees data/files/f0c11981-1026-47b1-a92f-4d4c8b1630e9.ttl").format(SPARQL_ENDPOINT, e))
+    sys.exit("No government dataset found in Virtuoso. Provide the path to the dataset dump file explicitly.")
+
+if len(sys.argv) == 1:
+    MANDATEE_TTL_DATASET_FILE = os.path.normpath(os.path.join(APP_FOLDER, find_latest_dataset_dump()))
+elif len(sys.argv) == 2:
+    MANDATEE_TTL_DATASET_FILE = os.path.join(APP_FOLDER, sys.argv[1])
+else:
+    print("mu script project-scripts generate-mandatees [dataset-dump]")
+    print("  dataset-dump: optional path to the government dataset ttl dump file (relative to project root).")
+    print("                When omitted, the latest dump is looked up in Virtuoso (queries/latest-govt-dataset.sparql).")
     sys.exit()
 
-MANDATEE_TTL_DATASET_FILE = os.path.join("/data/app/", sys.argv[1])
 if not os.path.isfile(MANDATEE_TTL_DATASET_FILE):
-    raise Exception(MANDATEE_TTL_DATASET_FILE + "isn't a valid path to the latest government dataset ttl dump file")
+    raise Exception(MANDATEE_TTL_DATASET_FILE + " isn't a valid path to the latest government dataset ttl dump file")
 
 MIGRATIONS_FOLDER = "/data/app/config/migrations/"
 
@@ -44,4 +70,3 @@ MANDAAT_BASE_URI = "http://themis.vlaanderen.be/id/mandaat/"
 MANDATEE_BASE_URI = "http://themis.vlaanderen.be/id/mandataris/"
 INVALIDATION_BASE_URI = "http://themis.vlaanderen.be/id/opheffing/"
 GENERATION_BASE_URI = "http://themis.vlaanderen.be/id/creatie/"
-

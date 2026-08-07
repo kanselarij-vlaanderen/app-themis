@@ -5,6 +5,7 @@
 @prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
 @prefix nie: <http://www.semanticdesktop.org/ontologies/2007/01/19/nie#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 
 <http://themis.vlaanderen.be/id/catalog/1e4733c1-7701-4f99-b3db-f5d348a7bc4b> dcat:dataset <http://themis.vlaanderen.be/id/dataset/$DATASET_UUID> .
 
@@ -14,6 +15,7 @@
     dct:type <http://themis.vlaanderen.be/id/concept/dataset-type/43c644d3-2171-4892-8dd7-3fd5eec15d09> ;
     dct:issued "$CREATION_DATE"^^xsd:dateTime ;
     dct:modified "$CREATION_DATE"^^xsd:dateTime ;
+    prov:wasRevisionOf <$PREVIOUS_DATASET> ;
     dcat:distribution <http://themis.vlaanderen.be/id/distribution/$DISTRIBUTION_UUID> .
 
 <http://themis.vlaanderen.be/id/distribution/$DISTRIBUTION_UUID> a dcat:Distribution ;

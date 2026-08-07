@@ -4,4 +4,4 @@ ENV LOG_LEVEL="info"
 
 RUN mkdir /templates
 COPY minister-new-dcat-dataset.ttl /templates
-RUN pip install pytz==2024.1
+RUN pip install rdflib==7.0.0 pytz==2024.1

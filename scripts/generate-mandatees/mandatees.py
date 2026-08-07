@@ -79,10 +79,16 @@ def ask_about_mandatee(regeringssamenstelling):
         answers["rank"],
         answers["mandate"],
         regeringssamenstelling)
-    return graph
+    info = {
+        "new": str(next(graph.subjects(RDF.type, MANDAAT.Mandataris))),
+        "person": answers["person"],
+        "title": answers["title"]
+    }
+    return graph, info
 
 def mandatee_generation_loop(regeringssamenstelling):
     g = Graph()
+    new_mandatees = []
     while True:
         again = prompt([{
             "type": "confirm",
@@ -92,5 +98,7 @@ def mandatee_generation_loop(regeringssamenstelling):
         }])["confirmation"]
         if not again:
             break
-        g = g + ask_about_mandatee(regeringssamenstelling)
-    return g
+        mandatee_g, info = ask_about_mandatee(regeringssamenstelling)
+        g = g + mandatee_g
+        new_mandatees.append(info)
+    return g, new_mandatees

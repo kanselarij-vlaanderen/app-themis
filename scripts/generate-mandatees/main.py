@@ -3,9 +3,10 @@ import os
 import datetime
 from PyInquirer import prompt, print_json
 from prompt_toolkit.validation import Validator, ValidationError
-from config import BRUSSELS_TZ, MIGRATIONS_FOLDER
+from config import BRUSSELS_TZ, GRAPH, MIGRATIONS_FOLDER
 from mandatees import mandatee_generation_loop
 from duplicate_mandatee import duplicate_mandatees
+from kabinet import handle_kabinet_memberships
 from regeringssamenstelling import ask_about_end_regeringssamenstelling, \
     ask_about_start_regeringssamenstelling, \
     ask_about_current_regeringssamenstelling
@@ -75,23 +76,30 @@ elif flow_type == START_LEGISLATUUR:
 elif flow_type == UPDATE_MANDATEES:
     start_date_default = BRUSSELS_TZ.localize(datetime.datetime(now.year, now.month, now.day))
     samenstelling = ask_about_current_regeringssamenstelling()
-    g = duplicate_mandatees(samenstelling, start_date_default)
-    g = g + mandatee_generation_loop(samenstelling)
+    g, renewals = duplicate_mandatees(samenstelling, start_date_default)
+    extra_g, new_mandatees = mandatee_generation_loop(samenstelling)
+    g = g + extra_g
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(now.strftime("%Y%m%d%H%M%S"))
     filename = '{}.ttl'.format(filename_without_ext)
     g.serialize(destination=filename, format='turtle')
-    # TODO: add graph file
 elif flow_type == GEN_MANDATEES:
     samenstelling = ask_about_current_regeringssamenstelling()
-    g = mandatee_generation_loop(samenstelling)
+    g, new_mandatees = mandatee_generation_loop(samenstelling)
     filename_without_ext = MIGRATIONS_FOLDER + "{}-new-minister-data".format(now.strftime("%Y%m%d%H%M%S"))
     filename = '{}.ttl'.format(filename_without_ext)
     g.serialize(destination=filename, format='turtle')
-    # TODO: add graph file
 else:
     filename = None
 
 if filename:
     print("Wrote migration file to {}".format(os.path.relpath(filename, "/data/app")))
     if os.path.splitext(filename)[1] == '.ttl':
-        print("Verify if you want to add a .graph-file manually")
+        graph_filename = filename.replace(".ttl", ".graph")
+        with open(graph_filename, "w") as f:
+            f.write(GRAPH)
+        print("Wrote graph file to {}".format(os.path.relpath(graph_filename, "/data/app")))
+
+if flow_type in (UPDATE_MANDATEES, GEN_MANDATEES):
+    renewals = renewals if flow_type == UPDATE_MANDATEES else []
+    if renewals or new_mandatees:
+        handle_kabinet_memberships(renewals, new_mandatees, now.strftime("%Y%m%d%H%M%S"))
