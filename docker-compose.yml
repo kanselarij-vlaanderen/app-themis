@@ -25,8 +25,6 @@ services:
       - "logging=true"
   frontend:
     image: kanselarij/frontend-themis:1.1.0-fastboot
-    links:
-      - identifier:backend
     restart: always
     environment:
       EMBER_FASTBOOT_HOST: "themis-test.vlaanderen.be"
