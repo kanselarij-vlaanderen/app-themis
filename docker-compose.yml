@@ -28,6 +28,7 @@ services:
     restart: always
     environment:
       EMBER_FASTBOOT_HOST: "themis-test.vlaanderen.be"
+      BACKEND_URL: "http://identifier"
     logging: *default-logging
     labels:
       - "logging=true"
